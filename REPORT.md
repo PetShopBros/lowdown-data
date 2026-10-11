@@ -1,8 +1,8 @@
 # Lowdown Scanner Report: MCP Registry reachability observations
 
-- **Data as of:** 2026-10-09 23:24 UTC (2026-10-10 08:24 KST), the end of the most recent Scanner run
-- **Report generated:** 2026-10-10 08:53 UTC
-- **Observation period:** 2026-10-06 to 2026-10-09 (UTC)
+- **Data as of:** 2026-10-10 22:45 UTC (2026-10-11 07:45 KST), the end of the most recent Scanner run
+- **Report generated:** 2026-10-11 00:46 UTC
+- **Observation period:** 2026-10-06 to 2026-10-10 (UTC)
 
 Lowdown Scanner observes 2,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 2,000 entries are a fixed sample (cohort `2026-10-07-v1`) selected once from the official MCP Registry and unchanged since; they are Registry entries, not operators, and they do not represent the whole Registry.
 
@@ -30,31 +30,31 @@ Lowdown Scanner observes 2,000 MCP Registry entries every day and records MCP in
 
 | reached_level | Meaning | Count (of 1,996 probe attempts) |
 |---|---|---|
-| 2 | initialize and tools/list completed | 1,298 |
-| 1 | initialize completed; tools/list did not | 9 |
-| 0 | initialize did not complete | 689 |
+| 2 | initialize and tools/list completed | 1,196 |
+| 1 | initialize completed; tools/list did not | 37 |
+| 0 | initialize did not complete | 763 |
 
 ## HTTP status of probe attempts
 
 | HTTP status | Count (of 1,996) |
 |---|---|
-| 200 | 1,304 |
-| 401 | 514 |
+| 200 | 1,229 |
+| 401 | 515 |
+| no HTTP response | 119 |
 | 404 | 62 |
-| no HTTP response | 43 |
 | 405 | 8 |
-| 503 | 8 |
 | 307 | 7 |
 | 308 | 7 |
-| 400 | 6 |
-| 402 | 5 |
+| 503 | 7 |
+| 402 | 6 |
+| 400 | 5 |
 | 410 | 5 |
 | 500 | 5 |
 | 301 | 4 |
 | 530 | 4 |
 | 403 | 3 |
-| 429 | 3 |
 | 502 | 3 |
+| 429 | 2 |
 | 521 | 2 |
 | 302 | 1 |
 | 421 | 1 |
@@ -64,14 +64,14 @@ Lowdown Scanner observes 2,000 MCP Registry entries every day and records MCP in
 
 | error_type | Count (of 1,996) |
 |---|---|
-| none | 1,951 |
-| dns | 25 |
+| none | 1,848 |
+| timeout | 110 |
+| dns | 26 |
 | tls | 9 |
-| timeout | 8 |
 | invalid_response | 2 |
 | conn_refused | 1 |
 
-## Last 4 runs
+## Last 5 runs
 
 | Run date (UTC) | Observation rows | Entries with a row | Rows with reached_level 2 |
 |---|---|---|---|
@@ -79,6 +79,7 @@ Lowdown Scanner observes 2,000 MCP Registry entries every day and records MCP in
 | 2026-10-07 | 2,008 | 2,000 | 1,284 |
 | 2026-10-08 | 1,998 | 1,988 | 1,303 |
 | 2026-10-09 | 1,996 | 1,986 | 1,298 |
+| 2026-10-10 | 1,996 | 1,986 | 1,196 |
 
 ## Data
 
