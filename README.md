@@ -19,6 +19,7 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 - **Frequency and location:** once per day, from a single network location (GitHub Actions).
 - **Redirects** are not followed. `401` and `403` are recorded as the status observed, not as success or failure.
 - **Retries:** probes that fail in a way that may be temporary (timeout, connection refused or reset, HTTP 408, 429, 5xx) are tried once more a few minutes after the run, one request per host at a time. The retry result is added to the same row under `metadata.retry`. The first-attempt columns are never changed. Rows recorded before retries were introduced have no `retry` key.
+- **Registry fallback:** on a day when the Registry list cannot be fetched, the Scanner observes the same cohort using the remote URLs from the previous run. Those rows carry `metadata.registry_fallback: true` with `registry_snapshot_run` and `registry_snapshot_at`, and that day's Registry changes are not reflected.
 
 These are single probes. They describe reachability at one moment, not availability or uptime.
 
@@ -40,7 +41,7 @@ These are single probes. They describe reachability at one moment, not availabil
 | `source` | Always `scanner` |
 | `metadata` | JSON with additional facts, listed below |
 
-Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scanner_version`, `cohort_version`, `init_status`, `list_status`, `list_latency_ms`, `list_error_type`, `protocol_version`, `server_version`, `session_id_issued`, `tool_count`, `tools_has_more`, `schema_hash` (tool names and input/output schemas), `desc_hash` (tool names, titles and descriptions), `rpc_error_code`, `www_authenticate`, `www_authenticate_resource_metadata`, and `retry` (`retried_at`, `reached_level`, `http_status`, `error_type`, `latency_ms`, `per_host_concurrency`). Tool descriptions themselves are not stored, only their hash.
+Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scanner_version`, `cohort_version`, `registry_fallback`, `init_status`, `list_status`, `list_latency_ms`, `list_error_type`, `protocol_version`, `server_version`, `session_id_issued`, `tool_count`, `tools_has_more`, `schema_hash` (tool names and input/output schemas), `desc_hash` (tool names, titles and descriptions), `rpc_error_code`, `www_authenticate`, `www_authenticate_resource_metadata`, and `retry` (`retried_at`, `reached_level`, `http_status`, `error_type`, `latency_ms`, `per_host_concurrency`). Tool descriptions themselves are not stored, only their hash.
 
 ## License and citation
 
