@@ -18,6 +18,9 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 - **Requests:** `initialize` and `tools/list` only. The Scanner never calls a tool and does not authenticate.
 - **Frequency and location:** once per day, from a single network location (GitHub Actions).
 - **Redirects** are not followed. `401` and `403` are recorded as the status observed, not as success or failure.
+- **Probe method:** every probe is a `POST` JSON-RPC request (`initialize`, then `tools/list`). No `HEAD` or `GET` probes are made, so an HTTP status such as `405` is the server's own answer to that request.
+- **Failure stage:** `reached_level` (`0` initialize did not complete, `1` initialize completed and `tools/list` did not, `2` both completed) together with `init_status` and `list_status` in `metadata` shows how far a probe got.
+- **Single vantage point:** all probes run from one network location (GitHub Actions). A timeout or refusal means "not reachable from there", not necessarily from everywhere.
 - **Retries:** probes that fail in a way that may be temporary (timeout, connection refused or reset, HTTP 408, 429, 5xx) are tried once more a few minutes after the run, one request per host at a time. The retry result is added to the same row under `metadata.retry`. The first-attempt columns are never changed. Rows recorded before retries were introduced have no `retry` key.
 - **Registry fallback:** on a day when the Registry list cannot be fetched, the Scanner observes the same cohort using the remote URLs from the previous run. Those rows carry `metadata.registry_fallback: true` with `registry_snapshot_run` and `registry_snapshot_at`, and that day's Registry changes are not reflected.
 
