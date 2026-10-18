@@ -14,7 +14,8 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 
 ## What the Scanner observes
 
-- **Population:** a fixed sample of 2,000 entries (cohort `2026-10-07-v1`) selected once from the official MCP Registry and unchanged since. These are Registry entries, not operators, and they do not represent the whole Registry. Only entries with a `streamable-http` remote are in scope; stdio-only servers are not observed.
+- **Population:** a fixed sample of 5,000 entries (cohort `2026-10-19-v2`), observed from 2026-10-19. It contains all 2,000 entries of the first cohort `2026-10-07-v1` (observed since 2026-10-06) plus 3,000 entries added on 2026-10-19. The added entries were selected the same way as the first cohort (a fixed hash order over Registry names, among entries with a probeable remote), with at most 3 entries per remote host; first-cohort entries count toward each host's limit, and no entry was removed. The cohort is unchanged after selection. These are Registry entries, not operators, and they do not represent the whole Registry. Only entries with a `streamable-http` remote are in scope; stdio-only servers are not observed.
+- **Requests per host:** from scanner `0.3.0` (2026-10-19), at most one request is sent to the same host at a time, with up to 8 hosts in parallel. Earlier runs sent up to 8 requests at a time regardless of host.
 - **Requests:** `initialize` and `tools/list` only. The Scanner never calls a tool and does not authenticate.
 - **Frequency and location:** once per day, from a single network location (GitHub Actions).
 - **Redirects** are not followed. `401` and `403` are recorded as the status observed, not as success or failure.
@@ -44,7 +45,7 @@ These are single probes. They describe reachability at one moment, not availabil
 | `source` | Always `scanner` |
 | `metadata` | JSON with additional facts, listed below |
 
-Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scanner_version`, `cohort_version`, `registry_fallback`, `init_status`, `list_status`, `list_latency_ms`, `list_error_type`, `protocol_version`, `server_version`, `session_id_issued`, `tool_count`, `tools_has_more`, `schema_hash` (tool names and input/output schemas), `desc_hash` (tool names, titles and descriptions), `rpc_error_code`, `www_authenticate`, `www_authenticate_resource_metadata`, and `retry` (`retried_at`, `reached_level`, `http_status`, `error_type`, `latency_ms`, `per_host_concurrency`). Tool descriptions themselves are not stored, only their hash.
+Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scanner_version`, `cohort_version`, `cohort_versions` (cohorts the entry belongs to), `scanner_commit`, `registry_fetched_at`, `registry_fallback`, `init_status`, `list_status`, `list_latency_ms`, `list_error_type`, `protocol_version`, `server_version`, `session_id_issued`, `tool_count`, `tools_has_more`, `schema_hash` (tool names and input/output schemas), `desc_hash` (tool names, titles and descriptions), `rpc_error_code`, `www_authenticate`, `www_authenticate_resource_metadata`, and `retry` (`retried_at`, `reached_level`, `http_status`, `error_type`, `latency_ms`, `per_host_concurrency`). Tool descriptions themselves are not stored, only their hash.
 
 ## License and citation
 
