@@ -9,8 +9,20 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 | Path | What it is | Updated |
 |---|---|---|
 | [`REPORT.md`](REPORT.md) | Summary of the most recent Scanner run and the last few runs | Regenerated from the database after Scanner runs |
-| `scanner_observations/YYYY-MM.csv` | Raw observation records, one file per month (UTC) | Weekly; the last two months are re-exported each time |
+| `scanner_observations/daily/YYYY/MM/YYYY-MM-DD.csv.gz` | Raw observation records, one gzip-compressed CSV per day (UTC). Columns are listed below. A day with no rows has a header-only file. | Daily, for the previous UTC day |
+| `scanner_observations/parquet/YYYY-MM.parquet` | The same records for a completed month, in Parquet (zstd). `metadata` keys are expanded into `m_<key>` columns; nested values (such as `retry`) are JSON strings. | Once a month, for the previous month |
+| `registry_changes/daily/YYYY/MM/YYYY-MM-DD.csv.gz` | Changes in Registry declarations detected that day (from 2026-10-19) | Daily, for the previous UTC day |
+| `registry_state/snapshots/YYYY-MM-DD.csv.gz` | Full state of Registry declarations as recorded on that day | Once a month |
+| [`MANIFEST.csv`](MANIFEST.csv) | One line per archived file: `dataset`, `day`, `path`, `rows`, `bytes`, `sha256`, `written_at` | With every new file |
 | `LICENSE` | CC BY 4.0 | |
+
+### How the archive is kept
+
+- A day is archived only after it has ended (UTC), and only if the number of rows read matches the number of rows in the database.
+- Archived files are written once and never rewritten. `MANIFEST.csv` records each file's row count and SHA-256, so any copy can be checked.
+- If the database count for an archived day later differs, the file is left unchanged and the difference is reported.
+- The daily CSV files are the source of record. The Parquet files are derived from them for analysis.
+- Until 2026-10-18 the records were published as one CSV per month (`scanner_observations/YYYY-MM.csv`). Those rows are identical to the daily files for the same days, and the monthly files remain in the Git history.
 
 ## What the Scanner observes
 
@@ -27,7 +39,7 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 
 These are single probes. They describe reachability at one moment, not availability or uptime.
 
-## CSV columns
+## Observation columns
 
 | Column | Meaning |
 |---|---|
@@ -46,6 +58,20 @@ These are single probes. They describe reachability at one moment, not availabil
 | `metadata` | JSON with additional facts, listed below |
 
 Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scanner_version`, `cohort_version`, `cohort_versions` (cohorts the entry belongs to), `scanner_commit`, `registry_fetched_at`, `registry_fallback`, `init_status`, `list_status`, `list_latency_ms`, `list_error_type`, `protocol_version`, `server_version`, `session_id_issued`, `tool_count`, `tools_has_more`, `schema_hash` (tool names and input/output schemas), `desc_hash` (tool names, titles and descriptions), `rpc_error_code`, `www_authenticate`, `www_authenticate_resource_metadata`, and `retry` (`retried_at`, `reached_level`, `http_status`, `error_type`, `latency_ms`, `per_host_concurrency`). Tool descriptions themselves are not stored, only their hash.
+
+## Registry change columns
+
+| Column | Meaning |
+|---|---|
+| `detected_on` | UTC day the change was detected |
+| `detected_at` | Time of the Scanner run that detected it (UTC) |
+| `scan_run_id` | Id of that Scanner run |
+| `name` | Registry server name |
+| `kind` | `new`, `removed`, `restored`, `version`, `status`, `remotes`, `packages`, or `description` |
+| `old_value`, `new_value` | Value before and after (for `description`, a hash; descriptions are not stored) |
+| `hosts` | Remote hosts declared by the entry (for `remotes`, hosts before and after combined) |
+
+Registry state snapshots have the columns `name`, `version`, `status`, `remotes_key`, `packages_key`, `desc_hash`, `hosts`, `first_seen_at`, `baseline`, `removed_at`, `updated_at`. Entries present on 2026-10-19, when recording began, are marked `baseline` and their `first_seen_at` is the time of that first run, not the time they first appeared in the Registry.
 
 ## License and citation
 
