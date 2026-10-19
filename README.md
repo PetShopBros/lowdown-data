@@ -73,6 +73,10 @@ Common `metadata` keys: `remote_url`, `remote_index`, `registry_version`, `scann
 
 Registry state snapshots have the columns `name`, `version`, `status`, `remotes_key`, `packages_key`, `desc_hash`, `hosts`, `first_seen_at`, `baseline`, `removed_at`, `updated_at`. Entries present on 2026-10-19, when recording began, are marked `baseline` and their `first_seen_at` is the time of that first run, not the time they first appeared in the Registry.
 
+## Copies
+
+The same files are copied unchanged to [Hugging Face](https://huggingface.co/datasets/art2meta/lowdown-mcp-observations) after each daily archive. This repository is the source of record; `MANIFEST.csv` lets any copy be checked against it.
+
 ## License and citation
 
 The data and `REPORT.md` are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may share and adapt them for any purpose, including commercial use, with attribution.
