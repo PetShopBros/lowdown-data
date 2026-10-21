@@ -16,6 +16,11 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 | [`MANIFEST.csv`](MANIFEST.csv) | One line per archived file: `dataset`, `day`, `path`, `rows`, `bytes`, `sha256`, `written_at` | With every new file |
 | `LICENSE` | CC BY 4.0 | |
 
+### Tool definitions and daily record pages
+
+- This dataset holds hashes of tool schemas and descriptions (`schema_hash`, `desc_hash`, `tool_set_hash`), not the tool definitions themselves. From 2026-10-21 Lowdown keeps the full definitions privately, once per distinct definition, so that changes can be traced. They are not published.
+- A [daily record page](https://petshopbros.github.io/lowdown-data/) with [RSS](https://petshopbros.github.io/lowdown-data/feed.xml) and [JSON Feed](https://petshopbros.github.io/lowdown-data/feed.json) summarises each UTC day: Registry declaration changes, observation counts, server-level tool definition change counts, and values first observed. It has no scores or rankings. The pages are generated from the daily JSON files under `docs/days/`.
+
 ### How the archive is kept
 
 - A day is archived only after it has ended (UTC), and only if the number of rows read matches the number of rows in the database.
