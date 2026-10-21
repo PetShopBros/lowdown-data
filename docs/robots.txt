@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://petshopbros.github.io/lowdown-data/sitemap.xml

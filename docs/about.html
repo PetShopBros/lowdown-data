@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About this record — Lowdown</title>
+<meta name="description" content="How the Lowdown MCP daily record is produced and what each section means.">
+<link rel="canonical" href="https://petshopbros.github.io/lowdown-data/about.html">
+<link rel="alternate" type="application/rss+xml" title="Lowdown daily record (RSS)" href="https://petshopbros.github.io/lowdown-data/feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lowdown daily record (JSON Feed)" href="https://petshopbros.github.io/lowdown-data/feed.json">
+<style>:root{--bg:#fff;--fg:#1a1a1a;--muted:#5c5c5c;--line:#e3e3e3;--accent:#0b5cad;--chip:#f3f4f6}
+@media (prefers-color-scheme:dark){:root{--bg:#111315;--fg:#e8e8e8;--muted:#a3a3a3;--line:#2c2f33;--accent:#6aa9ec;--chip:#1c1f23}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}a{color:var(--accent)}h1{font-size:1.5rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:32px 0 8px;padding-top:16px;border-top:1px solid var(--line)}h3{font-size:1rem;margin:20px 0 6px}
+.muted{color:var(--muted)}.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:8px 0}
+.num{background:var(--chip);border-radius:8px;padding:8px 10px}.num b{display:block;font-size:1.15rem;font-variant-numeric:tabular-nums}
+ul{padding-left:20px}li{margin:2px 0;overflow-wrap:anywhere}code{font-size:.9em}table{border-collapse:collapse;width:100%}
+td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;font-variant-numeric:tabular-nums}
+nav{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 16px}footer{margin-top:40px;font-size:.85rem}</style>
+</head>
+<body><main>
+<nav><a href="https://petshopbros.github.io/lowdown-data/">Latest</a><a href="https://petshopbros.github.io/lowdown-data/days/">Archive</a><a href="https://petshopbros.github.io/lowdown-data/about.html">About this record</a><a href="https://petshopbros.github.io/lowdown-data/feed.xml">RSS</a><a href="https://petshopbros.github.io/lowdown-data/feed.json">JSON Feed</a></nav>
+<h1>About this record</h1>
+<p>Lowdown publishes one record per UTC day. Each record keeps different kinds of facts apart. Nothing here is a score, a ranking, or a verdict about any server.</p>
+<h2>1. Registry declarations</h2>
+<p>What the official MCP Registry declares (latest version of each name), compared with the previous day's list. These are the Registry's own declarations, recorded by Lowdown since 2026-10-19. Names are grouped by remote host; servers on the same host are not necessarily the same service. Description, package and remote changes are shown as "changed" only; their contents are not published here.</p>
+<h2>2. Lowdown observations</h2>
+<p>A fixed sample of Registry servers is probed once a day from one network location (GitHub Actions) with <code>initialize</code> and <code>tools/list</code>. Lowdown never calls tools. Only counts are published here. A server that was not reached was not reachable from that location at that time; this is not evidence that it is down, broken, or malicious.</p>
+<h2>3. Tool definitions</h2>
+<p>For servers reached on two consecutive runs, Lowdown compares hashes of the tool definitions (names, descriptions, schemas). A change means the definition differs from the previous run. It is not evidence of malicious intent, and an unchanged definition is not evidence of safety. Descriptions are not published.</p>
+<h2>4. First observed by Lowdown</h2>
+<p>A value (capability key, protocol version, or tool name) that Lowdown had not seen before within its own sample. It does not mean the value is new to the market. Tool names are listed only when seen on at least two hosts and two Registry namespaces.</p>
+<h2>Data and feeds</h2>
+<ul>
+<li>Daily JSON for each record: <code>days/YYYY-MM-DD.json</code> (the HTML pages and feeds are generated from these files).</li>
+<li><a href="https://petshopbros.github.io/lowdown-data/feed.xml">RSS</a> and <a href="https://petshopbros.github.io/lowdown-data/feed.json">JSON Feed</a>: one item per day, last 30 days.</li>
+<li>Raw observations: <a href="https://github.com/PetShopBros/lowdown-data">lowdown-data</a> and <a href="https://huggingface.co/datasets/art2meta/lowdown-mcp-observations">Hugging Face</a>.</li>
+<li>Per-server lookup: <code>https://lowdown-proxy.vercel.app/api/reputation/mcp:&lt;registry name&gt;</code></li>
+</ul>
+<p>License: CC BY 4.0.</p>
+<footer class="muted">Data: CC BY 4.0, Lowdown (<a href="https://github.com/PetShopBros/lowdown-data">lowdown-data</a>). Facts as recorded; no scores or rankings. See <a href="https://petshopbros.github.io/lowdown-data/about.html">About this record</a>.</footer>
+</main></body>
+</html>

@@ -1,0 +1,6286 @@
+{
+  "schema": "lowdown-market-day/1",
+  "day": "2026-10-21",
+  "data_as_of": "2026-10-21T06:20:53.123+00:00",
+  "scan_run_id": "1c11b751-25e3-4e78-900f-6fbc9adb5935",
+  "registry": {
+    "counts": {
+      "new": 354,
+      "removed": 0,
+      "restored": 0,
+      "version": 621,
+      "status": 2,
+      "remotes": 15,
+      "packages": 281,
+      "description": 70
+    },
+    "unlisted": 0,
+    "items": {
+      "new": [
+        {
+          "name": "ai.1court.state/court-directory",
+          "hosts": [
+            "state.1court.ai"
+          ]
+        },
+        {
+          "name": "ai.askgina/gina",
+          "hosts": [
+            "askgina.ai"
+          ]
+        },
+        {
+          "name": "ai.askgina/perps",
+          "hosts": [
+            "askgina.ai"
+          ]
+        },
+        {
+          "name": "ai.askgina/predictions",
+          "hosts": [
+            "askgina.ai"
+          ]
+        },
+        {
+          "name": "ai.askgina/spot",
+          "hosts": [
+            "askgina.ai"
+          ]
+        },
+        {
+          "name": "ai.augmentev/fabric-verify",
+          "hosts": []
+        },
+        {
+          "name": "ai.blinibot/agent-lounge",
+          "hosts": [
+            "blinibot.ai"
+          ]
+        },
+        {
+          "name": "ai.booqer/booqer",
+          "hosts": [
+            "booqer.ai"
+          ]
+        },
+        {
+          "name": "ai.buzzberg/mcp",
+          "hosts": [
+            "mcp.buzzberg.ai"
+          ]
+        },
+        {
+          "name": "ai.clevera/mcp",
+          "hosts": [
+            "app.clevera.ai"
+          ]
+        },
+        {
+          "name": "ai.creatify/ad-agent",
+          "hosts": [
+            "api.creatify.ai"
+          ]
+        },
+        {
+          "name": "ai.galatic/galatic",
+          "hosts": [
+            "mcp.galatic.ai"
+          ]
+        },
+        {
+          "name": "ai.gosummer/summer",
+          "hosts": [
+            "api.gosummer.ai"
+          ]
+        },
+        {
+          "name": "ai.metzia/metzia",
+          "hosts": [
+            "metzia.ai"
+          ]
+        },
+        {
+          "name": "ai.okforest/okforest",
+          "hosts": [
+            "mcp.okforest.ai"
+          ]
+        },
+        {
+          "name": "ai.prologue/mcp",
+          "hosts": [
+            "prologue.ai"
+          ]
+        },
+        {
+          "name": "ai.qompass/lumen",
+          "hosts": []
+        },
+        {
+          "name": "ai.qompass/lupin",
+          "hosts": []
+        },
+        {
+          "name": "ai.qompass/periscope",
+          "hosts": []
+        },
+        {
+          "name": "ai.qompass/phaedrus",
+          "hosts": []
+        },
+        {
+          "name": "ai.realtypad/realtypad",
+          "hosts": [
+            "app.realtypad.ai"
+          ]
+        },
+        {
+          "name": "ai.relaylink/relaylink",
+          "hosts": [
+            "relaylink.ai"
+          ]
+        },
+        {
+          "name": "ai.ripplewatch/ripplewatch",
+          "hosts": [
+            "www.ripplewatch.ai"
+          ]
+        },
+        {
+          "name": "ai.run1ads/consultant",
+          "hosts": [
+            "run1ads.ai"
+          ]
+        },
+        {
+          "name": "ai.screwtape/screwtape",
+          "hosts": [
+            "screwtape.ai"
+          ]
+        },
+        {
+          "name": "ai.seamtro.orbit/orbit",
+          "hosts": [
+            "orbit.seamtro.ai"
+          ]
+        },
+        {
+          "name": "ai.sekura/sekura",
+          "hosts": [
+            "sekura.ai"
+          ]
+        },
+        {
+          "name": "ai.sosoapi/sosoapi",
+          "hosts": [
+            "gqeshlawtcexsapabaui.supabase.co"
+          ]
+        },
+        {
+          "name": "app.ideakiller/idea-validator",
+          "hosts": [
+            "api.ideakiller.app"
+          ]
+        },
+        {
+          "name": "app.nombox/nombox",
+          "hosts": [
+            "nombox.app"
+          ]
+        },
+        {
+          "name": "app.tourpro/mcp",
+          "hosts": [
+            "mcp.tourpro.app"
+          ]
+        },
+        {
+          "name": "app.vercel.agent-permissions-index/agent-permissions-index",
+          "hosts": [
+            "agent-permissions-index.vercel.app"
+          ]
+        },
+        {
+          "name": "app.vercel.polyglot-ai-board/board",
+          "hosts": [
+            "polyglot-ai-board.vercel.app"
+          ]
+        },
+        {
+          "name": "at.honeyfield/marketing-mcp",
+          "hosts": [
+            "mcp.ads.honeyfield.at"
+          ]
+        },
+        {
+          "name": "au.com.tix/shows",
+          "hosts": [
+            "tix.com.au"
+          ]
+        },
+        {
+          "name": "br.com.ilojista/ilojista",
+          "hosts": [
+            "api.ilojista.com.br"
+          ]
+        },
+        {
+          "name": "br.com.salvy/mcp",
+          "hosts": [
+            "mcp.salvy.com.br"
+          ]
+        },
+        {
+          "name": "cl.urbai/normativa",
+          "hosts": [
+            "www.urbai.cl"
+          ]
+        },
+        {
+          "name": "co.hazelchat/hazelchat",
+          "hosts": [
+            "app.hazelchat.co"
+          ]
+        },
+        {
+          "name": "co.prosignature/email-signatures",
+          "hosts": [
+            "prosignature.co"
+          ]
+        },
+        {
+          "name": "com.agentmaru/agentmaru",
+          "hosts": [
+            "agentmaru.com"
+          ]
+        },
+        {
+          "name": "com.agentpaywire/library",
+          "hosts": [
+            "mcp.agentpaywire.com"
+          ]
+        },
+        {
+          "name": "com.agentresourcemarket/agent-resource-market",
+          "hosts": [
+            "agentresourcemarket.com"
+          ]
+        },
+        {
+          "name": "com.aiblogly/models",
+          "hosts": [
+            "www.aiblogly.com"
+          ]
+        },
+        {
+          "name": "com.allcanadaphotos/mcp",
+          "hosts": [
+            "allcanadaphotos.com"
+          ]
+        },
+        {
+          "name": "com.atticcapital/attic",
+          "hosts": [
+            "mcp.atticcapital.com"
+          ]
+        },
+        {
+          "name": "com.austinpoolguy/booking",
+          "hosts": [
+            "austinpoolguy.com"
+          ]
+        },
+        {
+          "name": "com.austinvolts/booking",
+          "hosts": [
+            "austinvolts.com"
+          ]
+        },
+        {
+          "name": "com.auto-units/pollen",
+          "hosts": [
+            "pollen.auto-units.com"
+          ]
+        },
+        {
+          "name": "com.barcodereport/barcode-lookup",
+          "hosts": [
+            "barcodereport.com"
+          ]
+        },
+        {
+          "name": "com.bkkradar/condos",
+          "hosts": [
+            "bkkradar.com"
+          ]
+        },
+        {
+          "name": "com.boisecarfix/booking",
+          "hosts": [
+            "boisecarfix.com"
+          ]
+        },
+        {
+          "name": "com.cameronsutcliff/magpie",
+          "hosts": [
+            "www.cameronsutcliff.com"
+          ]
+        },
+        {
+          "name": "com.certopolis/certopolis",
+          "hosts": [
+            "certopolis.com"
+          ]
+        },
+        {
+          "name": "com.codetrendy/directory",
+          "hosts": [
+            "codetrendy.com"
+          ]
+        },
+        {
+          "name": "com.collatiomedia/bettingtipsai",
+          "hosts": [
+            "bettingtipsai.com"
+          ]
+        },
+        {
+          "name": "com.colorwillow/free-coloring-pages",
+          "hosts": [
+            "colorwillow.com"
+          ]
+        },
+        {
+          "name": "com.corpuscarfix/booking",
+          "hosts": [
+            "corpuscarfix.com"
+          ]
+        },
+        {
+          "name": "com.cutshed/cutshed",
+          "hosts": [
+            "cutshed.com"
+          ]
+        },
+        {
+          "name": "com.dentaldigitalcenter/mcp",
+          "hosts": [
+            "dentaldigitalcenter.com"
+          ]
+        },
+        {
+          "name": "com.distinctful/distinctful",
+          "hosts": [
+            "app.distinctful.com"
+          ]
+        },
+        {
+          "name": "com.ecuafact.docsapi/documentacion",
+          "hosts": [
+            "docsapi.ecuafact.com"
+          ]
+        },
+        {
+          "name": "com.elpasoair/booking",
+          "hosts": [
+            "elpasoair.com"
+          ]
+        },
+        {
+          "name": "com.eoslog/free-tools",
+          "hosts": [
+            "eoslog.com"
+          ]
+        },
+        {
+          "name": "com.get-flowie/app",
+          "hosts": [
+            "back.p2p-flowie.com"
+          ]
+        },
+        {
+          "name": "com.get-flowie/docs",
+          "hosts": [
+            "docs.get-flowie.com"
+          ]
+        },
+        {
+          "name": "com.get-flowie/exchange",
+          "hosts": [
+            "back.p2p-flowie.com"
+          ]
+        },
+        {
+          "name": "com.get-flowie/website",
+          "hosts": [
+            "get-flowie.com"
+          ]
+        },
+        {
+          "name": "com.getaicq/aicq",
+          "hosts": [
+            "getaicq.com"
+          ]
+        },
+        {
+          "name": "com.goatcade/arcade",
+          "hosts": [
+            "goatcade.com"
+          ]
+        },
+        {
+          "name": "com.hadacart/catalog-snapshots",
+          "hosts": [
+            "hadacart.com"
+          ]
+        },
+        {
+          "name": "com.havoptic/releases",
+          "hosts": [
+            "mcp.havoptic.com"
+          ]
+        },
+        {
+          "name": "com.hifoyer/foyer",
+          "hosts": [
+            "api.hifoyer.com"
+          ]
+        },
+        {
+          "name": "com.hodlodds/hodlodds-mcp",
+          "hosts": []
+        },
+        {
+          "name": "com.hostbrid/hostbrid-discovery",
+          "hosts": [
+            "my.hostbrid.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/ads-libraries",
+          "hosts": [
+            "ads-libraries.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/airtable",
+          "hosts": [
+            "airtable.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/bigquery",
+          "hosts": [
+            "bigquery.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/bing-webmaster",
+          "hosts": [
+            "bing-webmaster.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/callrail",
+          "hosts": [
+            "callrail.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/clarity",
+          "hosts": [
+            "clarity.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/crawler",
+          "hosts": [
+            "crawler.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/dataforseo",
+          "hosts": [
+            "dataforseo.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/enrichment",
+          "hosts": [
+            "enrichment-crawlers.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/facebook-ads",
+          "hosts": [
+            "facebook-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/facebook-pages",
+          "hosts": [
+            "facebook-pages.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-ads",
+          "hosts": [
+            "google-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-analytics",
+          "hosts": [
+            "google-analytics.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-merchant-center",
+          "hosts": [
+            "google-merchant-center.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-my-business",
+          "hosts": [
+            "google-my-business.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-search-console",
+          "hosts": [
+            "google-search-console.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-sheets",
+          "hosts": [
+            "google-sheets.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/google-tag-manager",
+          "hosts": [
+            "google-tag-manager.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/instagram",
+          "hosts": [
+            "instagram.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/klaviyo",
+          "hosts": [
+            "klaviyo.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/linkedin-ads",
+          "hosts": [
+            "linkedin-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/linkedin-pages",
+          "hosts": [
+            "linkedin-pages.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/magento",
+          "hosts": [
+            "magento.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/mailchimp",
+          "hosts": [
+            "mailchimp.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/mcp",
+          "hosts": [
+            "main.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/microsoft-ads",
+          "hosts": [
+            "microsoft-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/mssql",
+          "hosts": [
+            "mssql.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/mysql",
+          "hosts": [
+            "mysql.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/notion",
+          "hosts": [
+            "notion.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/openai-ads",
+          "hosts": [
+            "openai-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/pagespeed",
+          "hosts": [
+            "pagespeed-insights.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/pinterest-ads",
+          "hosts": [
+            "pinterest-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/pinterest-pages",
+          "hosts": [
+            "pinterest-pages.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/postgresql",
+          "hosts": [
+            "postgresql.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/screenshot",
+          "hosts": [
+            "screenshots.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/shopify",
+          "hosts": [
+            "shopify.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/slack",
+          "hosts": [
+            "slack.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/snapchat-ads",
+          "hosts": [
+            "snapchat-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/stripe",
+          "hosts": [
+            "stripe.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/telegram",
+          "hosts": [
+            "telegram.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/tiktok-ads",
+          "hosts": [
+            "tiktok-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/tiktok-pages",
+          "hosts": [
+            "tiktok-pages.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/woocommerce",
+          "hosts": [
+            "woocommerce.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/wordpress",
+          "hosts": [
+            "wordpress.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/x-ads",
+          "hosts": [
+            "x-ads.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/x-organic",
+          "hosts": [
+            "x-organic.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.insightfulpipe/youtube",
+          "hosts": [
+            "youtube.insightfulmcp.com"
+          ]
+        },
+        {
+          "name": "com.kartvelians/knowledge",
+          "hosts": [
+            "kartvelians.com"
+          ]
+        },
+        {
+          "name": "com.kasprdata/data-mcp",
+          "hosts": [
+            "mcp.kasprdata.com"
+          ]
+        },
+        {
+          "name": "com.kasprdata/predict-mcp",
+          "hosts": [
+            "mcp.kasprdata.com"
+          ]
+        },
+        {
+          "name": "com.kasprdata/timing-mcp",
+          "hosts": [
+            "mcp.kasprdata.com"
+          ]
+        },
+        {
+          "name": "com.kcplumb/booking",
+          "hosts": [
+            "kcplumb.com"
+          ]
+        },
+        {
+          "name": "com.kcvolts/booking",
+          "hosts": [
+            "kcvolts.com"
+          ]
+        },
+        {
+          "name": "com.kcwindshield/booking",
+          "hosts": [
+            "kcwindshield.com"
+          ]
+        },
+        {
+          "name": "com.lastlistapp/lastlist",
+          "hosts": [
+            "api.lastlistapp.com"
+          ]
+        },
+        {
+          "name": "com.latentgrounds/cafe",
+          "hosts": [
+            "latentgrounds.com"
+          ]
+        },
+        {
+          "name": "com.lexingtonradonpros/booking",
+          "hosts": [
+            "lexingtonradonpros.com"
+          ]
+        },
+        {
+          "name": "com.lucidlink/mcp",
+          "hosts": []
+        },
+        {
+          "name": "com.lupamundo/lupamundo",
+          "hosts": [
+            "lupamundo.com"
+          ]
+        },
+        {
+          "name": "com.magentaprivateisland/resort-facts",
+          "hosts": [
+            "magentaprivateisland.com"
+          ]
+        },
+        {
+          "name": "com.maildignity/mcp",
+          "hosts": [
+            "maildignity.com"
+          ]
+        },
+        {
+          "name": "com.mediapronet/directory",
+          "hosts": [
+            "mediapronet.com"
+          ]
+        },
+        {
+          "name": "com.moatdrop/moatdrop",
+          "hosts": [
+            "api.moatdrop.com"
+          ]
+        },
+        {
+          "name": "com.momentclip/mcp",
+          "hosts": [
+            "momentclip.com"
+          ]
+        },
+        {
+          "name": "com.momentum-analyzer/momentum-analyzer",
+          "hosts": [
+            "momentum-analyzer.com"
+          ]
+        },
+        {
+          "name": "com.muviabi/muvia",
+          "hosts": [
+            "api.muviabi.com"
+          ]
+        },
+        {
+          "name": "com.nashvillegutterguards/booking",
+          "hosts": [
+            "nashvillegutterguards.com"
+          ]
+        },
+        {
+          "name": "com.netnestdesign/fundamentals",
+          "hosts": [
+            "api.netnestdesign.com"
+          ]
+        },
+        {
+          "name": "com.nexusbro/website-audit",
+          "hosts": [
+            "nexusbro.com"
+          ]
+        },
+        {
+          "name": "com.nolamechanic/booking",
+          "hosts": [
+            "nolamechanic.com"
+          ]
+        },
+        {
+          "name": "com.nythosx.tools/agent-tools",
+          "hosts": [
+            "tools.nythosx.com"
+          ]
+        },
+        {
+          "name": "com.odilelabs/gate",
+          "hosts": [
+            "gate.odilelabs.com"
+          ]
+        },
+        {
+          "name": "com.okcwindshield/booking",
+          "hosts": [
+            "okcwindshield.com"
+          ]
+        },
+        {
+          "name": "com.omahahailguy/booking",
+          "hosts": [
+            "omahahailguy.com"
+          ]
+        },
+        {
+          "name": "com.openmypro/agents",
+          "hosts": [
+            "openmypro.com"
+          ]
+        },
+        {
+          "name": "com.pagetovid/pagetovid",
+          "hosts": [
+            "pagetovid.com"
+          ]
+        },
+        {
+          "name": "com.partpacket/quotes",
+          "hosts": [
+            "partpacket.com"
+          ]
+        },
+        {
+          "name": "com.phoenixmobilemechanicco/booking",
+          "hosts": [
+            "phoenixmobilemechanicco.com"
+          ]
+        },
+        {
+          "name": "com.pilotplans/hotels",
+          "hosts": [
+            "mcp.pilotplans.com"
+          ]
+        },
+        {
+          "name": "com.renocarfix/booking",
+          "hosts": [
+            "renocarfix.com"
+          ]
+        },
+        {
+          "name": "com.rounderstofounders/r2f",
+          "hosts": [
+            "www.rounderstofounders.com"
+          ]
+        },
+        {
+          "name": "com.rxrooster/anesthesia-discovery",
+          "hosts": [
+            "api.rxrooster.com"
+          ]
+        },
+        {
+          "name": "com.sansglu/places",
+          "hosts": [
+            "mcp.sansglu.com"
+          ]
+        },
+        {
+          "name": "com.scoutapm/scout-monitoring",
+          "hosts": [
+            "scoutapm.com"
+          ]
+        },
+        {
+          "name": "com.sitepatent/directory",
+          "hosts": [
+            "sitepatent.com"
+          ]
+        },
+        {
+          "name": "com.smartstrategyapps/quickbase",
+          "hosts": [
+            "mcpqb.smartstrategyapps.com"
+          ]
+        },
+        {
+          "name": "com.solotet/board",
+          "hosts": [
+            "solotet.com"
+          ]
+        },
+        {
+          "name": "com.solvecha/solvecha",
+          "hosts": [
+            "api.solvecha.com"
+          ]
+        },
+        {
+          "name": "com.spencermcw.data/distill",
+          "hosts": [
+            "data.spencermcw.com"
+          ]
+        },
+        {
+          "name": "com.stockfloc/fire-and-ice",
+          "hosts": [
+            "api.stockfloc.com"
+          ]
+        },
+        {
+          "name": "com.subcloak/cloak-proxy",
+          "hosts": []
+        },
+        {
+          "name": "com.tampawindshield/booking",
+          "hosts": [
+            "tampawindshield.com"
+          ]
+        },
+        {
+          "name": "com.tellnod/tellnod",
+          "hosts": [
+            "mcp.tellnod.com"
+          ]
+        },
+        {
+          "name": "com.tempepoolguy/booking",
+          "hosts": [
+            "tempepoolguy.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/agent-black-start-islanding",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/browser-rehearsal-range",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/catalog-cache-guard",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/continuous-agent-speed-defense",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/event-wake-witness",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/graceful-surrender-desk",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/live-payload-conformance-probes",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/principal-drift-ledger-standing-instructions",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/propagation-breaker-agent-worms",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/rapid-intervention-team-for-agents",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/resume-effect-reconciliation",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/retry-outcome-resolution-dedup-proxy",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.textforagents/spawn-tree-fanout-governor",
+          "hosts": [
+            "textforagents.com"
+          ]
+        },
+        {
+          "name": "com.triedagents/triedagents",
+          "hosts": [
+            "triedagents.com"
+          ]
+        },
+        {
+          "name": "com.trillboards/dooh",
+          "hosts": [
+            "api.trillboards.com"
+          ]
+        },
+        {
+          "name": "com.tritonium/tritonium",
+          "hosts": [
+            "api.tritonium.com"
+          ]
+        },
+        {
+          "name": "com.trytrusty/business-records",
+          "hosts": [
+            "api.trytrusty.com"
+          ]
+        },
+        {
+          "name": "com.tulsafoampros/booking",
+          "hosts": [
+            "tulsafoampros.com"
+          ]
+        },
+        {
+          "name": "com.vegasmobilemech/booking",
+          "hosts": [
+            "vegasmobilemech.com"
+          ]
+        },
+        {
+          "name": "com.vegaspoolguy/booking",
+          "hosts": [
+            "vegaspoolguy.com"
+          ]
+        },
+        {
+          "name": "com.visualsentinel/mcp-server",
+          "hosts": [
+            "visualsentinel.com"
+          ]
+        },
+        {
+          "name": "com.wiseppc/wiseppc",
+          "hosts": [
+            "mcp.wiseppc.com"
+          ]
+        },
+        {
+          "name": "com.worder/worder",
+          "hosts": [
+            "www.worder.com"
+          ]
+        },
+        {
+          "name": "dev.agentdiet/mesh",
+          "hosts": [
+            "mesh.agentdiet.dev"
+          ]
+        },
+        {
+          "name": "dev.agentdiet/preflight",
+          "hosts": [
+            "preflight.agentdiet.dev"
+          ]
+        },
+        {
+          "name": "dev.agentdiet/workflows",
+          "hosts": [
+            "workflows.agentdiet.dev"
+          ]
+        },
+        {
+          "name": "dev.agentstock/agentstock",
+          "hosts": [
+            "agentstock.dev"
+          ]
+        },
+        {
+          "name": "dev.agenttested/agent-tested",
+          "hosts": [
+            "agenttested.dev"
+          ]
+        },
+        {
+          "name": "dev.artfct/artfct",
+          "hosts": [
+            "artfct.dev"
+          ]
+        },
+        {
+          "name": "dev.farmjs/docs",
+          "hosts": [
+            "mcp.farmjs.dev"
+          ]
+        },
+        {
+          "name": "dev.fly.bot-bazaar/bot-bazaar",
+          "hosts": [
+            "bot-bazaar.fly.dev"
+          ]
+        },
+        {
+          "name": "dev.orvain/orvain-ui",
+          "hosts": [
+            "mcp.orvain.dev"
+          ]
+        },
+        {
+          "name": "dev.theboomer/ai-tasker",
+          "hosts": [
+            "mcp.ai-tasker.theboomer.dev"
+          ]
+        },
+        {
+          "name": "dev.walkaround/walkaround",
+          "hosts": [
+            "walkaround.dev"
+          ]
+        },
+        {
+          "name": "dev.webbase/webbase",
+          "hosts": [
+            "mcp.webbase.dev"
+          ]
+        },
+        {
+          "name": "dev.workers.johnaio281.irantools/irantools",
+          "hosts": [
+            "irantools.johnaio281.workers.dev"
+          ]
+        },
+        {
+          "name": "dev.workers.johnaio281.webref/webref",
+          "hosts": [
+            "webref.johnaio281.workers.dev"
+          ]
+        },
+        {
+          "name": "dev.workers.mosn-3r41y.mosn-api/mosn",
+          "hosts": [
+            "mosn-api.mosn-3r41y.workers.dev"
+          ]
+        },
+        {
+          "name": "dev.workers.quynguyenbac.quickbuild/agent-tools",
+          "hosts": [
+            "quickbuild.quynguyenbac.workers.dev"
+          ]
+        },
+        {
+          "name": "expert.tld/tld-expert",
+          "hosts": [
+            "tld.expert"
+          ]
+        },
+        {
+          "name": "io.dunjn/dunjn",
+          "hosts": [
+            "app.dunjn.io"
+          ]
+        },
+        {
+          "name": "io.github.330899935/hive-memory",
+          "hosts": []
+        },
+        {
+          "name": "io.github.AHEDMUNI/resultgate",
+          "hosts": []
+        },
+        {
+          "name": "io.github.AYUSH-148/db-explorer-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Ageree/aishlyuz",
+          "hosts": [
+            "aishlyuz.ru"
+          ]
+        },
+        {
+          "name": "io.github.Amigov2/wabra-mcp",
+          "hosts": [
+            "jadetech-v2.vercel.app"
+          ]
+        },
+        {
+          "name": "io.github.AndreyBroker/cronfy",
+          "hosts": [
+            "cronfy-app.web.app"
+          ]
+        },
+        {
+          "name": "io.github.AxelVerneBooks/marketing-scope-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Dagel4k/mexicoapi-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.ElCampeon87/obzdn-agent",
+          "hosts": [
+            "mcp.obzdn.co"
+          ]
+        },
+        {
+          "name": "io.github.Gwakko/agent-in-browser",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Keyveve/veqen",
+          "hosts": [
+            "veqen-app.com"
+          ]
+        },
+        {
+          "name": "io.github.LernowaAdmin/rag-docs-scraper",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Moha2005269/agentgo",
+          "hosts": []
+        },
+        {
+          "name": "io.github.MojoMo-io/mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Mr-Macharia/mpesa-daraja-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.MvikManners/aw1-circuit-breaker",
+          "hosts": []
+        },
+        {
+          "name": "io.github.PGYER/pgyer-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.ShaanGS/ventriloquist",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Shiuglen/esme-remoto",
+          "hosts": []
+        },
+        {
+          "name": "io.github.Srikarmk/keystone",
+          "hosts": [
+            "keystone-research.vercel.app"
+          ]
+        },
+        {
+          "name": "io.github.Srikarmk/whygit",
+          "hosts": []
+        },
+        {
+          "name": "io.github.TrueValue2026/truevalue",
+          "hosts": [
+            "bwdqywxthonvjsjpezeq.supabase.co"
+          ]
+        },
+        {
+          "name": "io.github.UltraStarz/tollkit-crypto",
+          "hosts": [
+            "api.tollkit.dev"
+          ]
+        },
+        {
+          "name": "io.github.Umair/stalemap",
+          "hosts": []
+        },
+        {
+          "name": "io.github.agent-audit-x402/x402-tools",
+          "hosts": [
+            "mcp.agent-audit.workers.dev"
+          ]
+        },
+        {
+          "name": "io.github.agentraas/agentraas",
+          "hosts": []
+        },
+        {
+          "name": "io.github.ahamdjin/automation-auditor-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.aventurevc/aventure-mcp",
+          "hosts": [
+            "mcp.aventure.vc"
+          ]
+        },
+        {
+          "name": "io.github.bartlomein/oko",
+          "hosts": []
+        },
+        {
+          "name": "io.github.bnth09productions-maker/scrapling-x402-store",
+          "hosts": [
+            "cornhusk-rely-preformed.ngrok-free.dev"
+          ]
+        },
+        {
+          "name": "io.github.bubblav-org/bubblav",
+          "hosts": [
+            "www.bubblav.com"
+          ]
+        },
+        {
+          "name": "io.github.candidloom-hub/sourcebolt",
+          "hosts": []
+        },
+        {
+          "name": "io.github.castralis122/base-web3-m2m-hub",
+          "hosts": [
+            "auditor-x402.onrender.com"
+          ]
+        },
+        {
+          "name": "io.github.codecraf8/maap",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyanheads/canada-parliament-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyanheads/faa-airmen-registry-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyanheads/ioda-outages-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyanheads/mitre-cwe-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyanheads/worms-marine-taxa-mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.cyberLdy/solescout",
+          "hosts": [
+            "solescout.ai"
+          ]
+        },
+        {
+          "name": "io.github.daftAI2026/awesome-jev",
+          "hosts": [
+            "awesomejev.cc"
+          ]
+        },
+        {
+          "name": "io.github.danbuildss/musecourt",
+          "hosts": [
+            "www.musecourt.xyz"
+          ]
+        },
+        {
+          "name": "io.github.devinwang/app-store-connect-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.devinwang/cloak-browser-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.devinwang/google-play-developer-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.dunrossmai-rgb/dueback-mcp",
+          "hosts": [
+            "api.dueback.co"
+          ]
+        },
+        {
+          "name": "io.github.emmanuel-defreitas/gpui-agentation",
+          "hosts": []
+        },
+        {
+          "name": "io.github.esreddy2/umich-dining-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/code-to-visual-interpreter",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/customer-sales-support",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/diagnose-by-sound",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/emotional-resonance-analyzer",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/five-minute-fluency",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/generative-digital-twin",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/ghost-post-preview",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/haptic-feedback-mapper",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/mental-health-chatbot",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/neural-link-intention-layer",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/podcast-video-studio",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/predictive-resource-allocation",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/professor-mind-reader",
+          "hosts": []
+        },
+        {
+          "name": "io.github.farssaadeldin7-ux/trail-split",
+          "hosts": []
+        },
+        {
+          "name": "io.github.fennecstudio/x-tkn-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.flowr-analysis/flowr",
+          "hosts": []
+        },
+        {
+          "name": "io.github.geland/secrethandoff",
+          "hosts": []
+        },
+        {
+          "name": "io.github.gerefull/invokeport",
+          "hosts": [
+            "invokeport.com"
+          ]
+        },
+        {
+          "name": "io.github.gleanery-works/ad-library",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.hal-boring-utils/expiry-watch",
+          "hosts": [
+            "boringutils.com"
+          ]
+        },
+        {
+          "name": "io.github.happyendpointhq/happyendpoint-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.harshmaur/youtube-transcript-scraper",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.hey-juno/juno",
+          "hosts": [
+            "api.heyjuno.co"
+          ]
+        },
+        {
+          "name": "io.github.intoApex/tas-guard",
+          "hosts": []
+        },
+        {
+          "name": "io.github.jakegallen/poascan",
+          "hosts": [
+            "poascan.io"
+          ]
+        },
+        {
+          "name": "io.github.joshuawowk/signal-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.leohoudinisanders-byte/forensics-mcp",
+          "hosts": [
+            "solene-fa2010da.base44.app"
+          ]
+        },
+        {
+          "name": "io.github.lkcair/sec-ai",
+          "hosts": []
+        },
+        {
+          "name": "io.github.lkcair/yfinance-ai",
+          "hosts": []
+        },
+        {
+          "name": "io.github.lowrisk75/webkitui-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.maheshmurthy/karma-compass",
+          "hosts": [
+            "nonprofitsapi.karmahq.org"
+          ]
+        },
+        {
+          "name": "io.github.marcomq/mq-bridge",
+          "hosts": []
+        },
+        {
+          "name": "io.github.mark-brannan/colregs-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.martinPisacreta/textokit-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.meridian21lab/cogito-mem",
+          "hosts": []
+        },
+        {
+          "name": "io.github.mrpkk/soma-protocol",
+          "hosts": [
+            "rta.lat"
+          ]
+        },
+        {
+          "name": "io.github.myclaimfile/memoshelf",
+          "hosts": [
+            "memoshelf.com"
+          ]
+        },
+        {
+          "name": "io.github.nhan7777/openapi-swagger-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.open-leash/leash",
+          "hosts": [
+            "secure.openleash.com"
+          ]
+        },
+        {
+          "name": "io.github.pgeneralpl/edgar-entity-mcp",
+          "hosts": [
+            "edgar-entity-mcp.vercel.app"
+          ]
+        },
+        {
+          "name": "io.github.pipeworx-io/coolprop",
+          "hosts": [
+            "gateway.pipeworx.io"
+          ]
+        },
+        {
+          "name": "io.github.pipeworx-io/cro-ireland",
+          "hosts": [
+            "gateway.pipeworx.io"
+          ]
+        },
+        {
+          "name": "io.github.pipeworx-io/sk-rpo",
+          "hosts": [
+            "gateway.pipeworx.io"
+          ]
+        },
+        {
+          "name": "io.github.pooriaarab/robotaxis",
+          "hosts": [
+            "robotaxis.fyi"
+          ]
+        },
+        {
+          "name": "io.github.projectworks007/ai-agent-web-tools",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.projectworks007/company-data",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.quay21/quay",
+          "hosts": [
+            "tron-agent-tools.sharkweather1.workers.dev"
+          ]
+        },
+        {
+          "name": "io.github.rustemmustafingovua-byte/free-web-mcp",
+          "hosts": [
+            "lmpdq-85-114-207-128.free.pinggy.net"
+          ]
+        },
+        {
+          "name": "io.github.rustemmustafingovua-byte/perps-funding-pulse",
+          "hosts": [
+            "0c5678d9815785.lhr.life"
+          ]
+        },
+        {
+          "name": "io.github.sepehr071/mcpsmith",
+          "hosts": []
+        },
+        {
+          "name": "io.github.shamsundarsk/mcp-server",
+          "hosts": []
+        },
+        {
+          "name": "io.github.speak-able/schoolorder-catalog",
+          "hosts": [
+            "schoolorder.kr"
+          ]
+        },
+        {
+          "name": "io.github.stampthisfile/mcp",
+          "hosts": [
+            "stampthisfile.com"
+          ]
+        },
+        {
+          "name": "io.github.sumitrmardy/email-verifier",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.sumitrmardy/google-ads-monitor",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.sumitrmardy/website-contact-finder",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.travisseamon-a11y/xemstudio",
+          "hosts": [
+            "xemstudio.com"
+          ]
+        },
+        {
+          "name": "io.github.vicecityhub/vicecityhub",
+          "hosts": [
+            "lpglkglhjdqnktybksth.supabase.co"
+          ]
+        },
+        {
+          "name": "io.github.wycord/nigeria-admin-divisions",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-bank-resolve",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-electricity",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-fx-rates",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-grid3-boundaries",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-health-facility",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-imf-weo",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-nigsac-sanctions",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-quidax-crypto",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-trade-intel",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-un-sdg",
+          "hosts": []
+        },
+        {
+          "name": "io.github.wycord/nigeria-worldbank-macro",
+          "hosts": []
+        },
+        {
+          "name": "io.github.xianguoGou/h5-devtools-mcp",
+          "hosts": []
+        },
+        {
+          "name": "io.github.xsignon-secure/E2E",
+          "hosts": []
+        },
+        {
+          "name": "io.keyflight/pnr",
+          "hosts": [
+            "keyflight.io"
+          ]
+        },
+        {
+          "name": "io.lapoliza/riesgo",
+          "hosts": [
+            "lapoliza.io"
+          ]
+        },
+        {
+          "name": "io.logspot/analytics",
+          "hosts": [
+            "api.logspot.io"
+          ]
+        },
+        {
+          "name": "io.prospectar/prospectar",
+          "hosts": [
+            "api.prospectar.io"
+          ]
+        },
+        {
+          "name": "io.usefulapi/order-desk",
+          "hosts": [
+            "order-desk.usefulapi.io"
+          ]
+        },
+        {
+          "name": "io.usefulapi/simplyrets",
+          "hosts": [
+            "simplyrets.usefulapi.io"
+          ]
+        },
+        {
+          "name": "io.usefulapi/trumpia",
+          "hosts": [
+            "trumpia.usefulapi.io"
+          ]
+        },
+        {
+          "name": "is.munn/muninn",
+          "hosts": [
+            "mcp.munn.is"
+          ]
+        },
+        {
+          "name": "jp.hojo-josei/subsidy",
+          "hosts": [
+            "mcp.hojo-josei.jp"
+          ]
+        },
+        {
+          "name": "lat.rta/rta",
+          "hosts": [
+            "rta.lat"
+          ]
+        },
+        {
+          "name": "lt.imonesmcp/company-registry",
+          "hosts": [
+            "api.imonesmcp.lt"
+          ]
+        },
+        {
+          "name": "me.atendi/atendime",
+          "hosts": [
+            "api.atendi.me"
+          ]
+        },
+        {
+          "name": "mx.calcu/calculadoras",
+          "hosts": [
+            "calcu.mx"
+          ]
+        },
+        {
+          "name": "one.clevsec/eu-compliance",
+          "hosts": [
+            "mcp.clevsec.one"
+          ]
+        },
+        {
+          "name": "org.oraglegpt/gptpost",
+          "hosts": [
+            "app.oraglegpt.org"
+          ]
+        },
+        {
+          "name": "org.p31ca/govern",
+          "hosts": [
+            "govern-mcp.trimtab-signal.workers.dev"
+          ]
+        },
+        {
+          "name": "org.thorchain/thorchain-mcp",
+          "hosts": [
+            "mcp.thorchain.org"
+          ]
+        },
+        {
+          "name": "sa.arbiter/ahkam",
+          "hosts": [
+            "mcp.ahkam.arbiter.sa"
+          ]
+        },
+        {
+          "name": "se.finder-marketing/local-services",
+          "hosts": [
+            "mcp.finder-marketing.se"
+          ]
+        },
+        {
+          "name": "studio.restinprint/obituaries",
+          "hosts": [
+            "restinprint.studio"
+          ]
+        },
+        {
+          "name": "tech.getnightshift/public",
+          "hosts": [
+            "getnightshift.tech"
+          ]
+        },
+        {
+          "name": "tech.openfinance/trading",
+          "hosts": [
+            "api.openfinance.tech"
+          ]
+        },
+        {
+          "name": "trade.onyxprotocol/onyx-aml",
+          "hosts": [
+            "onyxprotocol.trade"
+          ]
+        },
+        {
+          "name": "video.refs/refs",
+          "hosts": [
+            "refs.video"
+          ]
+        }
+      ],
+      "removed": [],
+      "restored": [],
+      "version": [
+        {
+          "name": "ai.bowmark/bowmark",
+          "old": "8.185.3",
+          "new": "8.186.2"
+        },
+        {
+          "name": "ai.dataparrot/data-parrot",
+          "old": "1.3.6",
+          "new": "1.3.7"
+        },
+        {
+          "name": "ai.giljo/hq",
+          "old": "2.8.0",
+          "new": "2.9.0"
+        },
+        {
+          "name": "ai.huddo/huddo",
+          "old": "0.9.9",
+          "new": "0.9.10"
+        },
+        {
+          "name": "ai.inite/atlas",
+          "old": "1.1.0",
+          "new": "1.2.0"
+        },
+        {
+          "name": "ai.izap/whatsapp",
+          "old": "1.49.0",
+          "new": "1.50.0"
+        },
+        {
+          "name": "ai.kaiv/bridge",
+          "old": "1.0.2",
+          "new": "1.0.4"
+        },
+        {
+          "name": "ai.kaiv/postgres",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "ai.kosmodrom/kosmodrom",
+          "old": "1.2.1571",
+          "new": "1.2.1583"
+        },
+        {
+          "name": "ai.paintcoatings/marindec",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "ai.pidgeon/mcp",
+          "old": "0.11.0",
+          "new": "0.12.1"
+        },
+        {
+          "name": "ai.posteverywhere/mcp",
+          "old": "1.14.0",
+          "new": "1.14.1"
+        },
+        {
+          "name": "ai.rightcard/mcp",
+          "old": "0.1.9",
+          "new": "0.1.11"
+        },
+        {
+          "name": "ai.sendinel/mcp-server",
+          "old": "1.0.55",
+          "new": "1.0.58"
+        },
+        {
+          "name": "ai.skilltotal/skilltotal",
+          "old": "0.79.0",
+          "new": "0.79.1"
+        },
+        {
+          "name": "ai.taasky/taasky",
+          "old": "0.1.1",
+          "new": "0.2.1"
+        },
+        {
+          "name": "ai.trustysquire/trusty-squire",
+          "old": "1.1.36",
+          "new": "1.1.37-rc.1"
+        },
+        {
+          "name": "ai.wavespeed/mcp",
+          "old": "1.0.17",
+          "new": "1.0.18"
+        },
+        {
+          "name": "app.aide/aide",
+          "old": "1.2.0",
+          "new": "1.4.1"
+        },
+        {
+          "name": "app.cleannotes/clean-notes",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "app.ivive/ivive",
+          "old": "1.0.1",
+          "new": "1.0.2"
+        },
+        {
+          "name": "app.netlify.kitchen-pass/chef",
+          "old": "0.1.0",
+          "new": "0.2.0"
+        },
+        {
+          "name": "app.proxgetlocal/prox",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "app.sallim/contract-compass",
+          "old": "1.64.0",
+          "new": "1.70.1"
+        },
+        {
+          "name": "app.sallim/korea-realty",
+          "old": "0.117.1",
+          "new": "0.117.3"
+        },
+        {
+          "name": "app.speakeroo/speaking-coach",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "app.usehourly/usehourly",
+          "old": "1.0.1",
+          "new": "1.1.0"
+        },
+        {
+          "name": "app.vercel.planlimits-rpatel021/planlimits",
+          "old": "1.0.0",
+          "new": "1.2.0"
+        },
+        {
+          "name": "ca.grocerypulse/grocery-comparison",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "ch.clino/household-employment",
+          "old": "1.3.0",
+          "new": "1.5.0"
+        },
+        {
+          "name": "cloud.wavehouse/mcp",
+          "old": "1.8.0",
+          "new": "1.9.0"
+        },
+        {
+          "name": "com.10ml/perfume-finder",
+          "old": "2.3.4",
+          "new": "2.4.0"
+        },
+        {
+          "name": "com.accountexecutivejobs/mcp",
+          "old": "1.19.0",
+          "new": "1.19.1"
+        },
+        {
+          "name": "com.aeoinspector/aeo-inspector",
+          "old": "2.1.0",
+          "new": "2.2.0"
+        },
+        {
+          "name": "com.affitor/mcp",
+          "old": "0.2.3",
+          "new": "0.2.4"
+        },
+        {
+          "name": "com.agilegrowthlabs/agency-capacity",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.aimailmcp/mail",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "com.altoviz/mcp",
+          "old": "1.0.5",
+          "new": "1.0.6"
+        },
+        {
+          "name": "com.appstoretracker/mcp",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.billingengine/mcp",
+          "old": "0.1.2",
+          "new": "0.2.0"
+        },
+        {
+          "name": "com.bird/mcp",
+          "old": "0.126.0",
+          "new": "0.126.1"
+        },
+        {
+          "name": "com.browser-use/browser-use",
+          "old": "0.13.5",
+          "new": "0.13.11"
+        },
+        {
+          "name": "com.bykaranteli/mcp",
+          "old": "0.36.0",
+          "new": "0.36.1"
+        },
+        {
+          "name": "com.claude.platform/docs",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.conduyt/mcp",
+          "old": "4.94.0",
+          "new": "4.95.0"
+        },
+        {
+          "name": "com.damolive/market-state",
+          "old": "1.3.6",
+          "new": "1.3.7"
+        },
+        {
+          "name": "com.defrr/defrr",
+          "old": "1.0.1",
+          "new": "1.1.0"
+        },
+        {
+          "name": "com.divingtechnics.indamix/indamix",
+          "old": "1.24.30",
+          "new": "1.24.31"
+        },
+        {
+          "name": "com.efon/call-rates",
+          "old": "1.2.0",
+          "new": "1.3.2"
+        },
+        {
+          "name": "com.ex2/account",
+          "old": "1.3.0",
+          "new": "1.4.0"
+        },
+        {
+          "name": "com.findenergyrates/electricity-rates",
+          "old": "1.1.13",
+          "new": "1.1.14"
+        },
+        {
+          "name": "com.foldlaboratories/art",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "com.formada3d/mcp",
+          "old": "2.2.4",
+          "new": "2.5.0"
+        },
+        {
+          "name": "com.funesvault/funes",
+          "old": "0.1.2",
+          "new": "0.1.4"
+        },
+        {
+          "name": "com.growsurf/growsurf",
+          "old": "0.19.22",
+          "new": "0.19.23"
+        },
+        {
+          "name": "com.hemmabo/hemmabo-mcp-server",
+          "old": "7.0.4",
+          "new": "7.0.5"
+        },
+        {
+          "name": "com.inttegro/mcp",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "com.labelixa/zpl",
+          "old": "0.4.2",
+          "new": "0.5.0"
+        },
+        {
+          "name": "com.linkbreakers/mcp",
+          "old": "1.183.0",
+          "new": "1.183.1"
+        },
+        {
+          "name": "com.mailbox-mcp/mailbox-mcp",
+          "old": "2.13.1",
+          "new": "2.14.0"
+        },
+        {
+          "name": "com.mireye/earth",
+          "old": "0.6.1",
+          "new": "0.7.2"
+        },
+        {
+          "name": "com.moonsox/moonsox",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "com.nativeanimation/nativeanimation",
+          "old": "0.2.3",
+          "new": "0.3.2"
+        },
+        {
+          "name": "com.neonloops/neonloops",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.obriym-crm/mcp",
+          "old": "1.19.0",
+          "new": "1.20.0"
+        },
+        {
+          "name": "com.oceanalt/aml",
+          "old": "0.7.5",
+          "new": "0.7.6"
+        },
+        {
+          "name": "com.odilelabs/odile",
+          "old": "1.5.0",
+          "new": "1.6.0"
+        },
+        {
+          "name": "com.oneuptime/mcp",
+          "old": "14.0.78",
+          "new": "14.0.80"
+        },
+        {
+          "name": "com.open-and-async/mcp",
+          "old": "1.0.5",
+          "new": "1.1.0"
+        },
+        {
+          "name": "com.overlayqa/mcp",
+          "old": "0.5.0",
+          "new": "0.6.1"
+        },
+        {
+          "name": "com.prolevelmax/prolevelmax",
+          "old": "1.5.1",
+          "new": "1.5.2"
+        },
+        {
+          "name": "com.regiabi/chart-mcp",
+          "old": "0.6.96",
+          "new": "0.6.97"
+        },
+        {
+          "name": "com.relayger/messaging",
+          "old": "0.13.2",
+          "new": "0.13.5"
+        },
+        {
+          "name": "com.restaurantdoctorai/profit-check",
+          "old": "1.11.2",
+          "new": "1.11.3"
+        },
+        {
+          "name": "com.reuily/reuily",
+          "old": "1.3.0",
+          "new": "1.5.0"
+        },
+        {
+          "name": "com.roamflat/esim-catalog",
+          "old": "2.0.0",
+          "new": "2.0.3"
+        },
+        {
+          "name": "com.sapiensinteticos/sapiens",
+          "old": "1.103.0",
+          "new": "1.104.0"
+        },
+        {
+          "name": "com.scento/perfume-compendium",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.scoutapm/scout-mcp-local",
+          "old": "2025.11.4",
+          "new": "2026.10.20"
+        },
+        {
+          "name": "com.sellerprofitdoctor/free-tools",
+          "old": "1.4.2",
+          "new": "1.4.3"
+        },
+        {
+          "name": "com.shipstatic/mcp",
+          "old": "2.7.3",
+          "new": "2.7.4"
+        },
+        {
+          "name": "com.shopteg/shoptegrity",
+          "old": "0.2.0",
+          "new": "0.7.0"
+        },
+        {
+          "name": "com.shortimize/mcp",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.simplorg/simplorg",
+          "old": "0.1.0",
+          "new": "0.2.0"
+        },
+        {
+          "name": "com.socialgrowthengineers/mcp",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "com.suprsend/mcp",
+          "old": "0.5.2",
+          "new": "0.5.4"
+        },
+        {
+          "name": "com.swarmmemo/bulletin",
+          "old": "1.137.1",
+          "new": "1.138.3"
+        },
+        {
+          "name": "com.tablejourney/food-travel",
+          "old": "1.0.2",
+          "new": "1.1.0"
+        },
+        {
+          "name": "com.techfabric.databricks/field-guide",
+          "old": "1.1.1",
+          "new": "1.2.0"
+        },
+        {
+          "name": "com.techfabric/techfabric",
+          "old": "1.2.0",
+          "new": "1.3.0"
+        },
+        {
+          "name": "com.theflowersdirectory/flowers",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "com.thegtmdirectory/mcp",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "com.tokeven/tokeven",
+          "old": "0.12.0",
+          "new": "0.13.0"
+        },
+        {
+          "name": "com.traceabledocs/traceable",
+          "old": "5.1.0",
+          "new": "6.0.0"
+        },
+        {
+          "name": "com.varioroam/esim-catalog",
+          "old": "1.2.0",
+          "new": "1.2.3"
+        },
+        {
+          "name": "com.veritaset/mcp",
+          "old": "0.6.0",
+          "new": "0.6.1"
+        },
+        {
+          "name": "com.webinarignition/mcp",
+          "old": "1.7.1",
+          "new": "1.8.7"
+        },
+        {
+          "name": "day.dodo/dodo",
+          "old": "0.3.2",
+          "new": "0.3.4"
+        },
+        {
+          "name": "de.viafrei/mcp",
+          "old": "2.2.14",
+          "new": "2.3.3"
+        },
+        {
+          "name": "dev.actas/accounts",
+          "old": "0.4.2",
+          "new": "0.4.3"
+        },
+        {
+          "name": "dev.edgegap/mcp",
+          "old": "0.6.1",
+          "new": "0.6.2"
+        },
+        {
+          "name": "dev.mcphost/mcphost",
+          "old": "0.112.18",
+          "new": "0.112.26"
+        },
+        {
+          "name": "dev.repowise/repowise",
+          "old": "0.57.0",
+          "new": "0.58.0"
+        },
+        {
+          "name": "dev.vivra/vivra",
+          "old": "0.3.24",
+          "new": "0.3.30"
+        },
+        {
+          "name": "dev.voidless/voidless",
+          "old": "1.6.8",
+          "new": "1.6.9"
+        },
+        {
+          "name": "eu.skavio/paid-micro-apis",
+          "old": "1.1.2",
+          "new": "1.1.3"
+        },
+        {
+          "name": "gg.superbot/superbot",
+          "old": "1.1.2",
+          "new": "1.1.3"
+        },
+        {
+          "name": "io.arcnm/arcnm",
+          "old": "3.0.0",
+          "new": "3.2.0"
+        },
+        {
+          "name": "io.clipwright/mcp",
+          "old": "0.32.0",
+          "new": "0.33.0"
+        },
+        {
+          "name": "io.github.AceDataCloud/mcp-suno",
+          "old": "2026.10.19.4",
+          "new": "2026.10.20.0"
+        },
+        {
+          "name": "io.github.AgentPhone-AI/agentphone",
+          "old": "0.6.0",
+          "new": "0.8.0"
+        },
+        {
+          "name": "io.github.AindriuB/data-prism",
+          "old": "0.6.0",
+          "new": "0.7.0"
+        },
+        {
+          "name": "io.github.Alberto-Codes/docvet",
+          "old": "1.16.0",
+          "new": "2.0.3"
+        },
+        {
+          "name": "io.github.Alberto-Codes/judgevet",
+          "old": "0.20.0",
+          "new": "0.21.0"
+        },
+        {
+          "name": "io.github.AlterAIDev/alter-onboarding",
+          "old": "0.3.0",
+          "new": "0.4.0"
+        },
+        {
+          "name": "io.github.AmrDab/clawdcursor",
+          "old": "1.5.17",
+          "new": "1.5.22"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/brightspace-d2l-mcp",
+          "old": "1.4.2",
+          "new": "1.4.3"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/canvas-lms-student-mcp",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/google-classroom-student-mcp",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/gpa-calculator-mcp",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/paper-finder-student-mcp",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/study-planner-mcp",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.AnshumanAtrey/linkedin-harvester",
+          "old": "0.2.5",
+          "new": "0.2.10"
+        },
+        {
+          "name": "io.github.Artexis10/exomem",
+          "old": "0.132.3",
+          "new": "0.132.6"
+        },
+        {
+          "name": "io.github.AtlaSent/mcp-server",
+          "old": "2.19.2",
+          "new": "2.20.0"
+        },
+        {
+          "name": "io.github.Aureliolo/gdharness",
+          "old": "1.3.6",
+          "new": "1.3.8"
+        },
+        {
+          "name": "io.github.Axius-SDC/sdcmodeler",
+          "old": "4.3.0",
+          "new": "4.3.1"
+        },
+        {
+          "name": "io.github.BijectiveLabs/trading-research-agents",
+          "old": "0.9.0",
+          "new": "0.10.0"
+        },
+        {
+          "name": "io.github.BlockRunAI/blockrun-mcp",
+          "old": "0.54.5",
+          "new": "0.54.7"
+        },
+        {
+          "name": "io.github.BrightbeamAI/chap",
+          "old": "0.3.2",
+          "new": "0.3.3"
+        },
+        {
+          "name": "io.github.Byggarepop/dotnet-mcp-orchestrator",
+          "old": "0.7.5",
+          "new": "0.7.6"
+        },
+        {
+          "name": "io.github.CloudCorpRecords/greenlight",
+          "old": "0.19.0",
+          "new": "0.21.0"
+        },
+        {
+          "name": "io.github.D4umak/heylead",
+          "old": "0.10.467",
+          "new": "0.10.468"
+        },
+        {
+          "name": "io.github.DV1-321/scalpstream-mcp",
+          "old": "0.1.7",
+          "new": "0.1.9"
+        },
+        {
+          "name": "io.github.Daghis/teamcity",
+          "old": "2.12.8",
+          "new": "2.12.9"
+        },
+        {
+          "name": "io.github.DanceNitra/inspeximus",
+          "old": "3.21.0",
+          "new": "3.21.1"
+        },
+        {
+          "name": "io.github.DareDev256/fcpxml-mcp-server",
+          "old": "0.26.0",
+          "new": "0.27.1"
+        },
+        {
+          "name": "io.github.DiffCI/diffci",
+          "old": "0.3.12",
+          "new": "0.3.13"
+        },
+        {
+          "name": "io.github.First-CH/tools-mcp",
+          "old": "0.37.0",
+          "new": "0.38.0"
+        },
+        {
+          "name": "io.github.GabrieleLozupone/kokon",
+          "old": "0.9.4",
+          "new": "0.10.0"
+        },
+        {
+          "name": "io.github.GarAlex/promoshot",
+          "old": "0.3.10",
+          "new": "0.3.14"
+        },
+        {
+          "name": "io.github.GeiserX/biblical-atlas-mcp",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.GeiserX/cashpilot-mcp",
+          "old": "0.2.2",
+          "new": "0.2.3"
+        },
+        {
+          "name": "io.github.GeiserX/duplicacy-mcp",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.GeiserX/genieacs-mcp",
+          "old": "0.3.6",
+          "new": "0.3.7"
+        },
+        {
+          "name": "io.github.GeiserX/lynxprompt-mcp",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.GeiserX/pumperly-mcp",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.GeiserX/spinnaker-mcp",
+          "old": "0.3.6",
+          "new": "0.3.7"
+        },
+        {
+          "name": "io.github.GeiserX/telegram-archive-mcp",
+          "old": "0.3.0",
+          "new": "0.3.1"
+        },
+        {
+          "name": "io.github.GodMephisto/wc3-mcp",
+          "old": "0.5.12",
+          "new": "0.5.18"
+        },
+        {
+          "name": "io.github.Grinv/anilist-mcp-server",
+          "old": "0.9.0",
+          "new": "0.10.0"
+        },
+        {
+          "name": "io.github.Heavens-Lava/inventor-studio",
+          "old": "1.0.0",
+          "new": "1.0.3"
+        },
+        {
+          "name": "io.github.HelpCode-ai/anythingmcp",
+          "old": "0.42.1",
+          "new": "0.43.1"
+        },
+        {
+          "name": "io.github.Horace-Maxwell/horosa-skill",
+          "old": "0.41.0",
+          "new": "0.41.1"
+        },
+        {
+          "name": "io.github.JasmyLab-JANCTION/janction-render",
+          "old": "0.4.152",
+          "new": "0.4.159"
+        },
+        {
+          "name": "io.github.JvnnDev/seo-webmaster-mcp",
+          "old": "0.4.0",
+          "new": "0.5.0"
+        },
+        {
+          "name": "io.github.KD5RYN/b123d-print",
+          "old": "0.3.6",
+          "new": "0.3.8"
+        },
+        {
+          "name": "io.github.Keremturker/cmpose",
+          "old": "0.6.0",
+          "new": "0.7.0"
+        },
+        {
+          "name": "io.github.Khoshkhah/roadstyle",
+          "old": "0.22.1",
+          "new": "0.24.0"
+        },
+        {
+          "name": "io.github.KilaWattCloud/kilawatt-mcp-server",
+          "old": "0.2.1",
+          "new": "0.3.0"
+        },
+        {
+          "name": "io.github.KyaniteLabs/mcp-video",
+          "old": "1.6.16",
+          "new": "1.6.17"
+        },
+        {
+          "name": "io.github.Looted/kibi-mcp",
+          "old": "3.16.1",
+          "new": "3.16.2"
+        },
+        {
+          "name": "io.github.MadeByFYI/madeby",
+          "old": "0.3.10",
+          "new": "0.3.11"
+        },
+        {
+          "name": "io.github.Mason-Levyy/mfp-mcp",
+          "old": "0.4.1",
+          "new": "0.4.2"
+        },
+        {
+          "name": "io.github.MaxFreedomPollard/compartment",
+          "old": "4.11.0",
+          "new": "4.13.0"
+        },
+        {
+          "name": "io.github.MikeyPetrillo/agent402",
+          "old": "0.13.13",
+          "new": "0.13.14"
+        },
+        {
+          "name": "io.github.Muvon/octocode",
+          "old": "0.26.7",
+          "new": "0.27.0"
+        },
+        {
+          "name": "io.github.MyMedi-AI/mcp-server",
+          "old": "1.7.7",
+          "new": "1.7.8"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-ai",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-chain",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-compliance",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-everyday",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-prices",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-utilities",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-web",
+          "old": "1.41.0",
+          "new": "1.44.0"
+        },
+        {
+          "name": "io.github.Nxtsoft/cgraph",
+          "old": "0.9.5",
+          "new": "0.9.7"
+        },
+        {
+          "name": "io.github.Ollynov/ball-ranks",
+          "old": "1.1.1",
+          "new": "1.1.2"
+        },
+        {
+          "name": "io.github.OpenLoyalty/openloyalty-mcp",
+          "old": "1.35.0",
+          "new": "1.36.0"
+        },
+        {
+          "name": "io.github.PacketFabric/packetfabric-mcp",
+          "old": "0.2.3",
+          "new": "0.2.4"
+        },
+        {
+          "name": "io.github.Patdolitse/piia-engram",
+          "old": "4.25.0",
+          "new": "4.26.0"
+        },
+        {
+          "name": "io.github.Philongevity/phi-longevity-prism",
+          "old": "0.6.9",
+          "new": "0.6.10"
+        },
+        {
+          "name": "io.github.Power-Portals-Pro/powerportalspro-mcp",
+          "old": "11.1.0",
+          "new": "11.2.0"
+        },
+        {
+          "name": "io.github.PrivateAISystems/needhave",
+          "old": "1.0.3",
+          "new": "1.0.4"
+        },
+        {
+          "name": "io.github.ProAgentStore/platform",
+          "old": "0.1.164",
+          "new": "0.1.166"
+        },
+        {
+          "name": "io.github.Quorus-dev/quorus",
+          "old": "0.6.3",
+          "new": "0.6.5"
+        },
+        {
+          "name": "io.github.SeanHogg/builderforce-memory",
+          "old": "2026.9.34",
+          "new": "2026.10.3"
+        },
+        {
+          "name": "io.github.ShinjukuStaition/shinjuku-mcp",
+          "old": "0.3.52",
+          "new": "0.3.53"
+        },
+        {
+          "name": "io.github.Sidd27/infrawise",
+          "old": "0.28.4",
+          "new": "1.0.0"
+        },
+        {
+          "name": "io.github.SimianX-AI/simianx",
+          "old": "1.0.3",
+          "new": "1.0.5"
+        },
+        {
+          "name": "io.github.Softinator-TechLabs/feedbacks",
+          "old": "0.2.2",
+          "new": "0.2.3"
+        },
+        {
+          "name": "io.github.Subodh103/daknode",
+          "old": "0.3.1",
+          "new": "0.3.2"
+        },
+        {
+          "name": "io.github.SummerEngine/summer",
+          "old": "4.3.0",
+          "new": "4.5.0"
+        },
+        {
+          "name": "io.github.SupportPages-io/wtfm",
+          "old": "0.5.5",
+          "new": "0.5.6"
+        },
+        {
+          "name": "io.github.TakoData/tako-mcp",
+          "old": "1.4.4",
+          "new": "1.4.5"
+        },
+        {
+          "name": "io.github.Temple-of-Epiphany/imap-mcp-pro",
+          "old": "2.34.0",
+          "new": "2.39.0"
+        },
+        {
+          "name": "io.github.Tommkruix/archprint",
+          "old": "0.13.1",
+          "new": "0.14.0"
+        },
+        {
+          "name": "io.github.Tumerit/tethered",
+          "old": "0.2.6",
+          "new": "0.2.7"
+        },
+        {
+          "name": "io.github.TushaeBXN/engram",
+          "old": "1.10.0",
+          "new": "1.10.5"
+        },
+        {
+          "name": "io.github.TwitterAPIs/twitterapis-mcp",
+          "old": "0.24.1",
+          "new": "0.25.0"
+        },
+        {
+          "name": "io.github.UltraStarz/x402-extract",
+          "old": "0.9.0",
+          "new": "0.9.1"
+        },
+        {
+          "name": "io.github.VBlackJack/datacron",
+          "old": "2026.1016.0",
+          "new": "2026.1020.0"
+        },
+        {
+          "name": "io.github.VectorMethods/videovector-mcp-server",
+          "old": "2.1.2",
+          "new": "4.0.1"
+        },
+        {
+          "name": "io.github.WSattazahn/caveat-lang",
+          "old": "1.1.0",
+          "new": "1.2.0"
+        },
+        {
+          "name": "io.github.WYRE-AI/autotask-mcp",
+          "old": "2.39.7",
+          "new": "2.39.8"
+        },
+        {
+          "name": "io.github.WYRE-AI/cipp-mcp",
+          "old": "1.11.0",
+          "new": "1.11.1"
+        },
+        {
+          "name": "io.github.WYRE-AI/connectwise-manage-mcp",
+          "old": "1.15.8",
+          "new": "1.15.9"
+        },
+        {
+          "name": "io.github.WYRE-AI/kpn-mcp",
+          "old": "2.2.2",
+          "new": "2.3.0"
+        },
+        {
+          "name": "io.github.Yantrakar/gitpro",
+          "old": "0.4.1",
+          "new": "0.4.3"
+        },
+        {
+          "name": "io.github.ZahiriNatZuke/local-delegate",
+          "old": "0.36.1",
+          "new": "0.37.0"
+        },
+        {
+          "name": "io.github.aarbchen/signaltender-mcp",
+          "old": "1.0.0",
+          "new": "1.2.0"
+        },
+        {
+          "name": "io.github.aarifmms/keyblind",
+          "old": "0.1.4",
+          "new": "0.8.8"
+        },
+        {
+          "name": "io.github.aaronlilla/hawl",
+          "old": "0.1.8",
+          "new": "0.1.11"
+        },
+        {
+          "name": "io.github.aaronsb/slack-mcp",
+          "old": "2.8.0",
+          "new": "2.8.1"
+        },
+        {
+          "name": "io.github.activeing123/mcptoon",
+          "old": "0.8.24",
+          "new": "0.8.25"
+        },
+        {
+          "name": "io.github.aeonmindai/runcrate",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "io.github.ahoybuoy/buoy",
+          "old": "0.8.11",
+          "new": "0.8.12"
+        },
+        {
+          "name": "io.github.aleksUIX/pixellint",
+          "old": "0.44.0",
+          "new": "0.46.0"
+        },
+        {
+          "name": "io.github.aleksUIX/rtblint",
+          "old": "0.14.0",
+          "new": "0.14.3"
+        },
+        {
+          "name": "io.github.aligndottech/cli",
+          "old": "0.60.0",
+          "new": "0.61.0"
+        },
+        {
+          "name": "io.github.allchemylabs/aether-wcag-scanner",
+          "old": "1.0.6",
+          "new": "1.0.8"
+        },
+        {
+          "name": "io.github.allxsmith/bestax-mcp",
+          "old": "1.16.2",
+          "new": "1.16.3"
+        },
+        {
+          "name": "io.github.angelkurten/keel",
+          "old": "0.30.2",
+          "new": "0.31.0"
+        },
+        {
+          "name": "io.github.anishchugh05/mnemolith",
+          "old": "0.2.0",
+          "new": "0.2.1"
+        },
+        {
+          "name": "io.github.aoreshkov/kotlin-lib-mcp",
+          "old": "0.8.0",
+          "new": "0.9.0"
+        },
+        {
+          "name": "io.github.appwrite/mcp",
+          "old": "1.0.21",
+          "new": "1.0.22"
+        },
+        {
+          "name": "io.github.argon-lab/argon",
+          "old": "2.1.2",
+          "new": "2.1.3"
+        },
+        {
+          "name": "io.github.atakanelik34/clawifi-mcp",
+          "old": "0.1.2",
+          "new": "0.2.0"
+        },
+        {
+          "name": "io.github.avaazquezz/mcp-qdrant",
+          "old": "1.0.1",
+          "new": "2.6.0"
+        },
+        {
+          "name": "io.github.bakissation/mcp-google-multi",
+          "old": "6.0.1",
+          "new": "6.1.0"
+        },
+        {
+          "name": "io.github.bardesss/arr-mcp",
+          "old": "1.44.3",
+          "new": "1.44.4"
+        },
+        {
+          "name": "io.github.beadhive/beadhive",
+          "old": "0.28.2",
+          "new": "0.28.3"
+        },
+        {
+          "name": "io.github.bereciartua/ek-bridge",
+          "old": "0.11.4",
+          "new": "0.12.0"
+        },
+        {
+          "name": "io.github.berntpopp/genefoundry",
+          "old": "0.10.4",
+          "new": "0.10.8"
+        },
+        {
+          "name": "io.github.bomly-dev/bomly-cli",
+          "old": "0.28.3",
+          "new": "0.29.0"
+        },
+        {
+          "name": "io.github.browser-gateway/browser-gateway",
+          "old": "0.4.33",
+          "new": "0.4.34"
+        },
+        {
+          "name": "io.github.cachly-dev/mcp-server",
+          "old": "0.10.211",
+          "new": "0.10.212"
+        },
+        {
+          "name": "io.github.cafferychen777/chatspatial",
+          "old": "1.5.10",
+          "new": "1.6.0"
+        },
+        {
+          "name": "io.github.cairncommons/cairn-commons",
+          "old": "1.4.2",
+          "new": "1.4.3"
+        },
+        {
+          "name": "io.github.capad-xyz/searchts",
+          "old": "0.16.0",
+          "new": "0.16.1"
+        },
+        {
+          "name": "io.github.chariot-ventures/dietary-supplement-analysis",
+          "old": "0.13.0",
+          "new": "0.14.0"
+        },
+        {
+          "name": "io.github.chrischall/alphaportal-mcp",
+          "old": "1.2.4",
+          "new": "1.2.5"
+        },
+        {
+          "name": "io.github.chrischall/apple-icloud-mcp",
+          "old": "0.3.6",
+          "new": "0.3.7"
+        },
+        {
+          "name": "io.github.chrischall/booli-mcp",
+          "old": "2.1.10",
+          "new": "2.1.11"
+        },
+        {
+          "name": "io.github.chrischall/concur-mcp",
+          "old": "0.3.2",
+          "new": "0.3.3"
+        },
+        {
+          "name": "io.github.chrischall/creditkarma-mcp",
+          "old": "3.3.4",
+          "new": "3.3.5"
+        },
+        {
+          "name": "io.github.chrischall/evite-mcp",
+          "old": "1.3.6",
+          "new": "1.3.7"
+        },
+        {
+          "name": "io.github.chrischall/gemini-mcp",
+          "old": "2.4.1",
+          "new": "2.4.2"
+        },
+        {
+          "name": "io.github.chrischall/hemnet-mcp",
+          "old": "1.1.13",
+          "new": "1.1.14"
+        },
+        {
+          "name": "io.github.chrischall/myatriumhealth-mcp",
+          "old": "1.3.7",
+          "new": "1.3.8"
+        },
+        {
+          "name": "io.github.chrischall/myhotlunchbox-mcp",
+          "old": "1.2.7",
+          "new": "1.2.8"
+        },
+        {
+          "name": "io.github.chrischall/ofw-mcp",
+          "old": "2.20.5",
+          "new": "2.20.6"
+        },
+        {
+          "name": "io.github.chrischall/remind-mcp",
+          "old": "1.2.7",
+          "new": "1.2.8"
+        },
+        {
+          "name": "io.github.chrischall/skylight-mcp",
+          "old": "1.4.5",
+          "new": "1.4.6"
+        },
+        {
+          "name": "io.github.chrischall/splitwise-mcp",
+          "old": "3.4.1",
+          "new": "3.5.1"
+        },
+        {
+          "name": "io.github.chrisryugj/kordoc",
+          "old": "4.22.17",
+          "new": "4.22.18"
+        },
+        {
+          "name": "io.github.claimidx/claimidx",
+          "old": "0.7.17",
+          "new": "0.7.18"
+        },
+        {
+          "name": "io.github.codeofaxel/kiln",
+          "old": "1.4.1",
+          "new": "1.5.0"
+        },
+        {
+          "name": "io.github.coder/coder",
+          "old": "2.37.5",
+          "new": "2.38.1"
+        },
+        {
+          "name": "io.github.cognitive-emergence/prooftask",
+          "old": "0.1.2",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.commet/argus-decision-mcp",
+          "old": "2.0.23",
+          "new": "2.1.0"
+        },
+        {
+          "name": "io.github.compscidr/sair",
+          "old": "0.1.33",
+          "new": "0.1.34"
+        },
+        {
+          "name": "io.github.daniele-chiappa/gosidian",
+          "old": "2.100.1",
+          "new": "2.102.1"
+        },
+        {
+          "name": "io.github.darrenjrobinson/entrapulse-polyarchy",
+          "old": "0.2.1",
+          "new": "0.3.0"
+        },
+        {
+          "name": "io.github.datris/datris",
+          "old": "1.52.0",
+          "new": "1.53.0"
+        },
+        {
+          "name": "io.github.dcadolph/slop-chop",
+          "old": "0.53.0",
+          "new": "0.54.0"
+        },
+        {
+          "name": "io.github.dcostenco/prism-coder",
+          "old": "20.22.2",
+          "new": "20.22.3"
+        },
+        {
+          "name": "io.github.desplega-ai/agent-swarm",
+          "old": "2.4.3",
+          "new": "2.4.4"
+        },
+        {
+          "name": "io.github.devantler-tech/ksail",
+          "old": "7.204.0",
+          "new": "7.204.8"
+        },
+        {
+          "name": "io.github.dgahagan/weather-mcp",
+          "old": "1.35.0",
+          "new": "1.35.2"
+        },
+        {
+          "name": "io.github.dimitar-radenkov/pointframe-mcp",
+          "old": "6.7.147",
+          "new": "6.7.149"
+        },
+        {
+          "name": "io.github.dizzlkheinz/ynab-mcpb",
+          "old": "0.28.0",
+          "new": "0.29.1"
+        },
+        {
+          "name": "io.github.dontpayfull/ainotate",
+          "old": "0.1.8",
+          "new": "0.1.9"
+        },
+        {
+          "name": "io.github.dorukardahan/twitterapi-io-mcp",
+          "old": "1.5.29",
+          "new": "1.5.30"
+        },
+        {
+          "name": "io.github.dreamforgestudiollc/emet",
+          "old": "0.2.4",
+          "new": "0.2.6"
+        },
+        {
+          "name": "io.github.dreamworkhq/dreamwork",
+          "old": "1.8.1",
+          "new": "1.9.1"
+        },
+        {
+          "name": "io.github.drhelius/geartowns",
+          "old": "0.0.7",
+          "new": "0.0.8"
+        },
+        {
+          "name": "io.github.drxinfra/rxmcp",
+          "old": "0.11.1",
+          "new": "0.11.2"
+        },
+        {
+          "name": "io.github.dsanchezp18/maplestats-mcp",
+          "old": "0.3.0",
+          "new": "0.4.0"
+        },
+        {
+          "name": "io.github.engram-app/engram",
+          "old": "0.58.1",
+          "new": "0.60.0"
+        },
+        {
+          "name": "io.github.fastcrw/crw",
+          "old": "0.37.2",
+          "new": "0.38.0"
+        },
+        {
+          "name": "io.github.fatsearch/fats",
+          "old": "0.1.2",
+          "new": "0.2.0"
+        },
+        {
+          "name": "io.github.feely0208/mcp-dsh-plugins",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.financeratecalc/frc-mcp",
+          "old": "1.31.0",
+          "new": "1.35.0"
+        },
+        {
+          "name": "io.github.fluxmailai/fluxmail",
+          "old": "0.15.0",
+          "new": "0.16.0"
+        },
+        {
+          "name": "io.github.forgeagents-jp/oka-anywhere",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "io.github.formhaus-dev/formhaus",
+          "old": "0.10.1",
+          "new": "0.10.2"
+        },
+        {
+          "name": "io.github.fruggr/zendesk-mcp-server",
+          "old": "3.4.0",
+          "new": "3.5.0"
+        },
+        {
+          "name": "io.github.getcargohq/cargo",
+          "old": "1.0.118",
+          "new": "1.0.119"
+        },
+        {
+          "name": "io.github.golf-data/golf",
+          "old": "1.0.2",
+          "new": "1.0.7"
+        },
+        {
+          "name": "io.github.goyohan0611-png/graph-mind",
+          "old": "0.9.21",
+          "new": "0.9.28"
+        },
+        {
+          "name": "io.github.gripforgeai/mcp",
+          "old": "0.1.99",
+          "new": "0.1.100"
+        },
+        {
+          "name": "io.github.gzchenhao/openhire",
+          "old": "0.8.15",
+          "new": "0.8.17"
+        },
+        {
+          "name": "io.github.hankwatt/natureswildberry",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "io.github.hu-chenyu/log-ai-compressor",
+          "old": "2.12.3",
+          "new": "2.12.5"
+        },
+        {
+          "name": "io.github.iamdlm/saras-list",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
+          "name": "io.github.imashishsharma/stratigraph",
+          "old": "2.1.2",
+          "new": "2.2.0"
+        },
+        {
+          "name": "io.github.intoApex/tradingagentstack",
+          "old": "0.3.1",
+          "new": "0.3.2"
+        },
+        {
+          "name": "io.github.ip2k/rarefaction-lsp-mcp",
+          "old": "0.3.1",
+          "new": "0.4.2"
+        },
+        {
+          "name": "io.github.isco-tec/mcp",
+          "old": "0.4.2",
+          "new": "0.4.4"
+        },
+        {
+          "name": "io.github.iwe-org/iwe",
+          "old": "0.28.0",
+          "new": "0.29.0"
+        },
+        {
+          "name": "io.github.jake-zaiba/deai-research",
+          "old": "0.2.2",
+          "new": "0.2.3"
+        },
+        {
+          "name": "io.github.jbechtel-97/dealflowpro",
+          "old": "1.2.9",
+          "new": "1.3.0"
+        },
+        {
+          "name": "io.github.jkawamoto/mcp-florence2",
+          "old": "0.5.1",
+          "new": "0.5.2"
+        },
+        {
+          "name": "io.github.jkawamoto/mcp-youtube-transcript",
+          "old": "0.8.0",
+          "new": "0.8.1"
+        },
+        {
+          "name": "io.github.john-broadway/proximo-proxmox",
+          "old": "0.46.0",
+          "new": "0.46.1"
+        },
+        {
+          "name": "io.github.joshuawowk/pushover-mcp",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "io.github.jrpool/kilotest",
+          "old": "60.1.7",
+          "new": "60.1.8"
+        },
+        {
+          "name": "io.github.jurimaxam-dotcom/chemdraw-mcp",
+          "old": "0.4.8",
+          "new": "0.5.0"
+        },
+        {
+          "name": "io.github.justjlee/omnarai-mcp",
+          "old": "1.10.0",
+          "new": "1.10.1"
+        },
+        {
+          "name": "io.github.kapaweb/kapaweb-deploy",
+          "old": "0.7.0",
+          "new": "0.8.0"
+        },
+        {
+          "name": "io.github.kar-thik/openproject-mcp-server",
+          "old": "0.3.4",
+          "new": "0.4.0"
+        },
+        {
+          "name": "io.github.kensaurus/mushi-mushi",
+          "old": "0.27.0",
+          "new": "0.28.0"
+        },
+        {
+          "name": "io.github.kieransimkin/stemlab",
+          "old": "1.8.0",
+          "new": "1.9.0"
+        },
+        {
+          "name": "io.github.kinti/a11y-toolkit",
+          "old": "5.8.0",
+          "new": "5.10.2"
+        },
+        {
+          "name": "io.github.kubestellar/kubestellar-mcp",
+          "old": "0.9.20-nightly.20261020",
+          "new": "0.9.20-nightly.20261021"
+        },
+        {
+          "name": "io.github.l33tdawg/sage",
+          "old": "11.23.27",
+          "new": "11.24.0"
+        },
+        {
+          "name": "io.github.labstack/monk",
+          "old": "2026.10.37",
+          "new": "2026.10.41"
+        },
+        {
+          "name": "io.github.leancoderkavy/premiere-pro",
+          "old": "1.24.1",
+          "new": "1.24.2"
+        },
+        {
+          "name": "io.github.leidarljos/ljos",
+          "old": "0.31.0",
+          "new": "0.32.1"
+        },
+        {
+          "name": "io.github.log-10x/log10x-mcp",
+          "old": "1.30.73",
+          "new": "1.30.75"
+        },
+        {
+          "name": "io.github.longsizhuo/openinvest",
+          "old": "0.64.0",
+          "new": "0.67.0"
+        },
+        {
+          "name": "io.github.marciocar/kg-ssot",
+          "old": "4.11.0",
+          "new": "4.13.1"
+        },
+        {
+          "name": "io.github.mhmdaskari/overleaf-web-mcp",
+          "old": "0.6.1",
+          "new": "0.6.2"
+        },
+        {
+          "name": "io.github.miisodev/brainllm",
+          "old": "13.0.0",
+          "new": "13.1.0"
+        },
+        {
+          "name": "io.github.mikemark78/agentmark",
+          "old": "0.3.0",
+          "new": "0.4.0"
+        },
+        {
+          "name": "io.github.mischuh/canonic",
+          "old": "0.45.0",
+          "new": "0.45.1"
+        },
+        {
+          "name": "io.github.mo9652962-ai/circuit-agent-client",
+          "old": "0.4.1",
+          "new": "0.16.0"
+        },
+        {
+          "name": "io.github.mooshee/gisdb",
+          "old": "0.2.0",
+          "new": "0.4.1"
+        },
+        {
+          "name": "io.github.mooshee/untax",
+          "old": "0.2.0",
+          "new": "0.4.1"
+        },
+        {
+          "name": "io.github.mp-consulting/apple-mail-mcp",
+          "old": "0.6.1",
+          "new": "0.6.2"
+        },
+        {
+          "name": "io.github.musharna/breedsim-mcp",
+          "old": "0.6.0",
+          "new": "0.6.1"
+        },
+        {
+          "name": "io.github.musharna/plantcv-mcp",
+          "old": "1.17.0",
+          "new": "1.17.1"
+        },
+        {
+          "name": "io.github.nolll77/agentic-ops",
+          "old": "0.1.12",
+          "new": "0.1.14"
+        },
+        {
+          "name": "io.github.nuncaeslupus/doc-control",
+          "old": "0.10.0",
+          "new": "0.10.1"
+        },
+        {
+          "name": "io.github.odb366/genready",
+          "old": "1.2.2",
+          "new": "1.2.5"
+        },
+        {
+          "name": "io.github.omarmhaimdat/pepe",
+          "old": "0.51.1",
+          "new": "0.52.0"
+        },
+        {
+          "name": "io.github.osauer/canary",
+          "old": "3.26.1",
+          "new": "3.26.2"
+        },
+        {
+          "name": "io.github.oxynote/oxynote",
+          "old": "0.8.4",
+          "new": "0.9.0"
+        },
+        {
+          "name": "io.github.parisbs/codex-subagent-mcp",
+          "old": "0.5.0",
+          "new": "0.6.0"
+        },
+        {
+          "name": "io.github.pcaiano/toolscout",
+          "old": "1.0.0",
+          "new": "3.1.0"
+        },
+        {
+          "name": "io.github.pete-builds/unifi",
+          "old": "0.26.0",
+          "new": "0.27.0"
+        },
+        {
+          "name": "io.github.phaedo-labs/phaedo-mcp",
+          "old": "0.3.0",
+          "new": "0.3.3"
+        },
+        {
+          "name": "io.github.pipeshub-ai/mcp",
+          "old": "4.2.0",
+          "new": "4.3.0"
+        },
+        {
+          "name": "io.github.pipeworx-io/amf-filings",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/chargebee",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cheapshark",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/chembl",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/chess",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/chile-procurement",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-air-quality",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-customs",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-disclosures",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-exchange-data",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-macro",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-news",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-pharma",
+          "old": "0.2.2",
+          "new": "0.2.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-safe",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-stocks",
+          "old": "0.1.11",
+          "new": "0.1.12"
+        },
+        {
+          "name": "io.github.pipeworx-io/chrome-ux-report",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/chrome-web-store",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.pipeworx-io/chronicling-america",
+          "old": "0.1.4",
+          "new": "0.1.5"
+        },
+        {
+          "name": "io.github.pipeworx-io/chucknorris",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cia-factbook",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.pipeworx-io/circl-vulnerability-lookup",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/cisa-kev",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/citybikes",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/civic",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/civitai",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/clash-royale",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/clearlydefined",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/clevelandart",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/clickup",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/climate",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/climate-feeds",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/climatiq",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/clinicaltables",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/clinicaltrials",
+          "old": "0.1.5",
+          "new": "0.1.6"
+        },
+        {
+          "name": "io.github.pipeworx-io/close-crm",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cloudflare-radar",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cms",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cms-open-payments",
+          "old": "0.1.6",
+          "new": "0.1.7"
+        },
+        {
+          "name": "io.github.pipeworx-io/cnb-cz",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cnmv-filings",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cnpj-br",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cobalt",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cocktails",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/codeforces",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/codestats",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/codewars",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/codex-mrl",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/coinbase-exchange",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/coingecko",
+          "old": "0.1.5",
+          "new": "0.1.6"
+        },
+        {
+          "name": "io.github.pipeworx-io/coinglass",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/coinmarketcap",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/coinpaprika",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/college-scorecard",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/colombia-secop",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/color-pizza",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/colorado-code",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.pipeworx-io/colorapi",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/comicvine",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/committee-releases",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/commoncrawl",
+          "old": "0.1.4",
+          "new": "0.1.5"
+        },
+        {
+          "name": "io.github.pipeworx-io/commons-wikimedia",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/companies-house",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/complex-portal",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/comtrade",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/conceptnet",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/confluence",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/congress",
+          "old": "0.1.7",
+          "new": "0.1.8"
+        },
+        {
+          "name": "io.github.pipeworx-io/congressional-documents",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/connecticut-code",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/conspiracy-theory",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/copernicus-cds",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/copernicus-dataspace",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/core-research",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/coresignal",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cornell-wex",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/corporate-apology",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/corporate-satire",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/could-have-been-email",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/country-news",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/country-state-city",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/court-listener",
+          "old": "0.1.7",
+          "new": "0.1.8"
+        },
+        {
+          "name": "io.github.pipeworx-io/covalent",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cpsc",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crates",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crawlbase",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cricket",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crossref",
+          "old": "1.0.2",
+          "new": "1.0.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crtsh",
+          "old": "0.1.1",
+          "new": "0.1.2"
+        },
+        {
+          "name": "io.github.pipeworx-io/crypto",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crypto-feeds",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/crypto-fng",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cryptocompare",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/crystallography",
+          "old": "0.2.2",
+          "new": "0.2.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cso-ie",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/cta",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/currents",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/customer-io",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/czso-cz",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/dadjokes",
+          "old": "1.0.2",
+          "new": "1.0.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/dados-pt",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/dailymed",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/dane-gov-pl",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/dart-kr",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-aixmarseille",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-angers",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-austin",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-bahrain",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-baltimore",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-batonrouge",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-bloomington",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-boston",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-brussels",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-calgary",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-cambridge",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-centrevaldeloire",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-cincinnati",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-cityofchicago",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-cityofnewyork",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-colorado",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-connecticut",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-cookcounty",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-dallas",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-dc",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-delaware",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-denver",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-detroit",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-economie-fr",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-edmonton",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-energystar",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-europa",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-fcc",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-fortworth",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-fulton",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-gov-in",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-gov-sg",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-govt-nz",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-gr",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-grandparissud",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-howardcounty",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-iledefrance",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-issy",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-kcmo",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-kingcounty",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-la",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-loireatlantique",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-lv",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-maryland",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-mesa",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-michigan",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-mo",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-montgomery",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-montreal",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-nantes",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-nashville",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-newcaledonia",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-nj",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-nl",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-nola",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-norfolk",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-novascotia",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-ny",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-oakland",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-occitanie",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-odre",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-oregon",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-orlando",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-pa",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-paris",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-piercecounty",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-providence",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-qatar",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-rennes",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-reunion",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-santaclara",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-seattle",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-sf",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-sncf",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-sonoma",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-strasbourg",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-texas",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-toronto",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-toulouse",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-tours",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-ua",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-usdot",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-va",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-vermont",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-wa",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data-winnipeg",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/data360",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/datacite",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datacommons",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.pipeworx-io/datacube-sk",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.pipeworx-io/datafiniti",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagouv-fr",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagov",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagov-au",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagov-ie",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagov-il",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pipeworx-io/datagov-uk",
+          "old": "0.1.2",
+          "new": "0.1.3"
+        },
+        {
+          "name": "io.github.pouriaetab/llmledger",
+          "old": "0.1.7",
+          "new": "0.1.9"
+        },
+        {
+          "name": "io.github.praxec/cpm-planner",
+          "old": "0.4.0",
+          "new": "0.4.1"
+        },
+        {
+          "name": "io.github.praxec/crossmatrix",
+          "old": "0.3.2",
+          "new": "0.3.3"
+        },
+        {
+          "name": "io.github.praxec/fmeca",
+          "old": "0.2.0",
+          "new": "0.2.1"
+        },
+        {
+          "name": "io.github.privacyfence/privacyfence",
+          "old": "6.5.0",
+          "new": "6.6.0"
+        },
+        {
+          "name": "io.github.productdevbook/yuva",
+          "old": "0.0.26",
+          "new": "0.0.28"
+        },
+        {
+          "name": "io.github.projectworks007/job-boards-2",
+          "old": "1.0.5",
+          "new": "1.0.6"
+        },
+        {
+          "name": "io.github.projectworks007/news-and-trends",
+          "old": "1.0.3",
+          "new": "1.0.4"
+        },
+        {
+          "name": "io.github.racehooks/racehooks-mcp",
+          "old": "0.3.4",
+          "new": "0.4.1"
+        },
+        {
+          "name": "io.github.racstan/progressor-mcp",
+          "old": "0.6.0",
+          "new": "0.6.1"
+        },
+        {
+          "name": "io.github.rayson-tech/nomarmy",
+          "old": "0.1.0-beta.10",
+          "new": "0.1.0-beta.12"
+        },
+        {
+          "name": "io.github.redpath1/the-roofing-list",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.rentahuman-ai/rentahuman",
+          "old": "3.16.1",
+          "new": "3.17.4"
+        },
+        {
+          "name": "io.github.rgdevment/tisty",
+          "old": "1.31.1",
+          "new": "1.31.3"
+        },
+        {
+          "name": "io.github.rkocosmergon/cosmergon",
+          "old": "0.27.19",
+          "new": "0.27.20"
+        },
+        {
+          "name": "io.github.rmartins1451/losbeto",
+          "old": "48.32.1",
+          "new": "48.33.0"
+        },
+        {
+          "name": "io.github.ronak-create/fablecut",
+          "old": "1.15.0",
+          "new": "1.16.0"
+        },
+        {
+          "name": "io.github.securecoders/opengraph-io-mcp",
+          "old": "2.3.0",
+          "new": "3.0.0"
+        },
+        {
+          "name": "io.github.sena-labs/replicate-mcp-server",
+          "old": "3.2.3",
+          "new": "3.3.0"
+        },
+        {
+          "name": "io.github.serper-live/serper-live-mcp",
+          "old": "2.1.0",
+          "new": "2.1.2"
+        },
+        {
+          "name": "io.github.shuji-bonji/pdf-spec-mcp",
+          "old": "0.6.2",
+          "new": "0.9.0"
+        },
+        {
+          "name": "io.github.silverstein/minutes",
+          "old": "0.30.6",
+          "new": "0.30.7"
+        },
+        {
+          "name": "io.github.smarterweather/onboarding",
+          "old": "0.0.3",
+          "new": "0.2.1"
+        },
+        {
+          "name": "io.github.smarterweather/weather",
+          "old": "0.0.1",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.sonilo-ai/sonilo-mcp",
+          "old": "0.27.0",
+          "new": "0.27.1"
+        },
+        {
+          "name": "io.github.sorindecu/vibeshipped",
+          "old": "1.4.0",
+          "new": "1.5.1"
+        },
+        {
+          "name": "io.github.sraj0501/devtrack",
+          "old": "3.1.1",
+          "new": "3.2.0"
+        },
+        {
+          "name": "io.github.t-crew/memory-pulse",
+          "old": "0.10.0",
+          "new": "0.11.0"
+        },
+        {
+          "name": "io.github.thomas0369/wortwert",
+          "old": "9.445.1",
+          "new": "9.457.0"
+        },
+        {
+          "name": "io.github.thomasisalwayslate/every-app-is-open-source",
+          "old": "0.1.5",
+          "new": "0.1.6"
+        },
+        {
+          "name": "io.github.tmailor-com/tmailor-mcp",
+          "old": "0.1.1",
+          "new": "0.3.0"
+        },
+        {
+          "name": "io.github.toggl/toggl-mcp",
+          "old": "1.13.15",
+          "new": "1.13.20"
+        },
+        {
+          "name": "io.github.tomtom87/portage",
+          "old": "0.14.0",
+          "new": "0.16.0"
+        },
+        {
+          "name": "io.github.ulasarslan6262-ui/speedbot",
+          "old": "4.0.1",
+          "new": "4.1.1"
+        },
+        {
+          "name": "io.github.valuein/mcp-sec-edgar",
+          "old": "3.5.5",
+          "new": "3.7.4"
+        },
+        {
+          "name": "io.github.vassiliylakhonin/agenda-intelligence-md",
+          "old": "1.19.0",
+          "new": "1.20.0"
+        },
+        {
+          "name": "io.github.visubramaniam/vsp360-mcp",
+          "old": "0.1.26",
+          "new": "0.1.27"
+        },
+        {
+          "name": "io.github.vschernoff/solhint-mcp",
+          "old": "0.1.3",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.wenboteng/sepa-validator",
+          "old": "0.1.0",
+          "new": "0.2.0"
+        },
+        {
+          "name": "io.github.wenboteng/xrechnung-validator",
+          "old": "0.1.0",
+          "new": "0.2.0"
+        },
+        {
+          "name": "io.github.whatevercat-creator/crypto-sentiment-x402",
+          "old": "0.1.2",
+          "new": "0.1.4"
+        },
+        {
+          "name": "io.github.wiresage/mikrotik-mcp",
+          "old": "0.25.0.0",
+          "new": "0.25.1.0"
+        },
+        {
+          "name": "io.github.wretcher207/reaper-daemon",
+          "old": "3.22.1",
+          "new": "3.23.1"
+        },
+        {
+          "name": "io.github.wtznicy/my-websearch",
+          "old": "1.3.4",
+          "new": "1.3.5"
+        },
+        {
+          "name": "io.github.xtell-cn/xtell-serial",
+          "old": "0.1.0",
+          "new": "0.1.1"
+        },
+        {
+          "name": "io.github.yffo/tabellio",
+          "old": "0.1.5",
+          "new": "0.1.12"
+        },
+        {
+          "name": "io.github.zerotohundred-admin/marketplace",
+          "old": "1.1.0",
+          "new": "1.1.1"
+        },
+        {
+          "name": "io.llmexpert/transcription",
+          "old": "0.2.0",
+          "new": "0.2.1"
+        },
+        {
+          "name": "io.mcp-hangar/hangar",
+          "old": "2.31.0",
+          "new": "2.32.0"
+        },
+        {
+          "name": "io.sanity.www/mcp",
+          "old": "2.41.0",
+          "new": "2.42.0"
+        },
+        {
+          "name": "io.shareout/shareout",
+          "old": "0.6.2",
+          "new": "0.7.0"
+        },
+        {
+          "name": "io.soundchain/agents",
+          "old": "1.0.0",
+          "new": "1.3.1"
+        },
+        {
+          "name": "io.vpndetection/mcp",
+          "old": "6.1.4",
+          "new": "6.2.0"
+        },
+        {
+          "name": "jp.debuff/debuff",
+          "old": "0.9.5",
+          "new": "0.11.0"
+        },
+        {
+          "name": "ly.img/codesign",
+          "old": "0.4.2",
+          "new": "0.5.0"
+        },
+        {
+          "name": "me.ntfyx/ntfyx",
+          "old": "0.2.0",
+          "new": "0.4.0"
+        },
+        {
+          "name": "me.stabledrop/escrow-payments",
+          "old": "11.0.1",
+          "new": "12.0.0"
+        },
+        {
+          "name": "money.candor/candor-finance",
+          "old": "0.1.219",
+          "new": "0.1.234"
+        },
+        {
+          "name": "news.geotone/geotone",
+          "old": "1.1.1",
+          "new": "1.4.0"
+        },
+        {
+          "name": "nyc.motley/mcp",
+          "old": "0.5.0",
+          "new": "0.6.0"
+        },
+        {
+          "name": "org.bull-run/bullrun",
+          "old": "0.7.0",
+          "new": "0.8.1"
+        },
+        {
+          "name": "org.linkedparticles/particles",
+          "old": "1.192.10",
+          "new": "1.192.28"
+        },
+        {
+          "name": "org.r3js/r3",
+          "old": "3.69.1",
+          "new": "3.76.0"
+        },
+        {
+          "name": "run.dropto/drop2run",
+          "old": "1.2.0",
+          "new": "1.3.0"
+        },
+        {
+          "name": "sh.perq/perq",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "sh.surge.unlockbot/onchain-intel",
+          "old": "1.0.202610201752",
+          "new": "1.0.202610210421"
+        },
+        {
+          "name": "site.aefact/aefact",
+          "old": "0.4.0",
+          "new": "0.4.1"
+        },
+        {
+          "name": "so.ojo/mcp-server",
+          "old": "0.7.0",
+          "new": "0.8.0"
+        },
+        {
+          "name": "so.pharaoh/pharaoh",
+          "old": "1.0.252",
+          "new": "1.0.255"
+        },
+        {
+          "name": "tax.terminal/filing",
+          "old": "0.249.0",
+          "new": "0.289.0"
+        },
+        {
+          "name": "tech.kyanitelabs/kinocut",
+          "old": "1.16.1",
+          "new": "1.16.2"
+        },
+        {
+          "name": "th.in.legaltech/thai-legal",
+          "old": "2.58.0",
+          "new": "2.59.0"
+        },
+        {
+          "name": "tools.audiolab/audiolab",
+          "old": "0.4.4",
+          "new": "0.4.5"
+        },
+        {
+          "name": "top.wanhetools/compliance",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "name": "tw.regai/legal",
+          "old": "1.1.0",
+          "new": "1.2.0"
+        },
+        {
+          "name": "xyz.atlasfetch/atlasfetch",
+          "old": "0.4.1",
+          "new": "0.4.2"
+        },
+        {
+          "name": "xyz.tradeforagents/tradeforagents",
+          "old": "0.1.0",
+          "new": "0.2.1"
+        }
+      ],
+      "status": [
+        {
+          "name": "io.github.marcomq/mq-bridge-app",
+          "old": "active",
+          "new": "deprecated"
+        },
+        {
+          "name": "io.github.sumedhchatse/agentraas",
+          "old": "active",
+          "new": "deprecated"
+        }
+      ],
+      "remotes": [
+        {
+          "name": "ai.paintcoatings/marindec",
+          "hosts": [
+            "api.paintcoatings.ai"
+          ]
+        },
+        {
+          "name": "ai.taasky/taasky",
+          "hosts": [
+            "mcp.taasky.ai"
+          ]
+        },
+        {
+          "name": "app.vercel.planlimits-rpatel021/planlimits",
+          "hosts": [
+            "planlimits-rpatel021.vercel.app",
+            "planlimits.app"
+          ]
+        },
+        {
+          "name": "com.browser-use/browser-use",
+          "hosts": [
+            "api.browser-use.com"
+          ]
+        },
+        {
+          "name": "com.findenergyrates/electricity-rates",
+          "hosts": [
+            "findenergyrates.com"
+          ]
+        },
+        {
+          "name": "com.overlayqa/mcp",
+          "hosts": [
+            "api.overlayqa.com"
+          ]
+        },
+        {
+          "name": "com.simplorg/simplorg",
+          "hosts": [
+            "mcp.simplorg.com",
+            "simplorg-mcp.simplorg.workers.dev"
+          ]
+        },
+        {
+          "name": "io.github.PacketFabric/packetfabric-mcp",
+          "hosts": [
+            "mcp.packetfabric.com"
+          ]
+        },
+        {
+          "name": "io.github.dsanchezp18/maplestats-mcp",
+          "hosts": [
+            "maplestats-mcp.onrender.com"
+          ]
+        },
+        {
+          "name": "io.github.golf-data/golf",
+          "hosts": [
+            "mcp.golfintelligence.com"
+          ]
+        },
+        {
+          "name": "io.github.projectworks007/job-boards-2",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.github.projectworks007/news-and-trends",
+          "hosts": [
+            "mcp.apify.com"
+          ]
+        },
+        {
+          "name": "io.soundchain/agents",
+          "hosts": [
+            "web.anvil.soundchain.io"
+          ]
+        },
+        {
+          "name": "sh.surge.unlockbot/onchain-intel",
+          "hosts": [
+            "74nsjnm7u8uc.hostc.app",
+            "gszg3vc9uewh.hostc.app"
+          ]
+        },
+        {
+          "name": "tech.kyanitelabs/kinocut",
+          "hosts": [
+            "mcp.kyanitelabs.tech"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "ai.huddo/huddo"
+        },
+        {
+          "name": "ai.kaiv/postgres"
+        },
+        {
+          "name": "ai.pidgeon/mcp"
+        },
+        {
+          "name": "ai.posteverywhere/mcp"
+        },
+        {
+          "name": "ai.rightcard/mcp"
+        },
+        {
+          "name": "ai.sendinel/mcp-server"
+        },
+        {
+          "name": "ai.skilltotal/skilltotal"
+        },
+        {
+          "name": "ai.trustysquire/trusty-squire"
+        },
+        {
+          "name": "ai.wavespeed/mcp"
+        },
+        {
+          "name": "app.netlify.kitchen-pass/chef"
+        },
+        {
+          "name": "app.usehourly/usehourly"
+        },
+        {
+          "name": "com.10ml/perfume-finder"
+        },
+        {
+          "name": "com.affitor/mcp"
+        },
+        {
+          "name": "com.billingengine/mcp"
+        },
+        {
+          "name": "com.browser-use/browser-use"
+        },
+        {
+          "name": "com.bykaranteli/mcp"
+        },
+        {
+          "name": "com.conduyt/mcp"
+        },
+        {
+          "name": "com.growsurf/growsurf"
+        },
+        {
+          "name": "com.labelixa/zpl"
+        },
+        {
+          "name": "com.linkbreakers/mcp"
+        },
+        {
+          "name": "com.mireye/earth"
+        },
+        {
+          "name": "com.nativeanimation/nativeanimation"
+        },
+        {
+          "name": "com.oceanalt/aml"
+        },
+        {
+          "name": "com.open-and-async/mcp"
+        },
+        {
+          "name": "com.overlayqa/mcp"
+        },
+        {
+          "name": "com.regiabi/chart-mcp"
+        },
+        {
+          "name": "com.sapiensinteticos/sapiens"
+        },
+        {
+          "name": "com.scento/perfume-compendium"
+        },
+        {
+          "name": "com.scoutapm/scout-mcp-local"
+        },
+        {
+          "name": "com.tokeven/tokeven"
+        },
+        {
+          "name": "dev.actas/accounts"
+        },
+        {
+          "name": "dev.edgegap/mcp"
+        },
+        {
+          "name": "dev.repowise/repowise"
+        },
+        {
+          "name": "dev.voidless/voidless"
+        },
+        {
+          "name": "io.clipwright/mcp"
+        },
+        {
+          "name": "io.github.AceDataCloud/mcp-suno"
+        },
+        {
+          "name": "io.github.AgentPhone-AI/agentphone"
+        },
+        {
+          "name": "io.github.AindriuB/data-prism"
+        },
+        {
+          "name": "io.github.Alberto-Codes/docvet"
+        },
+        {
+          "name": "io.github.Alberto-Codes/judgevet"
+        },
+        {
+          "name": "io.github.AmrDab/clawdcursor"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/brightspace-d2l-mcp"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/canvas-lms-student-mcp"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/google-classroom-student-mcp"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/gpa-calculator-mcp"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/paper-finder-student-mcp"
+        },
+        {
+          "name": "io.github.AnonymousOnyx22/study-planner-mcp"
+        },
+        {
+          "name": "io.github.Artexis10/exomem"
+        },
+        {
+          "name": "io.github.AtlaSent/mcp-server"
+        },
+        {
+          "name": "io.github.Aureliolo/gdharness"
+        },
+        {
+          "name": "io.github.Axius-SDC/sdcmodeler"
+        },
+        {
+          "name": "io.github.BijectiveLabs/trading-research-agents"
+        },
+        {
+          "name": "io.github.BlockRunAI/blockrun-mcp"
+        },
+        {
+          "name": "io.github.BrightbeamAI/chap"
+        },
+        {
+          "name": "io.github.Byggarepop/dotnet-mcp-orchestrator"
+        },
+        {
+          "name": "io.github.CloudCorpRecords/greenlight"
+        },
+        {
+          "name": "io.github.D4umak/heylead"
+        },
+        {
+          "name": "io.github.DV1-321/scalpstream-mcp"
+        },
+        {
+          "name": "io.github.Daghis/teamcity"
+        },
+        {
+          "name": "io.github.DanceNitra/inspeximus"
+        },
+        {
+          "name": "io.github.DareDev256/fcpxml-mcp-server"
+        },
+        {
+          "name": "io.github.DiffCI/diffci"
+        },
+        {
+          "name": "io.github.First-CH/tools-mcp"
+        },
+        {
+          "name": "io.github.GabrieleLozupone/kokon"
+        },
+        {
+          "name": "io.github.GarAlex/promoshot"
+        },
+        {
+          "name": "io.github.GeiserX/biblical-atlas-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/cashpilot-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/duplicacy-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/genieacs-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/lynxprompt-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/pumperly-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/spinnaker-mcp"
+        },
+        {
+          "name": "io.github.GeiserX/telegram-archive-mcp"
+        },
+        {
+          "name": "io.github.GodMephisto/wc3-mcp"
+        },
+        {
+          "name": "io.github.Grinv/anilist-mcp-server"
+        },
+        {
+          "name": "io.github.Heavens-Lava/inventor-studio"
+        },
+        {
+          "name": "io.github.Horace-Maxwell/horosa-skill"
+        },
+        {
+          "name": "io.github.JasmyLab-JANCTION/janction-render"
+        },
+        {
+          "name": "io.github.JvnnDev/seo-webmaster-mcp"
+        },
+        {
+          "name": "io.github.KD5RYN/b123d-print"
+        },
+        {
+          "name": "io.github.Keremturker/cmpose"
+        },
+        {
+          "name": "io.github.Khoshkhah/roadstyle"
+        },
+        {
+          "name": "io.github.KilaWattCloud/kilawatt-mcp-server"
+        },
+        {
+          "name": "io.github.KyaniteLabs/mcp-video"
+        },
+        {
+          "name": "io.github.Looted/kibi-mcp"
+        },
+        {
+          "name": "io.github.MadeByFYI/madeby"
+        },
+        {
+          "name": "io.github.Mason-Levyy/mfp-mcp"
+        },
+        {
+          "name": "io.github.MaxFreedomPollard/compartment"
+        },
+        {
+          "name": "io.github.MikeyPetrillo/agent402"
+        },
+        {
+          "name": "io.github.Muvon/octocode"
+        },
+        {
+          "name": "io.github.MyMedi-AI/mcp-server"
+        },
+        {
+          "name": "io.github.Nxtsoft/cgraph"
+        },
+        {
+          "name": "io.github.PacketFabric/packetfabric-mcp"
+        },
+        {
+          "name": "io.github.Patdolitse/piia-engram"
+        },
+        {
+          "name": "io.github.Philongevity/phi-longevity-prism"
+        },
+        {
+          "name": "io.github.Power-Portals-Pro/powerportalspro-mcp"
+        },
+        {
+          "name": "io.github.Quorus-dev/quorus"
+        },
+        {
+          "name": "io.github.SeanHogg/builderforce-memory"
+        },
+        {
+          "name": "io.github.ShinjukuStaition/shinjuku-mcp"
+        },
+        {
+          "name": "io.github.Sidd27/infrawise"
+        },
+        {
+          "name": "io.github.Softinator-TechLabs/feedbacks"
+        },
+        {
+          "name": "io.github.Subodh103/daknode"
+        },
+        {
+          "name": "io.github.SummerEngine/summer"
+        },
+        {
+          "name": "io.github.SupportPages-io/wtfm"
+        },
+        {
+          "name": "io.github.Temple-of-Epiphany/imap-mcp-pro"
+        },
+        {
+          "name": "io.github.Tommkruix/archprint"
+        },
+        {
+          "name": "io.github.Tumerit/tethered"
+        },
+        {
+          "name": "io.github.TushaeBXN/engram"
+        },
+        {
+          "name": "io.github.TwitterAPIs/twitterapis-mcp"
+        },
+        {
+          "name": "io.github.VBlackJack/datacron"
+        },
+        {
+          "name": "io.github.VectorMethods/videovector-mcp-server"
+        },
+        {
+          "name": "io.github.WSattazahn/caveat-lang"
+        },
+        {
+          "name": "io.github.WYRE-AI/autotask-mcp"
+        },
+        {
+          "name": "io.github.WYRE-AI/cipp-mcp"
+        },
+        {
+          "name": "io.github.WYRE-AI/connectwise-manage-mcp"
+        },
+        {
+          "name": "io.github.WYRE-AI/kpn-mcp"
+        },
+        {
+          "name": "io.github.Yantrakar/gitpro"
+        },
+        {
+          "name": "io.github.ZahiriNatZuke/local-delegate"
+        },
+        {
+          "name": "io.github.aarifmms/keyblind"
+        },
+        {
+          "name": "io.github.aaronlilla/hawl"
+        },
+        {
+          "name": "io.github.aaronsb/slack-mcp"
+        },
+        {
+          "name": "io.github.activeing123/mcptoon"
+        },
+        {
+          "name": "io.github.ahoybuoy/buoy"
+        },
+        {
+          "name": "io.github.aleksUIX/pixellint"
+        },
+        {
+          "name": "io.github.aligndottech/cli"
+        },
+        {
+          "name": "io.github.allchemylabs/aether-wcag-scanner"
+        },
+        {
+          "name": "io.github.allxsmith/bestax-mcp"
+        },
+        {
+          "name": "io.github.angelkurten/keel"
+        },
+        {
+          "name": "io.github.anishchugh05/mnemolith"
+        },
+        {
+          "name": "io.github.aoreshkov/kotlin-lib-mcp"
+        },
+        {
+          "name": "io.github.appwrite/mcp"
+        },
+        {
+          "name": "io.github.argon-lab/argon"
+        },
+        {
+          "name": "io.github.atakanelik34/clawifi-mcp"
+        },
+        {
+          "name": "io.github.avaazquezz/mcp-qdrant"
+        },
+        {
+          "name": "io.github.bakissation/mcp-google-multi"
+        },
+        {
+          "name": "io.github.bardesss/arr-mcp"
+        },
+        {
+          "name": "io.github.beadhive/beadhive"
+        },
+        {
+          "name": "io.github.bomly-dev/bomly-cli"
+        },
+        {
+          "name": "io.github.browser-gateway/browser-gateway"
+        },
+        {
+          "name": "io.github.cachly-dev/mcp-server"
+        },
+        {
+          "name": "io.github.cafferychen777/chatspatial"
+        },
+        {
+          "name": "io.github.capad-xyz/searchts"
+        },
+        {
+          "name": "io.github.chrischall/alphaportal-mcp"
+        },
+        {
+          "name": "io.github.chrischall/apple-icloud-mcp"
+        },
+        {
+          "name": "io.github.chrischall/booli-mcp"
+        },
+        {
+          "name": "io.github.chrischall/concur-mcp"
+        },
+        {
+          "name": "io.github.chrischall/creditkarma-mcp"
+        },
+        {
+          "name": "io.github.chrischall/evite-mcp"
+        },
+        {
+          "name": "io.github.chrischall/gemini-mcp"
+        },
+        {
+          "name": "io.github.chrischall/hemnet-mcp"
+        },
+        {
+          "name": "io.github.chrischall/myatriumhealth-mcp"
+        },
+        {
+          "name": "io.github.chrischall/myhotlunchbox-mcp"
+        },
+        {
+          "name": "io.github.chrischall/ofw-mcp"
+        },
+        {
+          "name": "io.github.chrischall/remind-mcp"
+        },
+        {
+          "name": "io.github.chrischall/skylight-mcp"
+        },
+        {
+          "name": "io.github.chrischall/splitwise-mcp"
+        },
+        {
+          "name": "io.github.chrisryugj/kordoc"
+        },
+        {
+          "name": "io.github.claimidx/claimidx"
+        },
+        {
+          "name": "io.github.codeofaxel/kiln"
+        },
+        {
+          "name": "io.github.commet/argus-decision-mcp"
+        },
+        {
+          "name": "io.github.compscidr/sair"
+        },
+        {
+          "name": "io.github.daniele-chiappa/gosidian"
+        },
+        {
+          "name": "io.github.darrenjrobinson/entrapulse-polyarchy"
+        },
+        {
+          "name": "io.github.datris/datris"
+        },
+        {
+          "name": "io.github.dcadolph/slop-chop"
+        },
+        {
+          "name": "io.github.dcostenco/prism-coder"
+        },
+        {
+          "name": "io.github.desplega-ai/agent-swarm"
+        },
+        {
+          "name": "io.github.devantler-tech/ksail"
+        },
+        {
+          "name": "io.github.dgahagan/weather-mcp"
+        },
+        {
+          "name": "io.github.dimitar-radenkov/pointframe-mcp"
+        },
+        {
+          "name": "io.github.dizzlkheinz/ynab-mcpb"
+        },
+        {
+          "name": "io.github.dontpayfull/ainotate"
+        },
+        {
+          "name": "io.github.dorukardahan/twitterapi-io-mcp"
+        },
+        {
+          "name": "io.github.dreamforgestudiollc/emet"
+        },
+        {
+          "name": "io.github.dreamworkhq/dreamwork"
+        },
+        {
+          "name": "io.github.drhelius/geartowns"
+        },
+        {
+          "name": "io.github.drxinfra/rxmcp"
+        },
+        {
+          "name": "io.github.dsanchezp18/maplestats-mcp"
+        },
+        {
+          "name": "io.github.fatsearch/fats"
+        },
+        {
+          "name": "io.github.feely0208/mcp-dsh-plugins"
+        },
+        {
+          "name": "io.github.financeratecalc/frc-mcp"
+        },
+        {
+          "name": "io.github.fluxmailai/fluxmail"
+        },
+        {
+          "name": "io.github.formhaus-dev/formhaus"
+        },
+        {
+          "name": "io.github.fruggr/zendesk-mcp-server"
+        },
+        {
+          "name": "io.github.getcargohq/cargo"
+        },
+        {
+          "name": "io.github.golf-data/golf"
+        },
+        {
+          "name": "io.github.goyohan0611-png/graph-mind"
+        },
+        {
+          "name": "io.github.gripforgeai/mcp"
+        },
+        {
+          "name": "io.github.gzchenhao/openhire"
+        },
+        {
+          "name": "io.github.hu-chenyu/log-ai-compressor"
+        },
+        {
+          "name": "io.github.imashishsharma/stratigraph"
+        },
+        {
+          "name": "io.github.intoApex/tradingagentstack"
+        },
+        {
+          "name": "io.github.ip2k/rarefaction-lsp-mcp"
+        },
+        {
+          "name": "io.github.isco-tec/mcp"
+        },
+        {
+          "name": "io.github.iwe-org/iwe"
+        },
+        {
+          "name": "io.github.jbechtel-97/dealflowpro"
+        },
+        {
+          "name": "io.github.jkawamoto/mcp-florence2"
+        },
+        {
+          "name": "io.github.jkawamoto/mcp-youtube-transcript"
+        },
+        {
+          "name": "io.github.john-broadway/proximo-proxmox"
+        },
+        {
+          "name": "io.github.joshuawowk/pushover-mcp"
+        },
+        {
+          "name": "io.github.jurimaxam-dotcom/chemdraw-mcp"
+        },
+        {
+          "name": "io.github.justjlee/omnarai-mcp"
+        },
+        {
+          "name": "io.github.kapaweb/kapaweb-deploy"
+        },
+        {
+          "name": "io.github.kar-thik/openproject-mcp-server"
+        },
+        {
+          "name": "io.github.kensaurus/mushi-mushi"
+        },
+        {
+          "name": "io.github.kieransimkin/stemlab"
+        },
+        {
+          "name": "io.github.kinti/a11y-toolkit"
+        },
+        {
+          "name": "io.github.kubestellar/kubestellar-mcp"
+        },
+        {
+          "name": "io.github.l33tdawg/sage"
+        },
+        {
+          "name": "io.github.leancoderkavy/premiere-pro"
+        },
+        {
+          "name": "io.github.leidarljos/ljos"
+        },
+        {
+          "name": "io.github.log-10x/log10x-mcp"
+        },
+        {
+          "name": "io.github.longsizhuo/openinvest"
+        },
+        {
+          "name": "io.github.marciocar/kg-ssot"
+        },
+        {
+          "name": "io.github.mhmdaskari/overleaf-web-mcp"
+        },
+        {
+          "name": "io.github.miisodev/brainllm"
+        },
+        {
+          "name": "io.github.mischuh/canonic"
+        },
+        {
+          "name": "io.github.mo9652962-ai/circuit-agent-client"
+        },
+        {
+          "name": "io.github.mp-consulting/apple-mail-mcp"
+        },
+        {
+          "name": "io.github.musharna/breedsim-mcp"
+        },
+        {
+          "name": "io.github.musharna/plantcv-mcp"
+        },
+        {
+          "name": "io.github.nolll77/agentic-ops"
+        },
+        {
+          "name": "io.github.nuncaeslupus/doc-control"
+        },
+        {
+          "name": "io.github.odb366/genready"
+        },
+        {
+          "name": "io.github.omarmhaimdat/pepe"
+        },
+        {
+          "name": "io.github.osauer/canary"
+        },
+        {
+          "name": "io.github.parisbs/codex-subagent-mcp"
+        },
+        {
+          "name": "io.github.pete-builds/unifi"
+        },
+        {
+          "name": "io.github.phaedo-labs/phaedo-mcp"
+        },
+        {
+          "name": "io.github.pipeshub-ai/mcp"
+        },
+        {
+          "name": "io.github.pouriaetab/llmledger"
+        },
+        {
+          "name": "io.github.praxec/cpm-planner"
+        },
+        {
+          "name": "io.github.praxec/crossmatrix"
+        },
+        {
+          "name": "io.github.praxec/fmeca"
+        },
+        {
+          "name": "io.github.privacyfence/privacyfence"
+        },
+        {
+          "name": "io.github.productdevbook/yuva"
+        },
+        {
+          "name": "io.github.racehooks/racehooks-mcp"
+        },
+        {
+          "name": "io.github.racstan/progressor-mcp"
+        },
+        {
+          "name": "io.github.rayson-tech/nomarmy"
+        },
+        {
+          "name": "io.github.rentahuman-ai/rentahuman"
+        },
+        {
+          "name": "io.github.rgdevment/tisty"
+        },
+        {
+          "name": "io.github.rkocosmergon/cosmergon"
+        },
+        {
+          "name": "io.github.ronak-create/fablecut"
+        },
+        {
+          "name": "io.github.securecoders/opengraph-io-mcp"
+        },
+        {
+          "name": "io.github.sena-labs/replicate-mcp-server"
+        },
+        {
+          "name": "io.github.serper-live/serper-live-mcp"
+        },
+        {
+          "name": "io.github.shuji-bonji/pdf-spec-mcp"
+        },
+        {
+          "name": "io.github.silverstein/minutes"
+        },
+        {
+          "name": "io.github.smarterweather/onboarding"
+        },
+        {
+          "name": "io.github.smarterweather/weather"
+        },
+        {
+          "name": "io.github.sonilo-ai/sonilo-mcp"
+        },
+        {
+          "name": "io.github.sraj0501/devtrack"
+        },
+        {
+          "name": "io.github.t-crew/memory-pulse"
+        },
+        {
+          "name": "io.github.thomasisalwayslate/every-app-is-open-source"
+        },
+        {
+          "name": "io.github.tmailor-com/tmailor-mcp"
+        },
+        {
+          "name": "io.github.toggl/toggl-mcp"
+        },
+        {
+          "name": "io.github.tomtom87/portage"
+        },
+        {
+          "name": "io.github.vassiliylakhonin/agenda-intelligence-md"
+        },
+        {
+          "name": "io.github.visubramaniam/vsp360-mcp"
+        },
+        {
+          "name": "io.github.vschernoff/solhint-mcp"
+        },
+        {
+          "name": "io.github.wenboteng/sepa-validator"
+        },
+        {
+          "name": "io.github.wenboteng/xrechnung-validator"
+        },
+        {
+          "name": "io.github.whatevercat-creator/crypto-sentiment-x402"
+        },
+        {
+          "name": "io.github.wiresage/mikrotik-mcp"
+        },
+        {
+          "name": "io.github.wretcher207/reaper-daemon"
+        },
+        {
+          "name": "io.github.wtznicy/my-websearch"
+        },
+        {
+          "name": "io.github.xtell-cn/xtell-serial"
+        },
+        {
+          "name": "io.github.yffo/tabellio"
+        },
+        {
+          "name": "io.mcp-hangar/hangar"
+        },
+        {
+          "name": "io.vpndetection/mcp"
+        },
+        {
+          "name": "jp.debuff/debuff"
+        },
+        {
+          "name": "ly.img/codesign"
+        },
+        {
+          "name": "me.ntfyx/ntfyx"
+        },
+        {
+          "name": "org.linkedparticles/particles"
+        },
+        {
+          "name": "run.dropto/drop2run"
+        },
+        {
+          "name": "so.ojo/mcp-server"
+        },
+        {
+          "name": "so.pharaoh/pharaoh"
+        },
+        {
+          "name": "tech.kyanitelabs/kinocut"
+        },
+        {
+          "name": "tools.audiolab/audiolab"
+        },
+        {
+          "name": "xyz.atlasfetch/atlasfetch"
+        },
+        {
+          "name": "xyz.tradeforagents/tradeforagents"
+        }
+      ],
+      "description": [
+        {
+          "name": "ai.kaiv/bridge"
+        },
+        {
+          "name": "app.aide/aide"
+        },
+        {
+          "name": "app.proxgetlocal/prox"
+        },
+        {
+          "name": "app.usehourly/usehourly"
+        },
+        {
+          "name": "app.vercel.planlimits-rpatel021/planlimits"
+        },
+        {
+          "name": "com.aeoinspector/aeo-inspector"
+        },
+        {
+          "name": "com.agilegrowthlabs/agency-capacity"
+        },
+        {
+          "name": "com.browser-use/browser-use"
+        },
+        {
+          "name": "com.claude.platform/docs"
+        },
+        {
+          "name": "com.defrr/defrr"
+        },
+        {
+          "name": "com.ex2/account"
+        },
+        {
+          "name": "com.formada3d/mcp"
+        },
+        {
+          "name": "com.mireye/earth"
+        },
+        {
+          "name": "com.neonloops/neonloops"
+        },
+        {
+          "name": "com.odilelabs/odile"
+        },
+        {
+          "name": "com.prolevelmax/prolevelmax"
+        },
+        {
+          "name": "com.reuily/reuily"
+        },
+        {
+          "name": "com.scento/perfume-compendium"
+        },
+        {
+          "name": "com.scoutapm/scout-mcp-local"
+        },
+        {
+          "name": "com.tablejourney/food-travel"
+        },
+        {
+          "name": "com.techfabric.databricks/field-guide"
+        },
+        {
+          "name": "com.techfabric/techfabric"
+        },
+        {
+          "name": "com.theflowersdirectory/flowers"
+        },
+        {
+          "name": "com.webinarignition/mcp"
+        },
+        {
+          "name": "eu.skavio/paid-micro-apis"
+        },
+        {
+          "name": "gg.superbot/superbot"
+        },
+        {
+          "name": "io.github.DV1-321/scalpstream-mcp"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-compliance"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-everyday"
+        },
+        {
+          "name": "io.github.Nutshell2000/agent-data-tools-prices"
+        },
+        {
+          "name": "io.github.Philongevity/phi-longevity-prism"
+        },
+        {
+          "name": "io.github.UltraStarz/x402-extract"
+        },
+        {
+          "name": "io.github.aarifmms/keyblind"
+        },
+        {
+          "name": "io.github.aeonmindai/runcrate"
+        },
+        {
+          "name": "io.github.avaazquezz/mcp-qdrant"
+        },
+        {
+          "name": "io.github.cafferychen777/chatspatial"
+        },
+        {
+          "name": "io.github.cognitive-emergence/prooftask"
+        },
+        {
+          "name": "io.github.dreamforgestudiollc/emet"
+        },
+        {
+          "name": "io.github.financeratecalc/frc-mcp"
+        },
+        {
+          "name": "io.github.forgeagents-jp/oka-anywhere"
+        },
+        {
+          "name": "io.github.isco-tec/mcp"
+        },
+        {
+          "name": "io.github.kapaweb/kapaweb-deploy"
+        },
+        {
+          "name": "io.github.mikemark78/agentmark"
+        },
+        {
+          "name": "io.github.mooshee/gisdb"
+        },
+        {
+          "name": "io.github.mooshee/untax"
+        },
+        {
+          "name": "io.github.pcaiano/toolscout"
+        },
+        {
+          "name": "io.github.phaedo-labs/phaedo-mcp"
+        },
+        {
+          "name": "io.github.pipeworx-io/china-air-quality"
+        },
+        {
+          "name": "io.github.pipeworx-io/cnpj-br"
+        },
+        {
+          "name": "io.github.pipeworx-io/cobalt"
+        },
+        {
+          "name": "io.github.pipeworx-io/codex-mrl"
+        },
+        {
+          "name": "io.github.pipeworx-io/color-pizza"
+        },
+        {
+          "name": "io.github.pipeworx-io/committee-releases"
+        },
+        {
+          "name": "io.github.pipeworx-io/congressional-documents"
+        },
+        {
+          "name": "io.github.pipeworx-io/cornell-wex"
+        },
+        {
+          "name": "io.github.pipeworx-io/covalent"
+        },
+        {
+          "name": "io.github.pipeworx-io/crawlbase"
+        },
+        {
+          "name": "io.github.pipeworx-io/dart-kr"
+        },
+        {
+          "name": "io.github.racehooks/racehooks-mcp"
+        },
+        {
+          "name": "io.github.smarterweather/onboarding"
+        },
+        {
+          "name": "io.github.sraj0501/devtrack"
+        },
+        {
+          "name": "io.github.tomtom87/portage"
+        },
+        {
+          "name": "io.github.wenboteng/sepa-validator"
+        },
+        {
+          "name": "io.github.wenboteng/xrechnung-validator"
+        },
+        {
+          "name": "io.llmexpert/transcription"
+        },
+        {
+          "name": "io.soundchain/agents"
+        },
+        {
+          "name": "org.bull-run/bullrun"
+        },
+        {
+          "name": "so.ojo/mcp-server"
+        },
+        {
+          "name": "tech.kyanitelabs/kinocut"
+        },
+        {
+          "name": "top.wanhetools/compliance"
+        }
+      ]
+    }
+  },
+  "observations": {
+    "current": {
+      "cohort_version": "2026-10-19-v2",
+      "cohort_size": 5000,
+      "targets_observed": 4970,
+      "probe_attempts": 5019,
+      "reached_level": {
+        "0": 1997,
+        "1": 21,
+        "2": 3001
+      }
+    },
+    "previous": {
+      "cohort_version": "2026-10-19-v2",
+      "cohort_size": 5000,
+      "targets_observed": 4970,
+      "probe_attempts": 5019,
+      "reached_level": {
+        "0": 2034,
+        "1": 24,
+        "2": 2961
+      }
+    }
+  },
+  "tool_definitions": {
+    "compared": 2958,
+    "description_changed": 196,
+    "schema_changed": 68,
+    "namespaces_with_changes": 79,
+    "previous_data_as_of": "2026-10-20T18:12:21.782+00:00"
+  },
+  "first_observed": []
+}
