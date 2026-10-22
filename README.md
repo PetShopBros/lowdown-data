@@ -90,6 +90,8 @@ Suggested attribution:
 
 > Lowdown Scanner data (PetShopBros/lowdown-data), CC BY 4.0, https://github.com/PetShopBros/lowdown-data
 
+When you republish individual records, keep their observation time (`observed_at`, or `data_as_of` for daily records) next to the attribution. Each daily record JSON (`docs/days/YYYY-MM-DD.json`, from 2026-10-22) and each lookup API response include a `source` block with a ready-to-use citation line.
+
 ## Source
 
 The Scanner code is in [PetShopBros/lowdown-proxy](https://github.com/PetShopBros/lowdown-proxy) (`scanner/`).
