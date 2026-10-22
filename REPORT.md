@@ -1,8 +1,8 @@
 # Lowdown Scanner Report: MCP Registry reachability observations
 
-- **Data as of:** 2026-10-21 06:20 UTC (2026-10-21 15:20 KST), the end of the most recent Scanner run
-- **Report generated:** 2026-10-21 06:24 UTC
-- **Observation period:** 2026-10-06 to 2026-10-21 (UTC)
+- **Data as of:** 2026-10-22 06:18 UTC (2026-10-22 15:18 KST), the end of the most recent Scanner run
+- **Report generated:** 2026-10-22 06:23 UTC
+- **Observation period:** 2026-10-06 to 2026-10-22 (UTC)
 
 Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 5,000 entries are a fixed sample (cohort `2026-10-19-v2`): all 2,000 entries of the earlier cohort `2026-10-07-v1` plus 3,000 entries added when the sample was extended, selected from the official MCP Registry with a per-host limit (rules in the README) and unchanged since. They are Registry entries, not operators, and they do not represent the whole Registry.
 
@@ -20,9 +20,9 @@ Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP in
 | Measure | Count |
 |---|---|
 | Cohort entries (fixed sample, `2026-10-19-v2`) | 5,000 |
-| Cohort entries with at least one observation row in this run | 4,970 |
-| Cohort entries with no observation row in this run | 30 |
-| Entries of the earlier cohort `2026-10-07-v1` with at least one observation row (of 2,000) | 1,973 |
+| Cohort entries with at least one observation row in this run | 4,969 |
+| Cohort entries with no observation row in this run | 31 |
+| Entries of the earlier cohort `2026-10-07-v1` with at least one observation row (of 2,000) | 1,972 |
 | Observation rows in this run (an entry with several remotes has several rows) | 5,022 |
 | Rows where the Scanner did not call the URL (blocked by its safety checks) | 3 |
 | Probe attempts (observation rows minus rows not called) | 5,019 |
@@ -31,29 +31,29 @@ Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP in
 
 | reached_level | Meaning | Count (of 5,019 probe attempts) |
 |---|---|---|
-| 2 | initialize and tools/list completed | 3,001 |
-| 1 | initialize completed; tools/list did not | 21 |
-| 0 | initialize did not complete | 1,997 |
+| 2 | initialize and tools/list completed | 2,974 |
+| 1 | initialize completed; tools/list did not | 24 |
+| 0 | initialize did not complete | 2,021 |
 
 ## HTTP status of probe attempts
 
 | HTTP status | Count (of 5,019) |
 |---|---|
-| 200 | 3,018 |
-| 401 | 1,505 |
-| no HTTP response | 157 |
-| 404 | 142 |
-| 503 | 31 |
+| 200 | 2,994 |
+| 401 | 1,501 |
+| no HTTP response | 170 |
+| 404 | 148 |
+| 503 | 35 |
+| 307 | 19 |
 | 402 | 19 |
-| 307 | 18 |
 | 500 | 18 |
+| 530 | 17 |
 | 308 | 16 |
+| 502 | 14 |
 | 403 | 13 |
-| 502 | 13 |
-| 530 | 13 |
 | 301 | 11 |
-| 400 | 11 |
-| 410 | 10 |
+| 400 | 10 |
+| 410 | 9 |
 | 405 | 8 |
 | 429 | 6 |
 | 302 | 2 |
@@ -61,14 +61,15 @@ Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP in
 | 521 | 2 |
 | 525 | 2 |
 | 526 | 2 |
+| 501 | 1 |
 
 ## Error types of probe attempts
 
 | error_type | Count (of 5,019) |
 |---|---|
-| none | 4,854 |
-| dns | 101 |
-| timeout | 28 |
+| none | 4,839 |
+| dns | 103 |
+| timeout | 41 |
 | tls | 19 |
 | invalid_response | 8 |
 | conn_reset | 7 |
@@ -81,7 +82,7 @@ A host is the hostname of a remote URL. Several entries can share one host, and 
 | Measure | Value |
 |---|---|
 | Distinct hosts among probe attempts | 4,361 |
-| Distinct hosts with at least one reached_level 2 row | 2,477 |
+| Distinct hosts with at least one reached_level 2 row | 2,452 |
 | Share of probe attempts on the most frequent host | 4.2% |
 | Share of probe attempts on the three most frequent hosts | 8.5% |
 
@@ -91,13 +92,13 @@ Totals change when the cohort changes. To compare across the change, use the `20
 
 | Run date (UTC) | Cohort | Observation rows | Entries with a row | Rows with reached_level 2 | `2026-10-07-v1` entries with a row | `2026-10-07-v1` rows with reached_level 2 |
 |---|---|---|---|---|---|---|
-| 2026-10-15 | `2026-10-07-v1` | 1,990 | 1,980 | 1,283 | 1,980 | 1,283 |
 | 2026-10-16 | `2026-10-07-v1` | 1,992 | 1,982 | 1,289 | 1,982 | 1,289 |
 | 2026-10-17 | `2026-10-07-v1` | 1,988 | 1,978 | 1,289 | 1,978 | 1,289 |
 | 2026-10-18 | `2026-10-07-v1` | 1,987 | 1,977 | 1,281 | 1,977 | 1,281 |
 | 2026-10-19 | `2026-10-19-v2` | 5,030 | 4,977 | 3,007 | 1,977 | 1,283 |
 | 2026-10-20 | `2026-10-19-v2` | 5,022 | 4,970 | 2,961 | 1,973 | 1,268 |
 | 2026-10-21 | `2026-10-19-v2` | 5,022 | 4,970 | 3,001 | 1,973 | 1,279 |
+| 2026-10-22 | `2026-10-19-v2` | 5,022 | 4,969 | 2,974 | 1,972 | 1,271 |
 
 ## Data
 
