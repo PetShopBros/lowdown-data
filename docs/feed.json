@@ -5,7 +5,24 @@
   "feed_url": "https://petshopbros.github.io/lowdown-data/feed.json",
   "description": "Daily facts about MCP Registry declarations and Lowdown observations. No scores or rankings.",
   "language": "en",
+  "_lowdown": {
+    "dataset": "https://github.com/PetShopBros/lowdown-data",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Lowdown (https://github.com/PetShopBros/lowdown-data), CC BY 4.0"
+  },
   "items": [
+    {
+      "id": "https://petshopbros.github.io/lowdown-data/days/2026-10-22.html",
+      "url": "https://petshopbros.github.io/lowdown-data/days/2026-10-22.html",
+      "title": "MCP daily record 2026-10-22",
+      "content_text": "Registry: 712 new names, 5 removals, 1,559 version changes, 7 status changes, 49 remote changes, 187 description changes. Observed sample: 4,969 of 5,000 servers; tools/list reached on 2,974 of 5,019 attempts. Tool definitions vs previous run: 224 description changes and 218 schema changes among 2,968 compared servers. First observed by Lowdown: 1 value.",
+      "date_published": "2026-10-22T06:18:26.066+00:00",
+      "_lowdown": {
+        "day": "2026-10-22",
+        "data": "https://petshopbros.github.io/lowdown-data/days/2026-10-22.json"
+      }
+    },
     {
       "id": "https://petshopbros.github.io/lowdown-data/days/2026-10-21.html",
       "url": "https://petshopbros.github.io/lowdown-data/days/2026-10-21.html",
