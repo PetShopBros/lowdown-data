@@ -19,7 +19,7 @@ This repository holds the public output of the Lowdown Scanner: a daily summary 
 ### Tool definitions and daily record pages
 
 - This dataset holds hashes of tool schemas and descriptions (`schema_hash`, `desc_hash`, `tool_set_hash`), not the tool definitions themselves. From 2026-10-21 Lowdown keeps the full definitions privately, once per distinct definition, so that changes can be traced. They are not published.
-- A [daily record page](https://petshopbros.github.io/lowdown-data/) with [RSS](https://petshopbros.github.io/lowdown-data/feed.xml) and [JSON Feed](https://petshopbros.github.io/lowdown-data/feed.json) summarises each UTC day: Registry declaration changes, observation counts, server-level tool definition change counts, and values first observed. It has no scores or rankings. The pages are generated from the daily JSON files under `docs/days/`.
+- A [daily record page](https://petshopbros.github.io/lowdown-data/) with [RSS](https://petshopbros.github.io/lowdown-data/feed.xml) and [JSON Feed](https://petshopbros.github.io/lowdown-data/feed.json) summarises each UTC day: Registry declaration changes, observation counts, server-level tool definition change counts, and values first observed. It has no scores or rankings. The pages are generated from the daily JSON files under `docs/days/`. The newest day is always at [`days/latest.json`](https://petshopbros.github.io/lowdown-data/days/latest.json).
 
 ### How the archive is kept
 
