@@ -1,0 +1,69 @@
+{
+  "schema": "lowdown-market-day/1",
+  "day": "2026-10-23",
+  "data_as_of": "2026-10-23T06:22:21.941+00:00",
+  "scan_run_id": "ed038558-8dd5-4b84-9cf0-731c3a4f1983",
+  "source": {
+    "name": "Lowdown",
+    "page": "https://petshopbros.github.io/lowdown-data/days/2026-10-23.html",
+    "dataset": "https://github.com/PetShopBros/lowdown-data",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "cite": "Lowdown, MCP daily record 2026-10-23 (data as of 2026-10-23T06:22:21.941+00:00), https://petshopbros.github.io/lowdown-data/days/2026-10-23.html, CC BY 4.0"
+  },
+  "registry": {
+    "counts": {
+      "new": 0,
+      "removed": 0,
+      "restored": 0,
+      "version": 0,
+      "status": 0,
+      "remotes": 0,
+      "packages": 0,
+      "description": 0
+    },
+    "unlisted": 0,
+    "items": {
+      "new": [],
+      "removed": [],
+      "restored": [],
+      "version": [],
+      "status": [],
+      "remotes": [],
+      "packages": [],
+      "description": []
+    }
+  },
+  "observations": {
+    "current": {
+      "cohort_version": "2026-10-19-v2",
+      "cohort_size": 5000,
+      "targets_observed": 4969,
+      "probe_attempts": 5019,
+      "reached_level": {
+        "0": 2049,
+        "1": 23,
+        "2": 2947
+      }
+    },
+    "previous": {
+      "cohort_version": "2026-10-19-v2",
+      "cohort_size": 5000,
+      "targets_observed": 4969,
+      "probe_attempts": 5019,
+      "reached_level": {
+        "0": 2021,
+        "1": 24,
+        "2": 2974
+      }
+    }
+  },
+  "tool_definitions": {
+    "compared": 2924,
+    "description_changed": 235,
+    "schema_changed": 105,
+    "namespaces_with_changes": 124,
+    "previous_data_as_of": "2026-10-22T06:18:26.066+00:00"
+  },
+  "first_observed": []
+}
