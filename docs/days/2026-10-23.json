@@ -32,7 +32,9 @@
       "remotes": [],
       "packages": [],
       "description": []
-    }
+    },
+    "compared": false,
+    "not_compared_reason": "The Registry list was not received in full during this run, so Registry declarations were not compared on this day. Changes since the previous comparison appear on the next compared day."
   },
   "observations": {
     "current": {
@@ -65,5 +67,11 @@
     "namespaces_with_changes": 124,
     "previous_data_as_of": "2026-10-22T06:18:26.066+00:00"
   },
-  "first_observed": []
+  "first_observed": [],
+  "corrections": [
+    {
+      "on": "2026-10-24",
+      "note": "Registry list fetch stopped at the time limit (294 of 491 pages), so Registry declarations were not compared on this day. The zero counts first published for this day did not mean \"no changes\"."
+    }
+  ]
 }
