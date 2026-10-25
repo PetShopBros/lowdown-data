@@ -33,6 +33,8 @@ nav{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 16px}footer{margin-top:40p
 <p>For servers reached on two consecutive runs, Lowdown compares hashes of the tool definitions (names, descriptions, schemas). A change means the definition differs from the previous run. It is not evidence of malicious intent, and an unchanged definition is not evidence of safety. Descriptions are not published.</p>
 <h2>4. First observed by Lowdown</h2>
 <p>A value (capability key, protocol version, or tool name) that Lowdown had not seen before within its own sample. It does not mean the value is new to the market. Tool names are listed only when seen on at least two hosts and two Registry namespaces.</p>
+<h2>5. Declared packages</h2>
+<p>Lowdown checks the npm and PyPI packages that MCP Registry entries declare once a day. Each daily record lists, for packages that current Registry entries declare, the changes found in the previous day's snapshot: a latest version marked deprecated or no longer deprecated (npm), a latest release yanked or no longer yanked, a change of project status such as archived (PyPI), an HTTP 404, or a package available again. These are the registries' own statements, recorded as found. A deprecated or missing package is not evidence that a server is unsafe, and an unchanged package is not evidence that it is safe. New latest versions are counted only, since the registries publish them. A package's state at Lowdown's first check is not counted as a change. When a snapshot did not run, the section says so instead of showing zero.</p>
 <h2>Data and feeds</h2>
 <ul>
 <li>Daily JSON for each record: <code>days/YYYY-MM-DD.json</code> (the HTML pages and feeds are generated from these files).</li>
