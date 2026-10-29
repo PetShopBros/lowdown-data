@@ -1,10 +1,10 @@
 # Lowdown Scanner Report: MCP Registry reachability observations
 
-- **Data as of:** 2026-10-28 01:31 UTC (2026-10-28 10:31 KST), the end of the most recent Scanner run
-- **Report generated:** 2026-10-28 01:41 UTC
-- **Observation period:** 2026-10-06 to 2026-10-28 (UTC)
+- **Data as of:** 2026-10-29 01:43 UTC (2026-10-29 10:43 KST), the end of the most recent Scanner run
+- **Report generated:** 2026-10-29 01:56 UTC
+- **Observation period:** 2026-10-06 to 2026-10-29 (UTC)
 
-Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 5,000 entries are a fixed sample (cohort `2026-10-19-v2`): all 2,000 entries of the earlier cohort `2026-10-07-v1` plus 3,000 entries added when the sample was extended, selected from the official MCP Registry with a per-host limit (rules in the README) and unchanged since. They are Registry entries, not operators, and they do not represent the whole Registry.
+Lowdown Scanner observes 10,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 10,000 entries are a fixed sample (cohort `2026-10-29-v3`): all 2,000 entries of the earlier cohort `2026-10-07-v1` plus 8,000 entries added when the sample was extended, selected from the official MCP Registry with a per-host limit (rules in the README) and unchanged since. They are Registry entries, not operators, and they do not represent the whole Registry.
 
 ## Scope and limits
 
@@ -19,60 +19,66 @@ Lowdown Scanner observes 5,000 MCP Registry entries every day and records MCP in
 
 | Measure | Count |
 |---|---|
-| Cohort entries (fixed sample, `2026-10-19-v2`) | 5,000 |
-| Cohort entries with at least one observation row in this run | 4,953 |
-| Cohort entries with no observation row in this run | 47 |
-| Entries of the earlier cohort `2026-10-07-v1` with at least one observation row (of 2,000) | 1,967 |
-| Observation rows in this run (an entry with several remotes has several rows) | 5,011 |
+| Cohort entries (fixed sample, `2026-10-29-v3`) | 10,000 |
+| Cohort entries with at least one observation row in this run | 9,951 |
+| Cohort entries with no observation row in this run | 49 |
+| Entries of the earlier cohort `2026-10-07-v1` with at least one observation row (of 2,000) | 1,966 |
+| Observation rows in this run (an entry with several remotes has several rows) | 10,081 |
 | Rows where the Scanner did not call the URL (blocked by its safety checks) | 3 |
-| Probe attempts (observation rows minus rows not called) | 5,008 |
+| Probe attempts (observation rows minus rows not called) | 10,078 |
 
 ## Reach level of probe attempts
 
-| reached_level | Meaning | Count (of 5,008 probe attempts) |
+| reached_level | Meaning | Count (of 10,078 probe attempts) |
 |---|---|---|
-| 2 | initialize and tools/list completed | 2,894 |
-| 1 | initialize completed; tools/list did not | 22 |
-| 0 | initialize did not complete | 2,092 |
+| 2 | initialize and tools/list completed | 5,655 |
+| 1 | initialize completed; tools/list did not | 46 |
+| 0 | initialize did not complete | 4,377 |
 
 ## HTTP status of probe attempts
 
-| HTTP status | Count (of 5,008) |
+| HTTP status | Count (of 10,078) |
 |---|---|
-| 200 | 2,915 |
-| 401 | 1,489 |
-| no HTTP response | 174 |
-| 404 | 149 |
-| 302 | 67 |
-| 503 | 34 |
-| 500 | 23 |
-| 402 | 20 |
-| 502 | 20 |
-| 307 | 18 |
-| 308 | 17 |
-| 530 | 16 |
-| 301 | 13 |
-| 403 | 11 |
-| 400 | 10 |
-| 410 | 10 |
-| 405 | 9 |
-| 429 | 5 |
-| 526 | 3 |
-| 421 | 2 |
-| 525 | 2 |
+| 200 | 5,687 |
+| 401 | 3,222 |
+| no HTTP response | 319 |
+| 404 | 274 |
+| 302 | 168 |
+| 503 | 64 |
+| 502 | 63 |
+| 500 | 40 |
+| 402 | 34 |
+| 400 | 27 |
+| 301 | 26 |
+| 530 | 26 |
+| 308 | 24 |
+| 403 | 24 |
+| 307 | 21 |
+| 405 | 20 |
+| 410 | 14 |
+| 429 | 7 |
+| 526 | 5 |
+| 421 | 4 |
+| 525 | 3 |
+| 201 | 1 |
+| 451 | 1 |
+| 501 | 1 |
 | 521 | 1 |
+| 522 | 1 |
+| 523 | 1 |
 
 ## Error types of probe attempts
 
-| error_type | Count (of 5,008) |
+| error_type | Count (of 10,078) |
 |---|---|
-| none | 4,823 |
-| dns | 104 |
-| timeout | 38 |
-| tls | 24 |
-| invalid_response | 9 |
-| conn_reset | 8 |
-| conn_refused | 2 |
+| none | 9,741 |
+| dns | 181 |
+| timeout | 71 |
+| tls | 45 |
+| conn_reset | 21 |
+| invalid_response | 15 |
+| conn_refused | 3 |
+| network_error | 1 |
 
 ## Hosts of probe attempts
 
@@ -80,10 +86,10 @@ A host is the hostname of a remote URL. Several entries can share one host, and 
 
 | Measure | Value |
 |---|---|
-| Distinct hosts among probe attempts | 4,346 |
-| Distinct hosts with at least one reached_level 2 row | 2,372 |
-| Share of probe attempts on the most frequent host | 4.2% |
-| Share of probe attempts on the three most frequent hosts | 8.5% |
+| Distinct hosts among probe attempts | 9,233 |
+| Distinct hosts with at least one reached_level 2 row | 5,060 |
+| Share of probe attempts on the most frequent host | 2.1% |
+| Share of probe attempts on the three most frequent hosts | 4.2% |
 
 ## Last 7 runs
 
@@ -91,13 +97,13 @@ Totals change when the cohort changes. To compare across the change, use the `20
 
 | Run date (UTC) | Cohort | Observation rows | Entries with a row | Rows with reached_level 2 | `2026-10-07-v1` entries with a row | `2026-10-07-v1` rows with reached_level 2 |
 |---|---|---|---|---|---|---|
-| 2026-10-22 | `2026-10-19-v2` | 5,022 | 4,969 | 2,974 | 1,972 | 1,271 |
 | 2026-10-23 | `2026-10-19-v2` | 5,022 | 4,969 | 2,947 | 1,972 | 1,263 |
 | 2026-10-24 | `2026-10-19-v2` | 5,015 | 4,961 | 2,970 | 1,969 | 1,271 |
 | 2026-10-25 | `2026-10-19-v2` | 5,017 | 4,959 | 2,976 | 1,968 | 1,274 |
 | 2026-10-26 | `2026-10-19-v2` | 5,015 | 4,957 | 2,962 | 1,968 | 1,267 |
 | 2026-10-27 | `2026-10-19-v2` | 5,013 | 4,955 | 2,965 | 1,968 | 1,269 |
 | 2026-10-28 | `2026-10-19-v2` | 5,011 | 4,953 | 2,894 | 1,967 | 1,255 |
+| 2026-10-29 | `2026-10-29-v3` | 10,081 | 9,951 | 5,655 | 1,966 | 1,250 |
 
 ## Data
 
