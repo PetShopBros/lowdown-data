@@ -13,6 +13,17 @@
   },
   "items": [
     {
+      "id": "https://petshopbros.github.io/lowdown-data/days/2026-10-30.html",
+      "url": "https://petshopbros.github.io/lowdown-data/days/2026-10-30.html",
+      "title": "MCP daily record 2026-10-30",
+      "content_text": "Registry: 695 new names, 6 removals, 3,021 version changes, 3 status changes, 37 remote changes, 268 description changes. Observed sample: 9,949 of 10,000 servers; tools/list reached on 5,634 of 10,077 attempts. Tool definitions vs previous run: 377 description changes and 221 schema changes among 5,610 compared servers. Declared packages (snapshot 2026-10-29): npm 1 status fact, 438 new latest versions; PyPI 1 status fact, 171 new latest versions.",
+      "date_published": "2026-10-30T01:41:59.929+00:00",
+      "_lowdown": {
+        "day": "2026-10-30",
+        "data": "https://petshopbros.github.io/lowdown-data/days/2026-10-30.json"
+      }
+    },
+    {
       "id": "https://petshopbros.github.io/lowdown-data/days/2026-10-29.html",
       "url": "https://petshopbros.github.io/lowdown-data/days/2026-10-29.html",
       "title": "MCP daily record 2026-10-29",
