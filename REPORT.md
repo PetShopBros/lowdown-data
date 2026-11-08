@@ -1,7 +1,7 @@
 # Lowdown Scanner Report: MCP Registry reachability observations
 
 - **Data as of:** 2026-11-08 01:37 UTC (2026-11-08 10:37 KST), the end of the most recent Scanner run
-- **Report generated:** 2026-11-08 07:55 UTC
+- **Report generated:** 2026-11-08 08:02 UTC
 - **Observation period:** 2026-10-06 to 2026-11-08 (UTC)
 
 Lowdown Scanner observes 10,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 10,000 entries are a fixed sample (cohort `2026-10-29-v3`): all 2,000 entries of the earlier cohort `2026-10-07-v1` plus 8,000 entries added when the sample was extended, selected from the official MCP Registry with a per-host limit (rules in the README) and unchanged since. They are Registry entries, not operators, and they do not represent the whole Registry.
