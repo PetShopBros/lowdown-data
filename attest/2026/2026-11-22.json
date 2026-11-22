@@ -1,0 +1,91 @@
+{
+  "format": "lowdown-attestation/1",
+  "day": "2026-11-22",
+  "created_at": "2026-11-22T00:45:56.363Z",
+  "statement": "Lowdown held the archive files listed in these manifests, with these SHA-256 digests, when this attestation was created. It says nothing about whether the observations are correct, and it is not a score.",
+  "signing_key_id": "7af8f66ca71c228b",
+  "prev": {
+    "path": "attest/2026/2026-11-21.json",
+    "sha256": "7729970203bc7c3585ddfded28bb3b43fd7c55668d7b4c1674135daa6ee777dd"
+  },
+  "baseline": false,
+  "public_archive": {
+    "repository": "https://github.com/PetShopBros/lowdown-data",
+    "manifest_sha256": "c408fae920c26951bbfccd840a0290df66df4966a7e8c9a1bac185117fb278d0",
+    "entries": 84,
+    "new_entries": [
+      {
+        "dataset": "observations",
+        "day": "2026-11-21",
+        "path": "scanner_observations/daily/2026/11/2026-11-21.csv.gz",
+        "rows": 24037,
+        "bytes": 3183211,
+        "sha256": "488c9171be346b3c35ab7a119d7b1b8481f86f7fd33a1198050cba6ae59f060d"
+      },
+      {
+        "dataset": "registry_changes",
+        "day": "2026-11-21",
+        "path": "registry_changes/daily/2026/11/2026-11-21.csv.gz",
+        "rows": 3948,
+        "bytes": 71408,
+        "sha256": "9f254c1050b077f43267e9400fe082c7a71a24faafa62178fc07cc5c223f099c"
+      }
+    ]
+  },
+  "private_archive": {
+    "note": "Not published. Digests only; files can be shown later and checked against these values.",
+    "manifest_sha256": "95c13bd3b55dd4fca4ef878e889378cc988e4fab8cae654ee4a3fed15876d2c3",
+    "entries": 298,
+    "new_entries": [
+      {
+        "dataset": "interactions",
+        "day": "2026-11-21",
+        "rows": 120,
+        "bytes": 4614,
+        "sha256": "52c3fffa7f4bbcdbfeda2abf11fc09ccc06dd1151021bfaa51306980f34bfc7c"
+      },
+      {
+        "dataset": "lookups",
+        "day": "2026-11-21",
+        "rows": 58793,
+        "bytes": 3034539,
+        "sha256": "4f9a64f02843cba86a1646d1e207b6140628d7edd24d253a469e9683a877fdde"
+      },
+      {
+        "dataset": "reviews",
+        "day": "2026-11-21",
+        "rows": 0,
+        "bytes": 20,
+        "sha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec"
+      },
+      {
+        "dataset": "sandbox_runs",
+        "day": "2026-11-20",
+        "rows": 1350,
+        "bytes": 199617,
+        "sha256": "7041ae1317243695e0d5fc1b7a729101790d33e20d1514caa7e4251cdedb8c08"
+      },
+      {
+        "dataset": "tool_defs",
+        "day": "2026-11-21",
+        "rows": 22576,
+        "bytes": 12747095,
+        "sha256": "974f5f319f0dcaced7bcf9e57beaf221a3c94e1bf7374b0d422ba34b877d99c2"
+      },
+      {
+        "dataset": "tool_flags",
+        "day": "2026-11-21",
+        "rows": 641,
+        "bytes": 29527,
+        "sha256": "25b2d9d5c17db7bdd7ff75ac030c7d9bf9f3f63d9bb7077a27f0cb6b8f283df6"
+      },
+      {
+        "dataset": "tool_set_versions",
+        "day": "2026-11-21",
+        "rows": 2943,
+        "bytes": 2384997,
+        "sha256": "5bd2d782235396f29658bec7902c7362f720bdb6e9990e4f541ad7ed96dd7a95"
+      }
+    ]
+  }
+}
