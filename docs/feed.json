@@ -13,6 +13,17 @@
   },
   "items": [
     {
+      "id": "https://petshopbros.github.io/lowdown-data/days/2026-11-23.html",
+      "url": "https://petshopbros.github.io/lowdown-data/days/2026-11-23.html",
+      "title": "MCP daily record 2026-11-23",
+      "content_text": "Registry: 594 new names, 232 removals, 884 version changes, 9 status changes, 23 remote changes, 187 description changes. Observed sample: 9,874 of 10,000 servers; tools/list reached on 5,496 of 10,011 attempts. Tool definitions vs previous run: 271 description changes and 265 schema changes among 5,475 compared servers. Declared packages (snapshot 2026-11-22): npm 1 status fact, 295 new latest versions; PyPI 1 status fact, 179 new latest versions.",
+      "date_published": "2026-11-23T01:54:35.304+00:00",
+      "_lowdown": {
+        "day": "2026-11-23",
+        "data": "https://petshopbros.github.io/lowdown-data/days/2026-11-23.json"
+      }
+    },
+    {
       "id": "https://petshopbros.github.io/lowdown-data/days/2026-11-22.html",
       "url": "https://petshopbros.github.io/lowdown-data/days/2026-11-22.html",
       "title": "MCP daily record 2026-11-22",
@@ -329,17 +340,6 @@
       "_lowdown": {
         "day": "2026-10-25",
         "data": "https://petshopbros.github.io/lowdown-data/days/2026-10-25.json"
-      }
-    },
-    {
-      "id": "https://petshopbros.github.io/lowdown-data/days/2026-10-24.html",
-      "url": "https://petshopbros.github.io/lowdown-data/days/2026-10-24.html",
-      "title": "MCP daily record 2026-10-24",
-      "content_text": "Registry (changes since 2026-10-23): 1,029 new names, 35 removals, 2,157 version changes, 16 status changes, 48 remote changes, 272 description changes. Observed sample: 4,961 of 5,000 servers; tools/list reached on 2,970 of 5,012 attempts. Tool definitions vs previous run: 241 description changes and 111 schema changes among 2,927 compared servers. First observed by Lowdown: 1 value.",
-      "date_published": "2026-10-24T01:29:42.786+00:00",
-      "_lowdown": {
-        "day": "2026-10-24",
-        "data": "https://petshopbros.github.io/lowdown-data/days/2026-10-24.json"
       }
     }
   ]
