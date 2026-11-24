@@ -1,7 +1,7 @@
 # Lowdown Scanner Report: MCP Registry reachability observations
 
-- **Data as of:** 2026-11-24 01:34 UTC (2026-11-24 10:34 KST), the end of the most recent Scanner run
-- **Report generated:** 2026-11-24 01:53 UTC
+- **Data as of:** 2026-11-24 02:39 UTC (2026-11-24 11:39 KST), the end of the most recent Scanner run
+- **Report generated:** 2026-11-24 02:53 UTC
 - **Observation period:** 2026-10-06 to 2026-11-24 (UTC)
 
 Lowdown Scanner observes 10,000 MCP Registry entries every day and records MCP initialize and tools/list reachability, HTTP status, latency, and tool-count changes. This report summarizes the most recent run. The 10,000 entries are a fixed sample (cohort `2026-10-29-v3`): all 2,000 entries of the earlier cohort `2026-10-07-v1` plus 8,000 entries added when the sample was extended, selected from the official MCP Registry with a per-host limit (rules in the README) and unchanged since. They are Registry entries, not operators, and they do not represent the whole Registry.
@@ -31,35 +31,36 @@ Lowdown Scanner observes 10,000 MCP Registry entries every day and records MCP i
 
 | reached_level | Meaning | Count (of 10,008 probe attempts) |
 |---|---|---|
-| 2 | initialize and tools/list completed | 5,514 |
-| 1 | initialize completed; tools/list did not | 40 |
-| 0 | initialize did not complete | 4,454 |
+| 2 | initialize and tools/list completed | 5,500 |
+| 1 | initialize completed; tools/list did not | 45 |
+| 0 | initialize did not complete | 4,463 |
 
 ## HTTP status of probe attempts
 
 | HTTP status | Count (of 10,008) |
 |---|---|
-| 200 | 5,541 |
-| 401 | 3,114 |
-| no HTTP response | 394 |
+| 200 | 5,530 |
+| 401 | 3,118 |
+| no HTTP response | 391 |
 | 404 | 308 |
 | 302 | 168 |
 | 503 | 94 |
-| 502 | 65 |
+| 502 | 69 |
 | 402 | 58 |
 | 301 | 31 |
-| 400 | 29 |
 | 405 | 29 |
-| 500 | 28 |
-| 530 | 26 |
+| 500 | 29 |
+| 400 | 28 |
+| 403 | 27 |
+| 429 | 25 |
 | 308 | 24 |
-| 403 | 24 |
-| 429 | 21 |
+| 530 | 24 |
 | 307 | 20 |
-| 410 | 17 |
+| 410 | 16 |
 | 421 | 4 |
 | 526 | 4 |
 | 525 | 3 |
+| 202 | 2 |
 | 521 | 2 |
 | 201 | 1 |
 | 451 | 1 |
@@ -70,14 +71,14 @@ Lowdown Scanner observes 10,000 MCP Registry entries every day and records MCP i
 
 | error_type | Count (of 10,008) |
 |---|---|
-| none | 9,601 |
-| dns | 220 |
-| timeout | 94 |
-| tls | 56 |
-| conn_reset | 15 |
-| invalid_response | 13 |
+| none | 9,599 |
+| dns | 226 |
+| timeout | 88 |
+| tls | 55 |
+| invalid_response | 16 |
+| conn_reset | 14 |
 | conn_refused | 8 |
-| network_error | 1 |
+| network_error | 2 |
 
 ## Hosts of probe attempts
 
@@ -86,7 +87,7 @@ A host is the hostname of a remote URL. Several entries can share one host, and 
 | Measure | Value |
 |---|---|
 | Distinct hosts among probe attempts | 9,156 |
-| Distinct hosts with at least one reached_level 2 row | 4,913 |
+| Distinct hosts with at least one reached_level 2 row | 4,898 |
 | Share of probe attempts on the most frequent host | 2.1% |
 | Share of probe attempts on the three most frequent hosts | 4.2% |
 
@@ -96,13 +97,13 @@ Totals change when the cohort changes. To compare across the change, use the `20
 
 | Run date (UTC) | Cohort | Observation rows | Entries with a row | Rows with reached_level 2 | `2026-10-07-v1` entries with a row | `2026-10-07-v1` rows with reached_level 2 |
 |---|---|---|---|---|---|---|
-| 2026-11-18 | `2026-10-29-v3` | 10,030 | 9,894 | 5,314 | 1,961 | 1,011 |
 | 2026-11-19 | `2026-10-29-v3` | 10,024 | 9,888 | 5,503 | 1,960 | 1,214 |
 | 2026-11-20 | `2026-10-29-v3` | 10,021 | 9,884 | 5,504 | 1,959 | 1,214 |
 | 2026-11-21 | `2026-10-29-v3` | 10,016 | 9,878 | 5,490 | 1,957 | 1,213 |
 | 2026-11-22 | `2026-10-29-v3` | 10,017 | 9,878 | 5,508 | 1,957 | 1,219 |
 | 2026-11-23 | `2026-10-29-v3` | 10,013 | 9,874 | 5,496 | 1,955 | 1,206 |
 | 2026-11-24 | `2026-10-29-v3` | 10,009 | 9,870 | 5,514 | 1,954 | 1,217 |
+| 2026-11-24 | `2026-10-29-v3` | 10,009 | 9,870 | 5,500 | 1,954 | 1,214 |
 
 ## Data
 
