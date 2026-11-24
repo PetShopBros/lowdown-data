@@ -1,26 +1,26 @@
 {
   "schema": "lowdown-market-day/2",
   "day": "2026-11-24",
-  "data_as_of": "2026-11-24T01:34:52.816+00:00",
-  "scan_run_id": "30c5b646-f792-45f7-b910-75c62bf9939b",
+  "data_as_of": "2026-11-24T02:39:29.044+00:00",
+  "scan_run_id": "d49cdb0e-45a5-40a2-a403-5ae66e2036c4",
   "source": {
     "name": "Lowdown",
     "page": "https://petshopbros.github.io/lowdown-data/days/2026-11-24.html",
     "dataset": "https://github.com/PetShopBros/lowdown-data",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "cite": "Lowdown, MCP daily record 2026-11-24 (data as of 2026-11-24T01:34:52.816+00:00), https://petshopbros.github.io/lowdown-data/days/2026-11-24.html, CC BY 4.0"
+    "cite": "Lowdown, MCP daily record 2026-11-24 (data as of 2026-11-24T02:39:29.044+00:00), https://petshopbros.github.io/lowdown-data/days/2026-11-24.html, CC BY 4.0"
   },
   "registry": {
     "counts": {
-      "new": 2026,
+      "new": 2047,
       "removed": 42,
       "restored": 0,
-      "version": 1111,
+      "version": 1142,
       "status": 15,
-      "remotes": 35,
-      "packages": 631,
-      "description": 204
+      "remotes": 36,
+      "packages": 645,
+      "description": 211
     },
     "unlisted": 0,
     "items": {
@@ -527,6 +527,12 @@
           "name": "blog.agentdiary/diary",
           "hosts": [
             "agentdiary.blog"
+          ]
+        },
+        {
+          "name": "br.api.fipe/fipe",
+          "hosts": [
+            "mcp.fipe.api.br"
           ]
         },
         {
@@ -1143,6 +1149,12 @@
           "name": "com.disclosedlabs/disclosed-labs",
           "hosts": [
             "www.disclosedlabs.com"
+          ]
+        },
+        {
+          "name": "com.dixipolis/dixipolis",
+          "hosts": [
+            "dixipolis.com"
           ]
         },
         {
@@ -1812,6 +1824,12 @@
           ]
         },
         {
+          "name": "com.getnextleg/nextleg",
+          "hosts": [
+            "mcp.getnextleg.com"
+          ]
+        },
+        {
           "name": "com.getsocialmcp/socialmcp",
           "hosts": [
             "getsocialmcp.com"
@@ -1909,6 +1927,12 @@
           "name": "com.index-pages/mcp",
           "hosts": [
             "index-pages.com"
+          ]
+        },
+        {
+          "name": "com.infinitylooper/loops",
+          "hosts": [
+            "infinitylooper.com"
           ]
         },
         {
@@ -2080,6 +2104,12 @@
           ]
         },
         {
+          "name": "com.mentionskill/mentionskill",
+          "hosts": [
+            "mentionskill.com"
+          ]
+        },
+        {
           "name": "com.metag-ai/fengsheng",
           "hosts": [
             "metag-ai.com"
@@ -2189,6 +2219,12 @@
           "name": "com.piiredactiontool/site",
           "hosts": [
             "piiredactiontool.com"
+          ]
+        },
+        {
+          "name": "com.pipeyield/search-term-review",
+          "hosts": [
+            "app.pipeyield.com"
           ]
         },
         {
@@ -3398,6 +3434,12 @@
           ]
         },
         {
+          "name": "com.slatebox/slatebox",
+          "hosts": [
+            "app.slatebox.com"
+          ]
+        },
+        {
           "name": "com.sonnetpilot/sonnetpilot",
           "hosts": [
             "sonnetpilot.com"
@@ -3744,6 +3786,12 @@
           ]
         },
         {
+          "name": "dev.mojourney/census",
+          "hosts": [
+            "mojourney.dev"
+          ]
+        },
+        {
           "name": "dev.opsagent/opsagent",
           "hosts": [
             "brain.opsagent.dev"
@@ -3921,6 +3969,12 @@
           "name": "io.allscale/mcp",
           "hosts": [
             "mcp.allscale.io"
+          ]
+        },
+        {
+          "name": "io.ampost/mcp",
+          "hosts": [
+            "api.ampost.io"
           ]
         },
         {
@@ -4124,6 +4178,12 @@
         {
           "name": "io.github.DirtyReal/delv-mcp",
           "hosts": []
+        },
+        {
+          "name": "io.github.DueWallLabs/duewall-adapters",
+          "hosts": [
+            "duewall.com"
+          ]
         },
         {
           "name": "io.github.DukeOfCheese/openswx",
@@ -4332,6 +4392,10 @@
           ]
         },
         {
+          "name": "io.github.Sagexd08/openbooks-mcp",
+          "hosts": []
+        },
+        {
           "name": "io.github.Sauberr/neckrez",
           "hosts": [
             "neckrez.tech"
@@ -4520,6 +4584,10 @@
           "hosts": []
         },
         {
+          "name": "io.github.cardoves/basality-99freelas-mcp",
+          "hosts": []
+        },
+        {
           "name": "io.github.chaw1/datakeel",
           "hosts": []
         },
@@ -4568,6 +4636,12 @@
         {
           "name": "io.github.d3d0n/better-lavka-mcp",
           "hosts": []
+        },
+        {
+          "name": "io.github.deividfortuna/fipe",
+          "hosts": [
+            "mcp.fipe.api.br"
+          ]
         },
         {
           "name": "io.github.dmgo-in/ai",
@@ -8636,6 +8710,18 @@
           "hosts": []
         },
         {
+          "name": "io.github.orvenix-ai/orvenix",
+          "hosts": [
+            "orvenix.ai"
+          ]
+        },
+        {
+          "name": "io.github.orvenix-ai/varikan",
+          "hosts": [
+            "varikan.com"
+          ]
+        },
+        {
           "name": "io.github.oscilabs/charitysense",
           "hosts": [
             "data.charitysense.com"
@@ -8660,6 +8746,10 @@
           "hosts": [
             "cantustudio.app"
           ]
+        },
+        {
+          "name": "io.github.paywithtender/tender",
+          "hosts": []
         },
         {
           "name": "io.github.pbathuri/cartograph",
@@ -8986,6 +9076,12 @@
           "hosts": []
         },
         {
+          "name": "live.dream11app/releases",
+          "hosts": [
+            "dream11app.live"
+          ]
+        },
+        {
           "name": "me.lorahelp/lorahelp",
           "hosts": [
             "app.lorahelp.me"
@@ -8995,6 +9091,12 @@
           "name": "monster.cad/converter",
           "hosts": [
             "cad.monster"
+          ]
+        },
+        {
+          "name": "monster.multimedia/multimedia-monster",
+          "hosts": [
+            "multimedia.monster"
           ]
         },
         {
@@ -9111,6 +9213,12 @@
           "name": "org.agentsindex/agentsindex",
           "hosts": [
             "agentsindex.org"
+          ]
+        },
+        {
+          "name": "org.cve-compass/cve-compass",
+          "hosts": [
+            "cve-compass.org"
           ]
         },
         {
@@ -9255,6 +9363,12 @@
           "name": "site.agentpolka/izbrannoe",
           "hosts": [
             "agentpolka.site"
+          ]
+        },
+        {
+          "name": "site.cerex/desktop",
+          "hosts": [
+            "cerex.site"
           ]
         },
         {
@@ -10062,6 +10176,12 @@
           ]
         },
         {
+          "name": "xyz.quantumatlas/ucp-shopping-hub",
+          "hosts": [
+            "x402.quantumatlas.xyz"
+          ]
+        },
+        {
           "name": "xyz.urlgate/mcp",
           "hosts": [
             "urlgate.xyz"
@@ -10321,6 +10441,11 @@
           "new": "1.0.1"
         },
         {
+          "name": "ai.bareun/bareun",
+          "old": "3.0.0",
+          "new": "3.0.1"
+        },
+        {
           "name": "ai.bittuitive.api/bittuitive",
           "old": "1.3.2",
           "new": "1.3.3"
@@ -10516,6 +10641,16 @@
           "new": "0.1.1"
         },
         {
+          "name": "ai.sprites/apple-ads",
+          "old": "1.0.1",
+          "new": "1.0.2"
+        },
+        {
+          "name": "ai.sprites/microsoft-ads",
+          "old": "1.0.1",
+          "new": "1.0.2"
+        },
+        {
           "name": "ai.tokonomix/council",
           "old": "1.14.0",
           "new": "1.14.2"
@@ -10626,9 +10761,19 @@
           "new": "1.3.1"
         },
         {
+          "name": "at.space-core/game",
+          "old": "2.3.2",
+          "new": "2.3.3"
+        },
+        {
           "name": "au.com.byronwebstudio.linepref/linepref",
           "old": "1.2.0",
           "new": "1.4.0"
+        },
+        {
+          "name": "au.com.cgctransfers/booking",
+          "old": "1.3.14",
+          "new": "1.3.15"
         },
         {
           "name": "au.com.dwelldelta/dwelldelta",
@@ -10726,6 +10871,11 @@
           "new": "1.0.5"
         },
         {
+          "name": "com.agilitycms/mcp-server",
+          "old": "2.13.0",
+          "new": "2.13.1"
+        },
+        {
           "name": "com.agrodiler/catalog",
           "old": "1.0.0",
           "new": "1.0.1"
@@ -10761,9 +10911,19 @@
           "new": "2.7.0"
         },
         {
+          "name": "com.andque/strata-b2a-mcp",
+          "old": "2.7.0",
+          "new": "2.7.1"
+        },
+        {
           "name": "com.apiskins/mcp",
           "old": "1.0.0",
           "new": "1.0.1"
+        },
+        {
+          "name": "com.apix402data/x402-data-api",
+          "old": "4.9.0",
+          "new": "5.3.0"
         },
         {
           "name": "com.appliedmanifold/spatial-compiler",
@@ -10809,6 +10969,11 @@
           "name": "com.bird/mcp",
           "old": "0.180.0",
           "new": "0.181.0"
+        },
+        {
+          "name": "com.bugherd/mcp",
+          "old": "1.5.0",
+          "new": "1.5.1"
         },
         {
           "name": "com.businessratechecker/mcp",
@@ -11081,6 +11246,11 @@
           "new": "2.1.0"
         },
         {
+          "name": "com.icepartsdb/ice-machine-parts",
+          "old": "1.0.0",
+          "new": "1.1.0"
+        },
+        {
           "name": "com.imergea/ma-advisory",
           "old": "0.7.1",
           "new": "0.7.2"
@@ -11346,6 +11516,11 @@
           "new": "1.2.1"
         },
         {
+          "name": "com.prilago/lp-intelligence",
+          "old": "3.2.0",
+          "new": "3.3.0"
+        },
+        {
           "name": "com.qencode/qencode",
           "old": "1.2.0",
           "new": "1.3.0"
@@ -11379,6 +11554,11 @@
           "name": "com.relaticle/crm",
           "old": "3.12.0",
           "new": "3.13.0"
+        },
+        {
+          "name": "com.resolvemesh/compatibility",
+          "old": "0.1.0",
+          "new": "0.2.0"
         },
         {
           "name": "com.retailhardhat.app/retailhardhat",
@@ -11419,6 +11599,11 @@
           "name": "com.shipstatic/mcp",
           "old": "2.9.1",
           "new": "2.9.3"
+        },
+        {
+          "name": "com.shorekeyocmd/ocean-city-mcp",
+          "old": "1.2.1",
+          "new": "1.3.0"
         },
         {
           "name": "com.skiplino/mcp",
@@ -11524,6 +11709,11 @@
           "name": "com.tnyforge/kitchen-timer",
           "old": "1.0.0",
           "new": "1.1.0"
+        },
+        {
+          "name": "com.trucehq/truce",
+          "old": "1.1.0",
+          "new": "1.2.0"
         },
         {
           "name": "com.useampli/ampli",
@@ -11849,6 +12039,11 @@
           "name": "engineering.audiofile/soundedit",
           "old": "1.2.2",
           "new": "1.3.0"
+        },
+        {
+          "name": "eu.drafto/mcp",
+          "old": "1.2.0",
+          "new": "1.2.1"
         },
         {
           "name": "eu.paymentslaw/legislation",
@@ -12481,6 +12676,11 @@
           "new": "0.1.8"
         },
         {
+          "name": "io.github.Everybit-Ventures/jaibber",
+          "old": "0.9.8",
+          "new": "0.9.9"
+        },
+        {
           "name": "io.github.FROWNINGdev/orm-lens",
           "old": "1.18.2",
           "new": "1.18.3"
@@ -12996,6 +13196,11 @@
           "new": "0.3.4"
         },
         {
+          "name": "io.github.Vericairn/vericairn",
+          "old": "0.9.3",
+          "new": "0.9.4"
+        },
+        {
           "name": "io.github.VessellTech/cdf.mcp",
           "old": "0.1.8",
           "new": "0.1.10"
@@ -13121,6 +13326,11 @@
           "new": "2.24.2"
         },
         {
+          "name": "io.github.adamVass/pylos-mcp",
+          "old": "1.4.0",
+          "new": "1.4.1"
+        },
+        {
           "name": "io.github.adamdecaf/recall-kitchen",
           "old": "1.0.1",
           "new": "1.0.2"
@@ -13236,6 +13446,11 @@
           "new": "0.14.0"
         },
         {
+          "name": "io.github.anishchugh05/mnemolith",
+          "old": "0.4.3",
+          "new": "0.4.4"
+        },
+        {
           "name": "io.github.ant-dev-lab/nightmarquee",
           "old": "0.1.8",
           "new": "0.1.9"
@@ -13336,6 +13551,11 @@
           "new": "0.68.1"
         },
         {
+          "name": "io.github.azathothx/kairos-lang-mcp",
+          "old": "1.1.0",
+          "new": "1.1.1"
+        },
+        {
           "name": "io.github.b-ak/kanboard-mcp-server",
           "old": "0.2.0",
           "new": "0.3.0"
@@ -13374,6 +13594,11 @@
           "name": "io.github.beepboop2025/noisefloor",
           "old": "0.4.3",
           "new": "0.4.4"
+        },
+        {
+          "name": "io.github.beepboop2025/seiche",
+          "old": "0.16.14",
+          "new": "0.16.15"
         },
         {
           "name": "io.github.benethos-hub/benethos-lexware-office-mcp",
@@ -13659,6 +13884,16 @@
           "name": "io.github.cyanheads/usgs-water-mcp-server",
           "old": "0.6.0",
           "new": "0.7.0"
+        },
+        {
+          "name": "io.github.d3d0n/better-lavka-mcp",
+          "old": "0.6.1",
+          "new": "0.6.4"
+        },
+        {
+          "name": "io.github.daddariotech/whmcs-mcp",
+          "old": "2.6.0",
+          "new": "2.6.1"
         },
         {
           "name": "io.github.daniele-chiappa/gosidian",
@@ -13986,6 +14221,11 @@
           "new": "1.3.1"
         },
         {
+          "name": "io.github.gowtham0992/link",
+          "old": "5.0.0",
+          "new": "6.0.0"
+        },
+        {
           "name": "io.github.gridhopai/gpu-price-index",
           "old": "0.11.1",
           "new": "0.12.0"
@@ -14249,6 +14489,11 @@
           "name": "io.github.kube-noob/kube-noob",
           "old": "0.9.2",
           "new": "0.10.0"
+        },
+        {
+          "name": "io.github.kurcontko/mnemotree",
+          "old": "1.1.0",
+          "new": "1.2.0"
         },
         {
           "name": "io.github.kurpeeren/copperflow",
@@ -14529,6 +14774,11 @@
           "name": "io.github.oakallow/oakallow",
           "old": "1.3.0",
           "new": "1.4.0"
+        },
+        {
+          "name": "io.github.oaslananka/kicad-mcp-pro",
+          "old": "4.22.0",
+          "new": "4.22.1"
         },
         {
           "name": "io.github.ohad6k/viberaven-guides",
@@ -14866,6 +15116,11 @@
           "new": "2026.11.23.0"
         },
         {
+          "name": "io.github.sheldonrobinson/ralph-wiggum-loop",
+          "old": "1.2.0",
+          "new": "1.2.1"
+        },
+        {
           "name": "io.github.shibbirweb/sendmock",
           "old": "1.4.1",
           "new": "1.5.0"
@@ -15101,6 +15356,11 @@
           "new": "2.28.0"
         },
         {
+          "name": "io.github.ty-meador/civ-v-llm-harness",
+          "old": "2.18.0",
+          "new": "2.19.0"
+        },
+        {
           "name": "io.github.ultrafastmov/ultrafast",
           "old": "0.1.1",
           "new": "0.2.0"
@@ -15229,6 +15489,11 @@
           "name": "io.github.webull-inc/webull-openapi-mcp",
           "old": "1.2.6",
           "new": "1.2.9"
+        },
+        {
+          "name": "io.github.wheelgap/wheelgap",
+          "old": "0.13.0",
+          "new": "0.14.0"
         },
         {
           "name": "io.github.whois-api-llc/mcp-whoisxmlapi",
@@ -15494,6 +15759,11 @@
           "name": "io.web3alert/agent",
           "old": "0.1.1",
           "new": "0.1.2"
+        },
+        {
+          "name": "kr.ai.vdb/vdb",
+          "old": "0.2.8",
+          "new": "0.2.10"
         },
         {
           "name": "kr.co.airealty/lawmcp",
@@ -15851,6 +16121,11 @@
           "new": "1.0.1"
         },
         {
+          "name": "xyz.quantumatlas/nft-collab-5050-hub",
+          "old": "1.2.0",
+          "new": "1.4.0"
+        },
+        {
           "name": "xyz.quantumatlas/x402-payment-hub",
           "old": "1.2.0",
           "new": "1.2.5"
@@ -15989,6 +16264,12 @@
           "hosts": [
             "kairo1.com",
             "kairoconnect.ai"
+          ]
+        },
+        {
+          "name": "com.shorekeyocmd/ocean-city-mcp",
+          "hosts": [
+            "shorekeyocmd.com"
           ]
         },
         {
@@ -16601,6 +16882,9 @@
           "name": "io.github.ETSquareAI/sev"
         },
         {
+          "name": "io.github.Everybit-Ventures/jaibber"
+        },
+        {
           "name": "io.github.FROWNINGdev/orm-lens"
         },
         {
@@ -16841,6 +17125,9 @@
           "name": "io.github.UseJunior/safe-docx"
         },
         {
+          "name": "io.github.Vericairn/vericairn"
+        },
+        {
           "name": "io.github.WYRE-AI/cipp-mcp"
         },
         {
@@ -16910,6 +17197,9 @@
           "name": "io.github.achiya-automation/safari-mcp"
         },
         {
+          "name": "io.github.adamVass/pylos-mcp"
+        },
+        {
           "name": "io.github.africaappstudio-max/understand-this-video"
         },
         {
@@ -16970,6 +17260,9 @@
           "name": "io.github.anilloutombam/mcp-failure-lab"
         },
         {
+          "name": "io.github.anishchugh05/mnemolith"
+        },
+        {
           "name": "io.github.ant-dev-lab/nightmarquee"
         },
         {
@@ -17027,6 +17320,9 @@
           "name": "io.github.awpthorp/posterly"
         },
         {
+          "name": "io.github.azathothx/kairos-lang-mcp"
+        },
+        {
           "name": "io.github.b-ak/kanboard-mcp-server"
         },
         {
@@ -17046,6 +17342,9 @@
         },
         {
           "name": "io.github.beepboop2025/noisefloor"
+        },
+        {
+          "name": "io.github.beepboop2025/seiche"
         },
         {
           "name": "io.github.benethos-hub/benethos-lexware-office-mcp"
@@ -17199,6 +17498,9 @@
         },
         {
           "name": "io.github.cyanheads/usgs-water-mcp-server"
+        },
+        {
+          "name": "io.github.d3d0n/better-lavka-mcp"
         },
         {
           "name": "io.github.daniele-chiappa/gosidian"
@@ -17363,6 +17665,9 @@
           "name": "io.github.googlarz/suunto-mcp"
         },
         {
+          "name": "io.github.gowtham0992/link"
+        },
+        {
           "name": "io.github.grunion-ai/weave"
         },
         {
@@ -17492,6 +17797,9 @@
           "name": "io.github.kube-noob/kube-noob"
         },
         {
+          "name": "io.github.kurcontko/mnemotree"
+        },
+        {
           "name": "io.github.kurpeeren/copperflow"
         },
         {
@@ -17607,6 +17915,9 @@
         },
         {
           "name": "io.github.nyssance/tauri-hasgard"
+        },
+        {
+          "name": "io.github.oaslananka/kicad-mcp-pro"
         },
         {
           "name": "io.github.open-winmale/wmshare"
@@ -17771,6 +18082,9 @@
           "name": "io.github.sheldonrobinson/easy-searxng-mcp-server"
         },
         {
+          "name": "io.github.sheldonrobinson/ralph-wiggum-loop"
+        },
+        {
           "name": "io.github.shibbirweb/sendmock"
         },
         {
@@ -17888,6 +18202,9 @@
           "name": "io.github.tufantunc/ssh-mcp"
         },
         {
+          "name": "io.github.ty-meador/civ-v-llm-harness"
+        },
+        {
           "name": "io.github.ultrafastmov/ultrafast"
         },
         {
@@ -17952,6 +18269,9 @@
         },
         {
           "name": "io.github.webull-inc/webull-openapi-mcp"
+        },
+        {
+          "name": "io.github.wheelgap/wheelgap"
         },
         {
           "name": "io.github.whois-api-llc/mcp-whoisxmlapi"
@@ -18021,6 +18341,9 @@
         },
         {
           "name": "io.vpndetection/mcp"
+        },
+        {
+          "name": "kr.ai.vdb/vdb"
         },
         {
           "name": "me.openbrowser/openbrowser-ai"
@@ -18109,6 +18432,9 @@
           "name": "app.trustydata/trustydata"
         },
         {
+          "name": "at.space-core/game"
+        },
+        {
           "name": "au.com.byronwebstudio.linepref/linepref"
         },
         {
@@ -18134,6 +18460,9 @@
         },
         {
           "name": "com.andque/agent-data"
+        },
+        {
+          "name": "com.apix402data/x402-data-api"
         },
         {
           "name": "com.appliedmanifold/spatial-compiler"
@@ -18232,6 +18561,12 @@
           "name": "com.perspectask/perspectask"
         },
         {
+          "name": "com.prilago/lp-intelligence"
+        },
+        {
+          "name": "com.resolvemesh/compatibility"
+        },
+        {
           "name": "com.roasby/roasby"
         },
         {
@@ -18244,6 +18579,9 @@
           "name": "com.seorankfixer/seo-rank-fixer"
         },
         {
+          "name": "com.shorekeyocmd/ocean-city-mcp"
+        },
+        {
           "name": "com.steadylinedata/web-data-tools"
         },
         {
@@ -18254,6 +18592,9 @@
         },
         {
           "name": "com.tnyforge/kitchen-timer"
+        },
+        {
+          "name": "com.trucehq/truce"
         },
         {
           "name": "com.useampli/ampli"
@@ -18673,6 +19014,9 @@
           "name": "xyz.cohostbnb/cohostbnb"
         },
         {
+          "name": "xyz.quantumatlas/nft-collab-5050-hub"
+        },
+        {
           "name": "xyz.quantumatlas/x402-payment-hub"
         },
         {
@@ -18688,29 +19032,29 @@
       "targets_observed": 9870,
       "probe_attempts": 10008,
       "reached_level": {
-        "0": 4454,
-        "1": 40,
-        "2": 5514
+        "0": 4463,
+        "1": 45,
+        "2": 5500
       }
     },
     "previous": {
       "cohort_version": "2026-10-29-v3",
       "cohort_size": 10000,
-      "targets_observed": 9874,
-      "probe_attempts": 10011,
+      "targets_observed": 9870,
+      "probe_attempts": 10008,
       "reached_level": {
-        "0": 4472,
-        "1": 43,
-        "2": 5496
+        "0": 4454,
+        "1": 40,
+        "2": 5514
       }
     }
   },
   "tool_definitions": {
-    "compared": 5475,
-    "description_changed": 266,
-    "schema_changed": 281,
-    "namespaces_with_changes": 181,
-    "previous_data_as_of": "2026-11-23T01:54:35.304+00:00"
+    "compared": 5489,
+    "description_changed": 132,
+    "schema_changed": 9,
+    "namespaces_with_changes": 12,
+    "previous_data_as_of": "2026-11-24T01:34:52.816+00:00"
   },
   "first_observed": [],
   "packages": {
